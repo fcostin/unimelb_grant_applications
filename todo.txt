@@ -1,0 +1,5 @@
+sort out how to properly encode the data as numerical or factor types
+is there some notion of a discrete ordinal type? (randomForest probably doesnt support it)
+have a crack at applying randomForest to impute the missing values
+(most of the values are missing)
+perhaps could work with condensed approach where we truncate or otherwise summarise the people applying (as i doubt any application actually has all 15)

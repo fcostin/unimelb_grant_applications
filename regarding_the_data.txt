@@ -1,0 +1,30 @@
+C   id
+D   factor (0 or 1)
+E   factor
+F   factor
+G   date
+
+then a sequence of 5 (factor, percentage) pairs (some kind of classification and weighting)
+another sequence of 15 (factor, percentage) pairs (more weighted classification)
+
+then there are 15 people, where each person is a structure of the form
+
+person struct:
+    id              :   integer, factor
+    role            :   string, factor
+    birth year      :   integer, numerical
+    birth country   :   string, factor
+    home language   :   string, factor
+    dept no         :   integer, factor
+    faculty no      :   integer, factor
+    with phd        :   string ('Yes' or 'No'), factor
+    years at uni    :   string, factor (can order these, could also just map to ints )
+    num succ grant  :   integer
+    num fail grant  :   integer
+    num a+ papers   :   integer
+    num a papers    :   integer
+    num b papers    :   integer
+    num c papers    :   integer
+    
+
+nb the vast majority of records dont have anywhere near 15 people ...
