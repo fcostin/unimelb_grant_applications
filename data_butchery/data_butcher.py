@@ -162,6 +162,42 @@ def make_col_formats():
 
     return fmt
 
+def add_indicators_to_approx_factor(cols, fmts, col_name, n_indicators):
+    """
+    add indicator variables for most frequent values of given factor
+    """
+    # determine the most common values
+    a = cols[col_name].compressed()
+    freq = {}
+    for x in a:
+        if x not in freq:
+            freq[x] = 0
+        freq[x] += 1
+    values, freqs = zip(*freq.items())
+    values = numpy.asarray(values)
+    freqs = numpy.asarray(freqs)
+    order = numpy.argsort(freqs)
+    freqs = freqs[order]
+    values = values[order]
+    n_indicators = min(n_indicators, len(values))
+    common_values = values[-n_indicators:]
+    common_freqs = freqs[-n_indicators:]
+
+    print ''
+    print 'common values of col %s:' % col_name
+    for (v, f) in reversed(zip(common_values, common_freqs)):
+        print '%s : %d' % (v, f)
+    print ''
+
+    # make indicator variables for each common value
+    factor_col = cols[col_name]
+    for value in common_values:
+        new_name = col_name + '.Indicator.' + str(value)
+        print 'adding indicator variable "%s" with freq %d' % (new_name, freq[value])
+        new_col = (factor_col == value)
+        cols[new_name] = new_col
+        fmts[new_name] = ('string', 'factor')
+
 def make_division_cols(cols, division_type):
     if division_type == 'RFCD':
         extract = extract_rfcd_division
@@ -240,6 +276,14 @@ def add_cols_with_team_statistics(cols, fmts):
     # total years at uni
     add_team_stat_col(cols, fmts, 'No..of.Years.in.Uni.at.Time.of.Grant.', sum, replace_missing = 0)
 
+def add_cols_with_indicators(cols, fmts):
+    cols_to_expand = (
+        ('Sponsor.Code', 64),
+        ('RFCD.Code.1', 64),
+    )
+    for (col_name, n_indicators) in cols_to_expand:
+        add_indicators_to_approx_factor(cols, fmts, col_name, n_indicators)
+
 def write_cols_to_csv_file(cols, csv_file, row_id_name):
     cols_as_lists = {}
     for col_name in sorted(cols):
@@ -294,12 +338,17 @@ def main():
         print 'parsing col %s as dtype %s' % (col_name, dtype)
         cols[col_name] = parsers[dtype](cols[col_name])
 
+    # approximately replace large factors with indicator variables
+    add_cols_with_indicators(cols, fmts)
+
+
     # replace rfcd column encoding with one based upon divisions
     # XXX TODO FIXME : this does result in a loss of information.
     # this isnt necessarily a bad thing but it might be worth
     # checking out later if trying to improve accuracy
     # of predictive models
 
+    # in place destructive modifications
     replace_cols_with_divisional_percentages(cols, fmts, 'RFCD')
     replace_cols_with_divisional_percentages(cols, fmts, 'SEO')
 
