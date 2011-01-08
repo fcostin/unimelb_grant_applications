@@ -11,7 +11,7 @@ load_unimelb_data = function(data) {
 		if (i %in% nv) {
 			data[,i] <- as.numeric(as.character(data[,i]))
 		} else if (i == 6 ) { #dates
-			data[,i] <- as.Date(data[,i])
+			data[,i] <- as.numeric(as.Date(data[,i], '%d/%m/%y'))
 		} else {
 			data[,i] <- as.factor(data[,i])
 		}
@@ -37,6 +37,19 @@ get_unimelb_data = function(csv_file_name) {
 
 traindat <- get_unimelb_data('data/unimelb_training.csv')
 testdat  <- get_unimelb_data('data/unimelb_test.csv')
+
+# drop cols that have only missing values
+traindat <- traindat[, colSums(is.na(traindat)) < nrow(traindat)]
+
+print('running typeof over columns of traindat...')
+for (i in 1:ncol(traindat)) {
+	n_unique = length(unique(traindat[, i]))
+	print(paste(typeof(traindat[, i]), ':', is.factor(traindat[, i]), ':', n_unique, '~', colnames(traindat)[i]))
+	if (!(is.numeric(traindat[, i]) || is.factor(traindat[, i]))) {
+		print('bad col ****')
+	}
+}
+
 
 # use randomForest to fill in missing values (ie most of the table)
 library(randomForest)

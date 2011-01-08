@@ -1,0 +1,50 @@
+training data
+
+present data (%)        col name
+----------------        ----------------------
+100                     grant application id
+100                     grant status
+90                      sponsor code
+90                      grant category code
+59                      contract value band a
+100                     start date
+
+93                      rfcd code 1
+93                      rfcd percentage 1
+93                      "
+93                      "
+93                      "
+93                      "
+93                      "
+93                      "
+93                      rfcd code 5
+93                      rfcd percentage 5
+
+92                      seo code 1
+92                      seo percentage 1
+92                      "
+92                      "
+92                      "
+92                      "
+92                      "
+92                      "
+92                      seo code 5
+92                      seo percentage 5
+
+94                      person id 1
+99                      role 1
+94                      year of birth 1
+85                      country of birth 1
+9                       home language 1
+90                      dept no 1
+90                      faculty no 1
+100*                    with phd 1
+# * missing values interpreted as No
+
+83                      years in uni at time of grant 1
+94                      num succ grant 1
+94                      num fail grant 1
+94                      num A+ papers 1
+94                      num A papers 1
+94                      num B papers 1
+94                      num C papers 1
