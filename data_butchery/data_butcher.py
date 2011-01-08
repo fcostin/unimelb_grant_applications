@@ -213,6 +213,33 @@ def replace_cols_with_divisional_percentages(cols, fmts, division_type):
             del fmts[col_name]
     return cols
 
+def to_masked_array(a):
+    return numpy.ma.masked_array(
+        a,
+        numpy.zeros(a.shape, dtype = numpy.bool),
+    )
+
+
+def add_team_stat_col(cols, fmts, col_name_prefix, col_reduce, replace_missing = None):
+    max_people = 15
+    values = [cols[col_name_prefix + ('%d' % i)] for i in xrange(1, max_people + 1)]
+    if replace_missing != None:
+        values = [x.filled(replace_missing) for x in values]
+    team_value = col_reduce(values)
+    new_name = col_name_prefix + 'Team'
+    cols[new_name] = to_masked_array(team_value)
+    fmts[new_name] = ('integer', 'number')
+
+def add_cols_with_team_statistics(cols, fmts):
+    # add total grant successes | failures for everyone in the team
+    add_team_stat_col(cols, fmts, 'Number.of.Successful.Grant.', sum, replace_missing = 0)
+    add_team_stat_col(cols, fmts, 'Number.of.Unsuccessful.Grant.', sum, replace_missing = 0)
+    # add total publication counts
+    for name_prefix in ('A..', 'A.', 'B.', 'C.'):
+        add_team_stat_col(cols, fmts, name_prefix, sum, replace_missing = 0)
+    # total years at uni
+    add_team_stat_col(cols, fmts, 'No..of.Years.in.Uni.at.Time.of.Grant.', sum, replace_missing = 0)
+
 def write_cols_to_csv_file(cols, csv_file, row_id_name):
     cols_as_lists = {}
     for col_name in sorted(cols):
@@ -275,6 +302,9 @@ def main():
 
     replace_cols_with_divisional_percentages(cols, fmts, 'RFCD')
     replace_cols_with_divisional_percentages(cols, fmts, 'SEO')
+
+    # add cols for 'team' statistics of grant application wins/fails
+    add_cols_with_team_statistics(cols, fmts)
 
     # delete any columns of type id
     for col_name in fmts:
