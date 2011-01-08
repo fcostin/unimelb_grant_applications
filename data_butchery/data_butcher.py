@@ -15,7 +15,7 @@ def load_csv(csv_file):
         else:
             for (name, value) in zip(col_names, row):
                 cols[name].append(value)
-    # HACK : csv file seems to have a trailing comma at the end of each row
+    # XXX TODO FIXME HACK : csv file seems to have a trailing comma at the end of each row
     # when parsed this gives as a col of name '' containing entries ''
     # so we delete this from our cols
     if '' in cols:
@@ -101,9 +101,10 @@ def extract_rfcd_discipline(x):
     # discipline is second coarsest designation
     return (x / 1000) * 1000
 
+# define column formatting
 def make_col_formats():
     fmt = {}
-    fmt['Grant.Application.ID'] = ('integer', 'id')
+    fmt['Grant.Application.ID'] = ('integer', 'row_id')
     fmt['Grant.Status'] = ('integer', 'factor')
 
     # nb this is not at all appropriate for use as a factor in R
@@ -122,7 +123,7 @@ def make_col_formats():
     for code_type in ['RFCD', 'SEO']:
         for i in xrange(1, max_codes + 1):
             fmt['%s.Percentage.%d' % (code_type, i)] = ('float', 'number')
-            fmt['%s.Code.%d' % (code_type, i)] = ('integer', 'id')
+            fmt['%s.Code.%d' % (code_type, i)] = ('integer', 'factor')
 
     # parse information for each person listed on the grant application
     max_people = 15
@@ -142,6 +143,7 @@ def make_col_formats():
 
         # XXX TODO there are a few hundred of these ones, too many for a single factor
         fmt['Dept.No..%d' % i] = ('integer', 'id')
+
         fmt['Faculty.No..%d' % i] = ('integer', 'factor')
         fmt['With.PHD.%d' % i] = ('sparse_logical', 'factor') # 'Yes' -> True, missing -> False
         fmt['No..of.Years.in.Uni.at.Time.of.Grant.%d' % i] = ('integer', 'number')
@@ -155,7 +157,79 @@ def make_col_formats():
 
     return fmt
 
+def make_rfcd_division_cols(cols):
+    # first see which divisions are present in the data
+    max_codes = 5
+    known_rfcd_divs = set()
+    div_cols = []
+    for i in xrange(1, max_codes + 1):
+        col_name = '%s.Code.%d' % ('RFCD', i)
+        percent_col_name = '%s.Percentage.%d' % ('RFCD', i)
+        rfcd_codes = cols[col_name]
+        div_codes = extract_rfcd_division(rfcd_codes)
+        div_cols.append((div_codes, cols[percent_col_name]))
+        for div in numpy.unique(div_codes.compressed()): # nb compressed() returns non masked values only
+            known_rfcd_divs.add(div)
 
+    # then make a bunch of new cols that sum percentages
+    # over all RFCD codes belonging to the identified
+    # RFCD divisions.
+    rfcd_div_cols = {}
+    for rfcd_div in known_rfcd_divs:
+        print 'creating new column for rfcd division %d' % rfcd_div
+        new_col_name = 'RFCD.Division.Percentage.%d' % rfcd_div
+        div_percent = 0.0
+        # accumulate percentages for this rfcd_div
+        for (div_codes, percentages) in div_cols:
+            mask = (div_codes == rfcd_div)
+            div_percent = div_percent + (percentages * mask)
+        rfcd_div_cols[new_col_name] = div_percent
+
+    return rfcd_div_cols
+
+def replace_rfcd_cols_with_divisional_percentages(cols):
+    rfcd_div_cols = make_rfcd_division_cols(cols)
+    for col_name in rfcd_div_cols:
+        assert col_name not in cols
+        cols[col_name] = rfcd_div_cols[col_name]
+    max_codes = 5
+    for i in xrange(1, max_codes + 1):
+        for s in ['Percentage', 'Code']:
+            del cols['%s.%s.%d' % ('RFCD', s, i)]
+    return cols
+
+def write_cols_to_csv_file(cols, csv_file):
+    cols_as_lists = {}
+    for col_name in sorted(cols):
+        print 'processing col %s' % col_name
+        col = cols[col_name]
+        col_list = [x if not m else None for (x, m) in zip(col, col.mask)]
+        cols_as_lists[col_name] = col_list
+
+    # define row order for output
+    col_order = list(sorted(cols))
+    row_id_name ='Grant.Application.ID'
+    col_order = [row_id_name] + [x for x in col_order if x != row_id_name]
+    n_rows = len(cols.values()[0])
+
+    def make_row(i):
+        return [cols_as_lists[c][i] for c in col_order]
+
+    writer = csv.writer(
+        csv_file,
+        delimiter = ',',
+        quotechar = '"',
+        quoting = csv.QUOTE_MINIMAL,
+    )
+
+    print 'writing csv'
+    # write header
+    writer.writerow(col_order)
+    # write rows
+    for i in xrange(n_rows):
+        if (i % 100) == 0:
+            print 'writing row %d' % i
+        writer.writerow(make_row(i))
 
 def main():
     # read cols (no conversion is done here, cols are stored as lists of
@@ -164,6 +238,7 @@ def main():
     # sanity check to ensure all cols have same length
     assert len(set([len(col) for col in cols.itervalues()])) == 1
 
+    # define how cols are to be parsed, then parse 'em
     parsers = {
         'integer' : parse_array_of_ints,
         'float' : parse_array_of_floats,
@@ -171,18 +246,34 @@ def main():
         'string' : parse_array_of_strings,
         'sparse_logical' : parse_array_of_sparse_logicals,
     }
-
     fmts = make_col_formats()
-
-    for col_name in cols:
+    for col_name in sorted(cols):
         fmt = fmts[col_name]
         dtype, vartype = fmt
         print 'parsing col %s as dtype %s' % (col_name, dtype)
         cols[col_name] = parsers[dtype](cols[col_name])
 
+    # replace rfcd column encoding with one based upon divisions
+    # XXX TODO FIXME : this does result in a loss of information
+    replace_rfcd_cols_with_divisional_percentages(cols)
 
+    # delete any columns of type id
+    for col_name in fmts:
+        dtype, vartype = fmts[col_name]
+        if vartype == 'id':
+            print 'removing column %s of vartype id' % col_name
+            del cols[col_name]
+
+    write_cols_to_csv_file(
+        cols,
+        open('butchered_data.csv', 'w+'),
+    )
 
 def test():
+    """
+    early demo of reading file and mapping some festy RFCD codes to their
+    divisions (eg to coarsen / group the ids in a vaguely sane way)
+    """
     # read cols (no conversion is done here, cols are stored as lists of
     # strings)
     cols = load_csv(open(sys.argv[1], 'r'))
