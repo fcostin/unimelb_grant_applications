@@ -96,13 +96,6 @@ remove_new_factor_values = function(train, test) {
 		unseen_levels = !(test_levels %in% train_levels)
 		new_test_levels = test_levels
 		new_test_levels[unseen_levels] = NA
-		print(paste('factor name', a))
-		print('then')
-		print(test_levels)
-		print('now')
-		print(new_test_levels)
-		print('train')
-		print(train_levels)
 		levels(test[, a]) = new_test_levels
 		# kill me, do it do it nowwww
 		test[, a] = factor(as.character(test[, a]), levels = levels(train[, a]))
@@ -111,7 +104,6 @@ remove_new_factor_values = function(train, test) {
 			print(levels(train[, a]))
 			stop('i\'m here! kill me! kill me do it nowwww!')
 		}
-	# stop('haltlol')
 	}
 	for(a in colnames(test)) {
 		if(is.factor(test[, a])) {
@@ -126,17 +118,48 @@ remove_new_factor_values = function(train, test) {
 	test
 }
 
+
+# based on Hadley's na.roughfix thing from the mailing list
+# but using distinct source and dest data frames
+# (so we can impute missing values in test data using
+# all the values in training ...)
+na.roughhack <- function (dst, src = dst) {
+	for(col_name in colnames(dst)) {
+		if(!(col_name %in% colnames(src))) {
+			stop('missing src for for dst col name: ', col_name)
+		}
+		dst_missing = is.na(dst[, col_name])
+		src_missing = is.na(src[, col_name])
+		if(is.numeric(dst[, col_name])) {
+			dst[dst_missing, col_name] <- median.default(src[!src_missing, col_name])
+		} else if (is.factor(dst[, col_name])) {
+			freq = table(src[, col_name])
+			dst[dst_missing, col_name] <- names(freq)[which.max(freq)]
+		} else {
+			stop("i only work for numeric or factor")
+		}
+	}
+	dst
+}
+
 traindat = get_data('butchered_data.csv')
+# repeatedly beat test data until its mangled form resembles the training data
 testdat = get_data('butchered_data_test.csv')
 testdat = add_missing_cols(traindat, testdat)
 testdat = remove_new_factor_values(traindat, testdat)
-testdat <- na.roughfix(testdat)
+testdat <- na.roughhack(testdat, traindat)
 
-rf <- randomForest(I.FAC.Grant.Status ~ ., traindat, ntree = 2, do.trace = TRUE, importance = TRUE)
+# dump the result of what we've done to our poor test variables
+write.csv(testdat, 'duckpunched_imputed_test_data.csv', sep = ',')
+
+rf <- randomForest(I.FAC.Grant.Status ~ ., traindat, ntree = 2500, do.trace = TRUE, importance = TRUE)
 
 predicted_class = predict(rf, testdat, type = 'prob')
 
-print(predicted_class)
+print(rf$importance)
+
+# Grant.Application.ID,Grant.Status
+write.table(cbind(Grant.Application.Id = row.names(predicted_class), Grant.Status = predicted_class[, 2]), quote = FALSE, row.names = FALSE, col.names = TRUE, file = 'test_predictions.csv', sep = ',')
 
 if (FALSE) {
 	results = data.frame(response = testdat$I.FAC.Grant.Status, predicted = predicted_class[, 2])
@@ -149,4 +172,3 @@ if (FALSE) {
 	plot(perf, colorize = T)
 }
 
-# print(rf$importance)
