@@ -72,12 +72,11 @@ roughfix <- function(dst, src) {
 library(randomForest)
 
 
-max_na_fraction = 0.95 # throw away cols that have more missing values than this
+max_na_fraction = 0.95 # throw away cols that have more missing values than this fraction
 col_mask = colSums(is.na(traindat)) < (nrow(traindat) * max_na_fraction)
-print('somewhat_complete_cols:')
-print(colnames(traindat)[col_mask])
-print('')
+print(paste('discarding', ncol(traindat) - sum(col_mask), 'of', ncol(traindat), 'variables due to missing value fraction exceeding', max_na_fraction))
 traindat <- traindat[, col_mask]
+print(paste('data has', ncol(traindat) * nrow(traindat), 'values,', sum(is.na(traindat)), 'of which are missing'))
 
 n = nrow(traindat)
 training_weight = 2.0 / 3.0
@@ -92,6 +91,24 @@ testdat = alldat[testing_mask, ]
 print('replacing missing values roughly and horribly')
 traindat.imputed <- na.roughfix(traindat)
 print('done')
+
+
+# run a short first pass of randomForest to estimate variable importance
+# then discard a bunch of the seemingly less important variables
+if (FALSE) {
+	print('estimating variable importance')
+	rf.filter <- randomForest(I.FAC.Grant.Status ~ ., traindat.imputed, ntree = 50, do.trace = TRUE, importance = TRUE)
+	# arbitrarily use mean decrease accuracy as importance estimate
+	z <- rf.filter$importance$MeanDecreaseAccuracy
+	# XXX TODO Z ISNT GOING TO HAVE SAME COLS AS DATA FRAME AS IT EXCLUDES RESPONSE DERP DERP
+	# get indices to order cols by importance
+	ind <- order(z, decreasing = TRUE)
+	# only keep the most important ones
+	n_important_vars = 100
+	unimportant_cols <- ind[-n_important_vars]
+	print('done')
+}
+
 
 rf <- randomForest(I.FAC.Grant.Status ~ ., traindat.imputed, ntree = 500, do.trace = TRUE, importance = TRUE)
 
