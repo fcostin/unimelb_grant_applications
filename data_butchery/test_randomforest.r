@@ -152,7 +152,7 @@ testdat <- na.roughhack(testdat, traindat)
 # dump the result of what we've done to our poor test variables
 write.csv(testdat, 'duckpunched_imputed_test_data.csv', sep = ',')
 
-rf <- randomForest(I.FAC.Grant.Status ~ ., traindat, ntree = 2500, do.trace = TRUE, importance = TRUE)
+rf <- randomForest(I.FAC.Grant.Status ~ ., traindat, ntree = 1000, do.trace = TRUE, importance = TRUE)
 
 predicted_class = predict(rf, testdat, type = 'prob')
 
