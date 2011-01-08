@@ -199,15 +199,18 @@ def make_division_cols(cols, division_type):
 
     return out_div_cols
 
-def replace_cols_with_divisional_percentages(cols, division_type):
+def replace_cols_with_divisional_percentages(cols, fmts, division_type):
     div_cols = make_division_cols(cols, division_type)
     for col_name in div_cols:
         assert col_name not in cols
         cols[col_name] = div_cols[col_name]
+        fmts[col_name] = ('float', 'number')
     max_codes = 5
     for i in xrange(1, max_codes + 1):
         for s in ['Percentage', 'Code']:
-            del cols['%s.%s.%d' % (division_type, s, i)]
+            col_name = '%s.%s.%d' % (division_type, s, i)
+            del cols[col_name]
+            del fmts[col_name]
     return cols
 
 def write_cols_to_csv_file(cols, csv_file, row_id_name):
@@ -270,8 +273,8 @@ def main():
     # checking out later if trying to improve accuracy
     # of predictive models
 
-    replace_cols_with_divisional_percentages(cols, 'RFCD')
-    replace_cols_with_divisional_percentages(cols, 'SEO')
+    replace_cols_with_divisional_percentages(cols, fmts, 'RFCD')
+    replace_cols_with_divisional_percentages(cols, fmts, 'SEO')
 
     # delete any columns of type id
     for col_name in fmts:

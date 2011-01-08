@@ -93,8 +93,7 @@ print('replacing missing values roughly and horribly')
 traindat.imputed <- na.roughfix(traindat)
 print('done')
 
-rf <- randomForest(I.FAC.Grant.Status ~ ., traindat.imputed, ntree = 500, do.trace = TRUE)
-# print(rf$importance)
+rf <- randomForest(I.FAC.Grant.Status ~ ., traindat.imputed, ntree = 500, do.trace = TRUE, importance = TRUE)
 
 testdat.imputed <- na.roughfix(testdat)
 predicted_class = predict(rf, testdat.imputed, type = 'prob')
@@ -107,3 +106,6 @@ perf <- performance(pred, measure = "tpr", x.measure = "fpr")
 # perf <- performance(pred, "acc")
 # plot(perf, avg= "vertical")
 plot(perf, colorize = T)
+
+
+print(rf$importance)
