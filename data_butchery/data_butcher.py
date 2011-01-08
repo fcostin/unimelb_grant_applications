@@ -101,6 +101,11 @@ def extract_rfcd_discipline(x):
     # discipline is second coarsest designation
     return (x / 1000) * 1000
 
+# SOR categorisation
+
+def extract_sor_division(x):
+    return (x / 10000) * 10000
+
 # define column formatting
 def make_col_formats():
     fmt = {}
@@ -157,48 +162,55 @@ def make_col_formats():
 
     return fmt
 
-def make_rfcd_division_cols(cols):
+def make_division_cols(cols, division_type):
+    if division_type == 'RFCD':
+        extract = extract_rfcd_division
+    elif division_type == 'SEO':
+        extract = extract_sor_division
+    else:
+        raise ValueError('unknown division_type: %s' % str(division_type))
+
     # first see which divisions are present in the data
     max_codes = 5
-    known_rfcd_divs = set()
+    known_divs = set()
     div_cols = []
     for i in xrange(1, max_codes + 1):
-        col_name = '%s.Code.%d' % ('RFCD', i)
-        percent_col_name = '%s.Percentage.%d' % ('RFCD', i)
-        rfcd_codes = cols[col_name]
-        div_codes = extract_rfcd_division(rfcd_codes)
+        col_name = '%s.Code.%d' % (division_type, i)
+        percent_col_name = '%s.Percentage.%d' % (division_type, i)
+        codes = cols[col_name]
+        div_codes = extract(codes)
         div_cols.append((div_codes, cols[percent_col_name]))
         for div in numpy.unique(div_codes.compressed()): # nb compressed() returns non masked values only
-            known_rfcd_divs.add(div)
+            known_divs.add(div)
 
     # then make a bunch of new cols that sum percentages
-    # over all RFCD codes belonging to the identified
-    # RFCD divisions.
-    rfcd_div_cols = {}
-    for rfcd_div in known_rfcd_divs:
-        print 'creating new column for rfcd division %d' % rfcd_div
-        new_col_name = 'RFCD.Division.Percentage.%d' % rfcd_div
+    # over all codes belonging to the identified
+    # divisions.
+    out_div_cols = {}
+    for div in known_divs:
+        print 'creating new column for %s division %d' % (division_type, div)
+        new_col_name = '%s.Division.Percentage.%d' % (division_type, div)
         div_percent = 0.0
-        # accumulate percentages for this rfcd_div
+        # accumulate percentages for this div
         for (div_codes, percentages) in div_cols:
-            mask = (div_codes == rfcd_div)
+            mask = (div_codes == div)
             div_percent = div_percent + (percentages * mask)
-        rfcd_div_cols[new_col_name] = div_percent
+        out_div_cols[new_col_name] = div_percent
 
-    return rfcd_div_cols
+    return out_div_cols
 
-def replace_rfcd_cols_with_divisional_percentages(cols):
-    rfcd_div_cols = make_rfcd_division_cols(cols)
-    for col_name in rfcd_div_cols:
+def replace_cols_with_divisional_percentages(cols, division_type):
+    div_cols = make_division_cols(cols, division_type)
+    for col_name in div_cols:
         assert col_name not in cols
-        cols[col_name] = rfcd_div_cols[col_name]
+        cols[col_name] = div_cols[col_name]
     max_codes = 5
     for i in xrange(1, max_codes + 1):
         for s in ['Percentage', 'Code']:
-            del cols['%s.%s.%d' % ('RFCD', s, i)]
+            del cols['%s.%s.%d' % (division_type, s, i)]
     return cols
 
-def write_cols_to_csv_file(cols, csv_file):
+def write_cols_to_csv_file(cols, csv_file, row_id_name):
     cols_as_lists = {}
     for col_name in sorted(cols):
         print 'processing col %s' % col_name
@@ -208,7 +220,6 @@ def write_cols_to_csv_file(cols, csv_file):
 
     # define row order for output
     col_order = list(sorted(cols))
-    row_id_name ='Grant.Application.ID'
     col_order = [row_id_name] + [x for x in col_order if x != row_id_name]
     n_rows = len(cols.values()[0])
 
@@ -254,8 +265,13 @@ def main():
         cols[col_name] = parsers[dtype](cols[col_name])
 
     # replace rfcd column encoding with one based upon divisions
-    # XXX TODO FIXME : this does result in a loss of information
-    replace_rfcd_cols_with_divisional_percentages(cols)
+    # XXX TODO FIXME : this does result in a loss of information.
+    # this isnt necessarily a bad thing but it might be worth
+    # checking out later if trying to improve accuracy
+    # of predictive models
+
+    replace_cols_with_divisional_percentages(cols, 'RFCD')
+    replace_cols_with_divisional_percentages(cols, 'SEO')
 
     # delete any columns of type id
     for col_name in fmts:
@@ -264,46 +280,36 @@ def main():
             print 'removing column %s of vartype id' % col_name
             del cols[col_name]
 
+    # rename cols to include prefix which we'll use to tell R which format
+    # should be used
+
+    dtype_symbol = {
+        'integer' : 'I',
+        'float' : 'F',
+        'date' : 'I',
+        'string' : 'S',
+        'sparse_logical' : 'S',
+    }
+
+    vartype_symbol = {
+        'number' : 'NUM',
+        'factor' : 'FAC',
+        'row_id' : 'KEY',
+    }
+
+    renamed_cols = {}
+    for col_name in fmts:
+        if col_name not in cols:
+            continue
+        dtype, vartype = fmts[col_name]
+        new_name = '%s.%s.%s' % (dtype_symbol[dtype], vartype_symbol[vartype], col_name)
+        renamed_cols[new_name] = cols[col_name]
+
     write_cols_to_csv_file(
-        cols,
+        renamed_cols,
         open('butchered_data.csv', 'w+'),
+        row_id_name = 'I.KEY.Grant.Application.ID'
     )
-
-def test():
-    """
-    early demo of reading file and mapping some festy RFCD codes to their
-    divisions (eg to coarsen / group the ids in a vaguely sane way)
-    """
-    # read cols (no conversion is done here, cols are stored as lists of
-    # strings)
-    cols = load_csv(open(sys.argv[1], 'r'))
-    # sanity check to ensure all cols have same length
-    assert len(set([len(col) for col in cols.itervalues()])) == 1
-
-    total_rfcd_freq = {}
-    # convert RFCD codes
-    for i in xrange(1, 5 + 1):
-        col_name = 'RFCD.Code.%d' % i
-        a = cols[col_name ]
-        aa = parse_array_of_ints(a)
-        print 'col name %s; number of values is %d of total %d' % (col_name, aa.count(), len(aa))
-        b = extract_rfcd_division(aa)
-        freq = {}
-        for x in b.compressed(): # only iterate over non-masked values
-            if x not in freq:
-                freq[x] = 0
-            freq[x] += 1
-        for x in sorted(freq):
-            print '\tvalue: %d; count: %d' % (x, freq[x])
-        for x in freq:
-            if x not in total_rfcd_freq:
-                total_rfcd_freq[x] = 0
-            total_rfcd_freq[x] += freq[x]
-
-
-    print 'TOTAL RFCD frequencies, summed over all 5 codes...'
-    for x in sorted(total_rfcd_freq):
-        print '\tvalue: %d; count: %d' % (x, total_rfcd_freq[x])
 
 if __name__ == '__main__':
     main()
