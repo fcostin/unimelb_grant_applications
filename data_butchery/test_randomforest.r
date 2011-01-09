@@ -47,10 +47,7 @@ get_data = function(csv_file_name) {
 	traindat <- traindat[, col_mask]
 	print(paste('data has', ncol(traindat) * nrow(traindat), 'values,', sum(is.na(traindat)), 'of which are missing'))
 
-	print('replacing missing values roughly and horribly')
-	traindat.imputed <- na.roughfix(traindat)
-	print('done')
-	traindat.imputed
+	traindat
 }
 
 add_missing_cols = function(train, test) {
@@ -143,8 +140,13 @@ na.roughhack <- function (dst, src = dst) {
 }
 
 traindat = get_data('butchered_data.csv')
+save(traindat, file = 'train.rda')
+
+traindat <- na.roughfix(traindat)
 # repeatedly beat test data until its mangled form resembles the training data
 testdat = get_data('butchered_data_test.csv')
+save(testdat, file = 'test.rda')
+testdat <- na.roughfix(testdat)
 testdat = add_missing_cols(traindat, testdat)
 testdat = remove_new_factor_values(traindat, testdat)
 testdat <- na.roughhack(testdat, traindat)
@@ -152,11 +154,14 @@ testdat <- na.roughhack(testdat, traindat)
 # dump the result of what we've done to our poor test variables
 write.csv(testdat, 'duckpunched_imputed_test_data.csv', sep = ',')
 
-rf <- randomForest(I.FAC.Grant.Status ~ ., traindat, ntree = 1000, do.trace = TRUE, importance = TRUE)
+rf <- randomForest(I.FAC.Grant.Status ~ ., traindat, ntree = 100, do.trace = TRUE, importance = TRUE)
+
+print(rf$importance)
+
+stop('enough')
 
 predicted_class = predict(rf, testdat, type = 'prob')
 
-print(rf$importance)
 
 # Grant.Application.ID,Grant.Status
 write.table(cbind(Grant.Application.Id = row.names(predicted_class), Grant.Status = predicted_class[, 2]), quote = FALSE, row.names = FALSE, col.names = TRUE, file = 'test_predictions.csv', sep = ',')

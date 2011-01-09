@@ -256,13 +256,16 @@ def to_masked_array(a):
     )
 
 
-def add_team_stat_col(cols, fmts, col_name_prefix, col_reduce, replace_missing = None):
+def add_team_stat_col(cols, fmts, col_name_prefix, col_reduce, replace_missing = None, transform = None, new_name = None):
     max_people = 15
     values = [cols[col_name_prefix + ('%d' % i)] for i in xrange(1, max_people + 1)]
     if replace_missing != None:
         values = [x.filled(replace_missing) for x in values]
+    if transform is not None:
+        values = [transform(x) for x in values]
     team_value = col_reduce(values)
-    new_name = col_name_prefix + 'Team'
+    if new_name is None:
+        new_name = col_name_prefix + 'Team'
     cols[new_name] = to_masked_array(team_value)
     fmts[new_name] = ('integer', 'number')
 
@@ -275,6 +278,15 @@ def add_cols_with_team_statistics(cols, fmts):
         add_team_stat_col(cols, fmts, name_prefix, sum, replace_missing = 0)
     # total years at uni
     add_team_stat_col(cols, fmts, 'No..of.Years.in.Uni.at.Time.of.Grant.', sum, replace_missing = 0)
+    # total team size
+    add_team_stat_col(
+        cols,
+        fmts,
+        'Role.',
+        sum,
+        transform = lambda role : numpy.logical_not(role.mask), # count number of non missing people
+        new_name = 'Team.Size',
+    )
 
 def add_cols_with_indicators(cols, fmts):
     cols_to_expand = (
@@ -319,6 +331,11 @@ def write_cols_to_csv_file(cols, csv_file, row_id_name):
 def main():
     # read cols (no conversion is done here, cols are stored as lists of
     # strings)
+
+    if len(sys.argv) != 3:
+        print 'usage: in.csv out.csv'
+        sys.exit(1)
+
     cols = load_csv(open(sys.argv[1], 'r'))
     # sanity check to ensure all cols have same length
     assert len(set([len(col) for col in cols.itervalues()])) == 1
@@ -389,7 +406,7 @@ def main():
 
     write_cols_to_csv_file(
         renamed_cols,
-        open('butchered_data.csv', 'w+'),
+        open(sys.argv[2], 'w+'),
         row_id_name = 'I.KEY.Grant.Application.ID'
     )
 
