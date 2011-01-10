@@ -1,0 +1,3220 @@
+Person.ID.0,Country.of.Birth.0,Home.Language.0,Year.of.Birth.0,Dept.No..0,With.PHD.0,Faculty.No..0
+357,Australia,,1960,2853,True,25
+362,Australia,,1960,2548,True,25
+367,,,1960,,False,
+407,Australia,,1955,2713,False,25
+417,Australia,,1940,593,False,7
+432,,,1960,,False,
+462,Australia,,1960,2813,False,25
+522,Australia,,1965,3123,True,31
+537,Australia,,1965,2653,True,25
+547,Australia,,1960,2053,True,19
+557,Australia,,1960,2813,False,25
+577,,,1965,,False,
+592,Australia,,1955,3028,True,31
+612,Australia,,1960,3123,True,31
+647,Australia,,1965,2553,True,25
+712,Great Britain,,1970,1678,True,13
+752,Australia,,1960,3658,True,22
+837,Australia,,1965,2298,False,46
+842,Australia,,1975,828,False,7
+857,Australia,,1965,2558,True,25
+907,Western Europe,,1955,548,False,7
+917,Australia,,1960,3123,False,31
+977,Australia,,1965,2523,False,25
+987,Australia,,1945,528,True,7
+1012,Australia,English,1945,3123,True,31
+1052,,,1975,,False,
+1117,Australia,,1955,1038,True,1
+1162,Middle East and Africa,,1970,2103,True,19
+1192,Australia,,1965,1033,False,1
+1217,Australia,English,1960,3028,True,31
+1222,Western Europe,,1965,3098,False,31
+1232,Australia,,1950,1038,False,1
+1257,,,1945,,False,
+1277,Australia,English,1955,653,False,7
+1302,Australia,,1970,3028,True,31
+1307,,,1960,,False,
+1367,North America,,1945,803,False,7
+1382,Australia,,1975,2053,True,19
+1387,Australia,,1945,1528,False,13
+1407,Australia,,1955,2543,False,25
+1547,Australia,,1970,2548,True,25
+1562,,,1970,,False,
+1582,Australia,English,1970,3048,False,31
+1617,Australia,,1965,3098,False,31
+1642,Australia,,1965,2563,False,25
+1687,Great Britain,,1960,2603,True,25
+1697,,,1965,,False,
+1737,Australia,,1965,2533,True,25
+1752,Australia,,1970,2163,True,19
+1757,Asia Pacific,,1950,2923,False,25
+1797,North America,,1960,2678,True,25
+1812,Australia,,1955,3048,True,31
+1862,Great Britain,,1950,2853,True,25
+1882,,,1970,,False,
+1937,Australia,,1970,2153,True,19
+1952,Australia,,1955,1663,False,13
+1977,North America,,1965,548,True,7
+1982,Australia,,1960,3258,True,31
+2002,South Africa,,1950,2178,True,19
+2022,Australia,,1965,2668,True,25
+2052,Australia,,1960,2628,False,25
+2087,Australia,,1960,3248,True,31
+2107,Australia,English,1960,528,True,7
+2117,Australia,English,1970,653,True,7
+2192,Australia,,1970,3658,False,22
+2232,Australia,,1955,2653,False,25
+2252,Australia,,1960,3658,False,22
+2262,Australia,,1970,2578,True,25
+2277,Australia,,1960,2163,True,19
+2317,Australia,,1955,1098,False,1
+2357,Great Britain,,1945,2298,False,46
+2367,Asia Pacific,English,1970,2153,True,19
+2427,North America,,1960,593,True,7
+2477,Australia,,1965,2668,True,25
+2507,Australia,,1950,1578,True,13
+2557,,,1935,,False,
+2577,Australia,,1950,2558,False,25
+2637,,,1955,,False,
+2697,Eastern Europe,,1955,2153,True,19
+2707,Australia,,1960,2163,True,19
+2712,Australia,,1965,2563,True,25
+2832,,,1960,,False,
+2907,Australia,,1970,1258,True,34
+2982,Eastern Europe,,1950,2668,True,25
+3047,Australia,,1955,528,False,7
+3062,Western Europe,,1960,2153,True,19
+3067,,,1950,,False,
+3167,Australia,,1950,2668,True,25
+3182,Australia,,1965,2523,True,25
+3207,Australia,,1970,2678,False,25
+3292,Australia,,1945,828,True,7
+3327,Australia,,1950,1578,True,13
+3362,Australia,,1970,2603,True,25
+3537,,,1955,,False,
+3597,Australia,,1960,2813,False,25
+3637,New Zealand,,1960,118,False,118
+3687,Australia,,1945,653,False,7
+3692,Australia,,1945,2828,False,25
+3762,Australia,,1960,3198,True,31
+3812,Australia,,1960,2298,True,46
+3862,,,1950,,False,
+3867,Australia,,1940,2603,False,25
+4082,Australia,,1960,2678,True,25
+4102,Australia,,1955,2948,True,25
+4167,Australia,English,1955,2768,False,25
+4192,,,1965,,False,
+4222,Australia,,1960,2768,False,25
+4247,Australia,,1950,2298,False,46
+4302,Australia,,1965,3198,True,31
+4387,Australia,,1955,2298,True,46
+4412,,,1940,,False,
+4492,Australia,,1950,2558,True,25
+4502,Australia,,1955,2668,False,25
+4572,Australia,,1955,2713,False,25
+4702,Australia,,1960,1033,True,1
+4717,,,1965,,False,
+4747,,,1960,,False,
+4757,,,1945,,False,
+4762,Great Britain,,1950,593,True,7
+4777,Australia,,1960,2763,False,25
+4797,Australia,,1965,2853,False,25
+4832,Australia,,1945,2893,False,25
+4842,Asia Pacific,,1970,2153,True,19
+4877,,,1960,,False,
+4882,Australia,,1965,2298,True,46
+4902,Australia,,1950,2053,True,19
+4962,,,1955,,False,
+4987,,,1965,,False,
+4992,Australia,,1960,2853,True,25
+5042,Australia,,1960,2763,True,25
+5092,Australia,,1960,3198,True,31
+5107,Asia Pacific,,1960,2653,False,25
+5117,Australia,,1960,2553,True,25
+5137,,,1960,,False,
+5142,Australia,,1960,593,True,7
+5162,Australia,,1940,,False,7
+5222,Australia,,1940,3268,False,31
+5232,Australia,,1955,2578,True,25
+5242,Australia,,1945,2713,False,25
+5267,Australia,,1975,2298,True,46
+5287,Australia,,1960,3123,True,31
+5302,Australia,,1970,1578,True,13
+5307,Asia Pacific,,1960,548,True,7
+5382,Asia Pacific,,1965,3198,False,31
+5397,Australia,,1975,2153,True,19
+5427,,,1965,,False,
+5442,,,1975,,False,
+5552,Australia,,1955,548,True,7
+5582,Australia,,1960,3048,True,31
+5672,Australia,,1965,2768,False,25
+5702,Australia,,1940,2853,False,25
+5737,Australia,,1975,2558,True,25
+5777,Australia,,1970,2533,True,25
+5807,,,1950,,False,
+5812,North America,English,1965,2153,False,19
+5852,Australia,,1950,1253,True,34
+5882,Australia,,1955,528,True,7
+5927,Australia,,1965,3508,True,4
+5967,Australia,,1955,2923,True,25
+5992,,,1940,,False,
+6012,Australia,English,1955,1038,True,1
+6077,Australia,English,1955,4188,False,64
+6117,Asia Pacific,,1950,188,False,79
+6192,,,1935,,False,
+6232,Australia,,1965,2153,True,19
+6242,Asia Pacific,Other,1955,2548,False,25
+6282,Australia,,1980,2678,True,25
+6292,Western Europe,,1965,2578,True,25
+6327,Australia,,1955,653,False,7
+6332,Australia,,1945,2678,False,25
+6377,Great Britain,,1965,1038,True,1
+6392,Australia,English,1970,2298,False,46
+6397,Great Britain,English,1960,828,True,7
+6502,Australia,,1940,653,False,7
+6562,South Africa,English,1955,2053,False,19
+6712,Australia,,1950,2563,False,25
+6742,Australia,,1940,2653,False,25
+6747,Australia,English,1955,3268,True,31
+6807,Australia,,1950,2523,False,25
+6942,,,1960,,False,
+6977,,,1955,,False,
+7037,Australia,,1970,978,True,25
+7047,Australia,,1960,2713,False,25
+7087,Australia,,1970,2563,True,25
+7252,Australia,,1960,1258,False,34
+7302,,,1960,,False,
+7342,Great Britain,,1965,2553,True,25
+7347,Australia,,1960,828,True,7
+7362,Western Europe,,1970,2628,True,25
+7387,Great Britain,,1955,653,True,7
+7442,North America,,1965,3048,True,31
+7452,North America,,1960,2628,False,25
+7482,Australia,,1940,2768,False,25
+7512,Australia,,1960,2538,True,25
+7527,Australia,,1955,2883,False,25
+7587,Australia,,1955,2603,True,25
+7597,Eastern Europe,English,1955,3048,True,31
+7607,Australia,,1955,2828,False,25
+7637,,,1970,,False,
+7662,Australia,,1960,3508,True,4
+7747,Australia,,1975,2518,True,25
+7792,,,1960,,False,
+7797,,,1965,,False,
+7842,Asia Pacific,Other,1960,1033,True,1
+7862,Australia,,1965,2523,True,25
+7917,Australia,,1945,2298,True,46
+7942,Australia,,1955,828,False,7
+7947,Asia Pacific,,1960,3048,True,31
+7952,Australia,,1965,3098,True,31
+7992,Australia,,1970,2298,True,46
+8002,Australia,,1975,3073,True,31
+8012,Western Europe,,1960,1098,True,1
+8042,Australia,,1975,1678,True,13
+8047,Australia,,1950,2298,False,46
+8062,Australia,,1960,3198,True,31
+8067,Western Europe,Other,1960,1998,True,19
+8142,,,1970,,False,
+8152,Australia,,1965,2163,True,19
+8167,Australia,,1970,653,False,7
+8172,Great Britain,,1930,2498,False,25
+8312,Australia,,1970,1798,False,118
+8317,,,1975,,False,
+8327,Asia Pacific,Other,1955,148,False,64
+8377,Great Britain,English,1955,2553,True,25
+8397,,,1970,,False,
+8462,Australia,,1950,2713,True,25
+8497,Australia,,1970,2578,False,25
+8532,Australia,,1970,2558,False,25
+8542,Western Europe,,1960,2498,True,25
+8642,,,1960,,False,
+8667,Australia,,1965,3658,True,22
+8732,Australia,,1965,2713,True,25
+8772,Australia,,1965,2763,False,25
+8842,Australia,,1960,3708,True,10
+8867,Australia,,1960,3123,True,31
+8877,,,1955,,False,
+8987,Australia,,1965,1528,True,13
+9042,Australia,,1960,3198,True,31
+9067,Australia,,1960,2538,True,25
+9107,Australia,,1965,2523,True,25
+9217,Australia,,1945,2533,True,25
+9227,Australia,,1970,1258,True,34
+9262,Australia,,1975,3658,True,22
+9312,Australia,English,1975,3658,True,22
+9337,Australia,,1965,653,False,7
+9342,,,1950,,False,
+9402,,,1965,,False,
+9412,Australia,,1970,2558,True,25
+9417,Australia,,1950,2523,True,25
+9497,Australia,,1955,1038,False,1
+9502,South Africa,,1950,978,True,25
+9527,Middle East and Africa,,1955,2298,True,46
+9542,Australia,,1975,1428,False,34
+9602,Australia,,1970,188,False,79
+9657,Australia,,1965,2923,True,25
+9672,,,1950,,False,
+9712,Australia,,1945,3048,False,31
+9732,Australia,,1960,3048,True,31
+9737,Australia,,1965,2553,True,25
+9757,Australia,,1960,2668,True,25
+9822,,,1965,,False,
+9857,Asia Pacific,,1960,2053,True,19
+9912,Australia,,1970,4388,False,40
+9982,Australia,,1955,1033,True,1
+10002,,,1950,,False,
+10052,Australia,,1955,3028,True,31
+10072,,,1965,2813,False,25
+10127,Australia,,1970,2678,False,25
+10147,Australia,,1965,2813,False,25
+10157,,,1955,,False,
+10182,Australia,,1950,978,True,25
+10267,Australia,,1935,828,False,7
+10352,Australia,,1975,2763,False,25
+10377,Australia,English,1975,593,True,7
+10387,Australia,,1950,1038,True,1
+10402,Australia,,1970,653,True,7
+10407,Australia,,1950,3123,False,31
+10447,Australia,,1970,2563,False,25
+10472,Australia,,1970,528,True,7
+10477,Australia,,1960,2628,True,25
+10497,,,1965,,False,
+10512,Australia,,1955,3073,False,31
+10522,Eastern Europe,Other,1965,2153,True,19
+10577,Australia,,1960,2653,False,25
+10592,Australia,English,1960,2893,True,25
+10602,,,1970,,False,
+10662,Australia,English,1955,1258,True,34
+10737,Australia,,1970,828,True,7
+10787,,,1900,,False,
+10842,Australia,,1955,1578,True,13
+10867,Australia,,1960,2298,False,46
+10987,Australia,,1950,2298,True,46
+10997,Australia,,1950,2298,True,46
+11092,Asia Pacific,,1955,548,True,7
+11102,,,1965,,False,
+11142,,,1955,,False,
+11247,Australia,English,1960,2298,True,46
+11282,Eastern Europe,,1945,803,False,7
+11287,Australia,,1965,1258,True,34
+11302,Australia,,1970,593,True,7
+11322,Australia,,1965,1798,True,118
+11327,Australia,,1960,2828,True,25
+11342,Australia,,1965,2558,True,25
+11372,South Africa,,1950,593,False,7
+11382,,,1970,,False,
+11397,,,1970,,False,
+11427,New Zealand,,1960,2628,False,25
+11432,,,1965,,False,
+11507,Australia,,1945,2298,True,46
+11552,Asia Pacific,,1955,3508,True,4
+11597,Australia,,1975,3198,True,31
+11602,Western Europe,,1955,3508,True,4
+11612,Australia,,1960,3508,True,4
+11617,Australia,,1965,1033,True,1
+11657,Australia,,1955,1098,True,1
+11667,Australia,,1950,2548,False,25
+11747,Australia,,1960,2298,True,46
+11812,Australia,,1945,1033,False,1
+11837,Australia,,1950,1033,True,1
+11842,Australia,English,1960,1033,True,1
+11907,Australia,Other,1955,1038,True,1
+11947,Australia,,1950,1033,False,1
+12002,Australia,,1945,1038,False,1
+12177,,,1960,2563,False,25
+12282,,,1965,,False,
+12332,Australia,,1960,1033,False,1
+12467,,,1955,,False,
+12527,Great Britain,,1945,2553,False,25
+12542,,,1965,,False,
+12677,Australia,,1965,2163,True,19
+12862,Australia,,1955,1013,False,1
+12887,Australia,,1960,2678,True,25
+12892,Australia,,1965,2653,False,25
+12917,Australia,,1955,1038,False,1
+12932,Australia,,1975,2603,False,25
+12957,Great Britain,,1965,2603,True,25
+13042,Western Europe,,1965,2153,True,19
+13102,Australia,,1975,593,False,7
+13187,Australia,,1965,2568,False,25
+13192,Western Europe,,1960,2668,True,25
+13302,,,1970,,False,
+13342,,,1945,,False,
+13352,,,1955,,False,
+13392,Australia,,1970,1578,False,13
+13397,Middle East and Africa,English,1960,1038,True,1
+13437,Australia,,1960,2878,True,25
+13512,Australia,English,1960,3708,True,10
+13522,Australia,,1965,2533,False,25
+13527,,,1965,,False,
+13552,Asia Pacific,,1955,828,False,7
+13612,Australia,,1965,828,True,7
+13682,Western Europe,English,1965,1258,True,34
+13687,Australia,,1970,2923,False,25
+13697,South Africa,,1940,2768,False,25
+13712,,,1965,,False,
+13807,Australia,,1970,828,True,7
+13812,Australia,,1975,2178,True,19
+13817,Australia,,1965,3258,False,31
+13867,Australia,,1950,978,False,25
+13887,,,1970,,False,
+14082,Australia,,1975,3028,False,31
+14112,Australia,,1975,3048,False,31
+14152,Australia,,1975,3198,True,31
+14182,Australia,,1965,953,False,
+14187,Australia,,1955,498,True,7
+14212,Australia,,1970,653,True,7
+14262,Australia,,1960,1428,False,34
+14267,Asia Pacific,,1960,2178,True,19
+14277,Australia,,1940,1258,True,34
+14322,,,1970,,False,
+14417,Middle East and Africa,,1960,2523,True,25
+14482,,,1975,,False,
+14487,Australia,,1945,2298,False,46
+14507,Australia,,1960,3508,True,4
+14512,Asia Pacific,,1975,2653,True,25
+14532,Australia,,1970,2773,False,25
+14547,Australia,,1970,653,False,7
+14562,Australia,,1950,2763,False,25
+14612,Australia,,1950,2713,False,25
+14647,Australia,,1950,2558,False,25
+14737,Australia,,1975,3258,True,31
+14757,Australia,,1975,2053,False,19
+14767,,,1945,,False,
+14772,Australia,,1955,2653,False,25
+14777,Australia,,1970,2628,True,25
+14782,Great Britain,,1955,2768,True,25
+14832,Australia,,1975,1098,False,1
+14842,Australia,,1960,1678,False,13
+14957,Australia,English,1975,2713,True,25
+15047,,,1965,,False,
+15162,Australia,,1965,3048,True,31
+15187,Australia,,1960,3198,True,31
+15222,Australia,,1980,2653,False,25
+15242,Asia Pacific,,1980,2533,True,25
+15282,Australia,English,1965,2713,True,25
+15287,North America,,1970,2523,True,25
+15437,,,1955,,False,
+15467,Australia,,1955,2668,False,25
+15472,,,1965,,False,
+15512,Australia,,1960,2973,False,25
+15532,,,1960,,False,
+15632,,,1965,,False,
+15667,,,1960,,False,
+15757,Australia,,1950,653,False,7
+15767,Australia,,1965,2628,True,25
+15777,Australia,,1950,2778,True,25
+15927,Australia,,1960,1098,False,1
+15977,Great Britain,,1960,1623,True,13
+15987,Australia,,1960,1623,True,13
+16012,North America,,1960,2103,True,19
+16062,Eastern Europe,,1965,803,True,7
+16137,Australia,,1950,2653,False,25
+16172,Australia,,1965,118,True,118
+16207,,,1955,,False,
+16227,Great Britain,,1960,3273,True,31
+16302,Australia,,1960,2253,True,19
+16332,,,1955,,False,
+16442,,,1965,,False,
+16452,,,1935,,False,
+16532,Australia,,1955,2558,True,25
+16582,Australia,,1960,2548,False,25
+16632,Australia,,1955,2973,True,25
+16642,Australia,,1965,2763,True,25
+16647,Asia Pacific,,1965,2778,True,25
+16652,,,1960,,False,
+16737,Australia,,1945,3658,True,22
+16757,Australia,,1950,1798,False,118
+16892,Australia,,1965,2768,True,25
+16987,Australia,,1965,2653,False,25
+17282,Great Britain,,1955,2298,True,46
+17332,Great Britain,,1955,2893,True,25
+17342,Australia,,1960,2828,True,25
+17367,Asia Pacific,,1960,2523,True,25
+17427,Australia,,1970,528,True,7
+17512,,,1940,,False,
+17617,North America,English,1965,2563,True,25
+17622,Australia,,1955,2568,False,25
+17647,Australia,,1960,548,True,7
+17657,Asia Pacific,,1965,528,True,7
+17707,Australia,,1965,2568,True,25
+17737,Australia,,1970,653,True,7
+17747,Australia,,1970,1578,True,13
+17762,Australia,,1965,2923,False,25
+17772,Australia,,1955,1033,True,1
+17782,Australia,,1975,3098,False,31
+17812,Australia,,1975,2558,True,25
+17857,Asia Pacific,,1970,2553,False,25
+17877,,,1965,,False,
+17907,Australia,,1955,3028,False,31
+17947,Australia,,1975,3258,True,31
+18012,Australia,,1960,2568,False,25
+18067,Australia,,1950,1258,False,34
+18177,Australia,,1945,2653,False,25
+18237,Australia,,1940,2713,False,25
+18362,Australia,,1950,2298,False,46
+18377,Australia,,1960,2923,True,25
+18412,Australia,,1960,2568,False,25
+18562,Australia,English,1950,1038,False,1
+18567,Australia,,1950,1038,True,1
+18592,Australia,,1960,2768,False,25
+18722,Australia,,1975,2558,False,25
+18732,Asia Pacific,English,1970,3073,True,31
+18752,Australia,,1965,188,False,79
+18757,Asia Pacific,,1955,548,True,7
+18767,,,1965,,False,
+18817,Australia,,1950,2768,False,25
+18832,Great Britain,English,1975,2768,False,25
+18862,,,1955,,False,
+18997,,,1975,,False,
+19037,Australia,,1975,1033,True,1
+19072,Australia,,1975,3248,False,31
+19082,Australia,,1970,2563,True,25
+19127,Australia,,1970,2298,True,46
+19262,Great Britain,,1955,1623,True,13
+19287,Australia,,1950,2578,True,25
+19347,Australia,,1950,2893,False,25
+19362,Australia,,1955,2893,False,25
+19517,Australia,,1965,2668,True,25
+19602,Australia,,1945,2813,False,25
+19627,Great Britain,,1950,2298,False,46
+19662,Australia,,1965,3123,False,31
+19752,,,1975,,False,
+19832,Asia Pacific,,1975,2153,True,19
+19857,Australia,,1970,1098,False,1
+19897,Australia,,1970,3123,False,31
+19922,Australia,,1960,2578,True,25
+19947,Australia,,1950,2788,False,25
+19952,Great Britain,English,1955,1033,True,1
+19962,Australia,English,1940,2628,True,25
+19967,Australia,,1955,2253,False,19
+19997,Australia,,1960,3198,True,31
+20007,Australia,,1955,2713,False,25
+20012,Australia,,1935,3123,True,31
+20072,Australia,,1960,2568,False,25
+20117,Australia,English,1970,2558,True,25
+20122,Great Britain,,1965,2523,True,25
+20202,South Africa,,1965,2668,True,25
+20247,Great Britain,,1945,2853,False,25
+20292,,,1955,,False,
+20342,Australia,,1940,2298,False,46
+20357,The Americas,English,1965,3268,True,31
+20472,Australia,,1970,1038,False,1
+20497,Middle East and Africa,Other,1965,1258,True,34
+20657,Australia,,1960,2523,False,25
+20722,Australia,,1965,2853,True,25
+20782,Australia,,1965,1033,False,1
+20792,Australia,,1955,3258,False,31
+20892,Australia,,1970,978,True,25
+20907,Australia,,1975,1098,False,1
+20927,Australia,,1965,2578,True,25
+20937,Australia,,1970,2763,True,25
+21017,,,1950,,False,
+21132,Australia,,1960,2568,True,25
+21137,Australia,,1970,2578,True,25
+21192,Australia,,1975,2053,True,19
+21612,Australia,,1950,1098,False,1
+21732,Australia,,1965,2853,True,25
+21872,Australia,,1975,2578,True,25
+21877,Australia,,1965,3658,True,22
+22002,Australia,,1975,3268,True,31
+22067,,,1970,,False,
+22077,Western Europe,,1955,3273,False,31
+22097,Australia,,1960,2848,False,25
+22112,,,1975,,False,
+22117,Australia,,1970,3658,False,22
+22202,Australia,,1970,1258,True,34
+22292,New Zealand,,1970,1033,False,1
+22297,Australia,,1950,2523,False,25
+22322,Western Europe,,1955,3508,True,4
+22332,Australia,,1965,3658,True,22
+22352,Australia,,1965,2893,True,25
+22362,,,1960,,False,
+22422,,,1960,,False,
+22582,Australia,English,1975,3198,True,31
+22622,,,1965,,False,
+22642,Australia,,1950,3073,True,31
+22657,Asia Pacific,,1960,3508,True,4
+22672,Australia,,1965,2298,True,46
+22707,,,1965,,False,
+22752,,,1980,,False,
+22767,Australia,English,1975,2523,True,25
+22792,Australia,,1955,3508,True,4
+22807,Australia,,1955,3508,True,4
+22812,Australia,,1965,2523,True,25
+22847,Australia,,1980,2053,True,19
+22857,,,1960,,False,
+22917,Australia,,1960,1033,True,1
+22972,Australia,,1965,2523,False,25
+22982,Australia,,1960,2628,True,25
+22987,Australia,,1965,2603,False,25
+23032,,,1975,,False,
+23042,South Africa,,1965,1623,True,13
+23182,,,1970,,False,
+23237,Australia,,1975,1623,True,13
+23302,,,1960,,False,
+23312,,,1975,,False,
+23342,Australia,,1960,2883,True,25
+23357,Australia,English,1960,3508,True,4
+23412,,,1975,,False,
+23417,Australia,,1975,203,False,58
+23437,Australia,,1960,2713,False,25
+23442,Australia,,1970,2668,False,25
+23452,The Americas,English,1970,2253,True,19
+23512,Australia,,1945,1038,True,1
+23697,Asia Pacific,,1970,1678,True,13
+23717,Australia,,1970,1623,True,13
+23752,,,1970,2298,True,46
+23797,,,1960,,False,
+23872,Australia,,1975,3028,True,31
+23912,Australia,,1965,528,False,7
+23927,Australia,,1980,3198,False,31
+23972,Australia,,1950,2298,True,46
+23982,Australia,,1975,498,False,7
+23997,Australia,,1965,2628,False,25
+24017,Australia,,1970,2603,True,25
+24087,Australia,,1955,2298,True,46
+24182,,,1980,,False,
+24227,Australia,,1960,1038,False,1
+24242,Australia,,1965,2923,False,25
+24252,Australia,,1960,653,False,7
+24257,Asia Pacific,Other,1955,548,False,7
+24267,Australia,,1970,2728,True,25
+24352,Australia,,1965,2853,False,25
+24392,Australia,,1960,2628,True,25
+24542,,,1955,2153,True,19
+24552,Australia,,1970,593,True,7
+24572,Australia,,1960,2893,False,25
+24577,Australia,,1965,653,True,7
+24627,Asia Pacific,,1965,2768,False,25
+24632,Australia,,1970,458,False,82
+24697,,,1975,,False,
+24892,Australia,,1965,2768,True,25
+24897,Australia,,1960,2298,False,46
+25052,Australia,,1955,2628,True,25
+25117,Australia,,1970,2763,True,25
+25137,,,1960,,False,
+25207,Australia,,1970,3708,True,10
+25217,Great Britain,,1965,2563,True,25
+25247,,,1960,,False,
+25267,Australia,,1965,2518,True,25
+25272,Great Britain,,1960,2923,False,25
+25337,,,1960,,False,
+25342,Great Britain,,1965,2768,True,25
+25537,Australia,,1960,2563,True,25
+25597,Australia,,1955,2828,False,25
+25612,,,1955,,False,
+25662,Australia,,1975,3273,True,31
+25677,,,1975,,False,
+25762,North America,,1965,803,False,7
+25837,Australia,,1960,3073,True,31
+25947,Australia,,1960,1038,False,1
+26107,Australia,,1970,2558,True,25
+26117,Australia,,1970,2523,False,25
+26212,Australia,,1960,2813,False,25
+26337,,,1980,,False,
+26352,Eastern Europe,,1975,2533,True,25
+26367,Australia,,1975,2893,False,25
+26502,Australia,Other,1965,3123,False,31
+26517,,,1965,,False,
+26597,Australia,,1975,653,False,7
+26667,Australia,,1965,2768,True,25
+26857,Australia,,1965,1033,False,1
+26862,Australia,,1945,1663,False,13
+26877,Australia,,1935,3123,False,31
+26882,Australia,,1950,2523,True,25
+26887,Australia,,1970,3658,True,22
+26962,Great Britain,,1970,1038,False,1
+27102,Eastern Europe,English,1955,1623,False,13
+27142,Australia,,1965,548,False,7
+27157,Asia Pacific,,1970,1033,False,1
+27192,Australia,,1970,653,True,7
+27282,Great Britain,,1970,2853,True,25
+27307,Australia,,1950,2923,False,25
+27317,Australia,,1965,2853,False,25
+27347,Australia,,1965,3073,True,31
+27352,Great Britain,English,1960,3073,True,31
+27372,Australia,,1960,2553,True,25
+27392,Australia,,1965,2498,False,25
+27502,Great Britain,English,1960,3508,False,4
+27527,Australia,,1950,3073,False,31
+27572,Australia,,1970,2778,False,25
+27632,Australia,,1945,118,False,118
+27707,Asia Pacific,,1970,2153,True,19
+27722,Australia,,1945,2853,False,25
+27752,New Zealand,,1955,2838,False,25
+27757,Australia,,1960,2813,False,25
+27782,Australia,,1965,2298,True,46
+27862,Australia,,1950,548,True,7
+27867,Eastern Europe,Other,1965,188,False,79
+27942,Asia Pacific,,1975,2553,False,25
+28042,,,1960,,False,
+28082,,,1965,,False,
+28232,Australia,English,1965,2153,True,19
+28262,Australia,,1960,2298,True,46
+28342,Australia,,1960,2153,True,19
+28362,Australia,,1975,2153,True,19
+28387,Australia,,1965,3273,True,31
+28412,Australia,,1960,2163,True,19
+28442,Australia,,1960,2568,False,25
+28447,Australia,,1975,3098,True,31
+28502,New Zealand,,1970,2603,True,25
+28572,Australia,,1955,2763,False,25
+28607,Great Britain,,1965,2763,True,25
+28622,Australia,,1960,2628,True,25
+28682,Australia,,1975,828,True,7
+28732,,,1965,3943,False,31
+28742,,,1975,,False,
+28797,Australia,,1970,2768,True,25
+28807,Australia,,1955,2653,False,25
+28832,,,1950,2728,False,25
+28902,,,1965,,False,
+28907,,,1965,,False,
+28932,Australia,English,1970,1033,False,1
+29032,Australia,,1965,2763,False,25
+29087,Australia,,1950,118,True,118
+29122,,,1970,,False,
+29292,,,1950,,False,
+29317,Australia,,1970,3508,True,4
+29357,Australia,,1980,2603,False,25
+29422,,,1970,,False,
+29462,Australia,English,1975,2053,False,19
+29497,,,1965,,False,
+29512,North America,English,1970,3268,True,31
+29562,Australia,English,1970,2563,True,25
+29637,Australia,,1960,2298,False,46
+29797,Australia,,1975,653,True,7
+29807,Australia,,1970,1258,True,34
+29817,Australia,,1975,3198,False,31
+29912,,,1970,,False,
+29927,Australia,,1965,2738,False,25
+29962,Australia,,1975,2558,False,25
+30017,Australia,,1960,2893,False,25
+30047,Eastern Europe,,1965,3943,True,31
+30072,Australia,,1960,2523,False,25
+30422,Great Britain,,1955,2558,True,25
+30437,Australia,,1975,3703,True,10
+30457,Asia Pacific,,1955,2558,False,25
+30467,Australia,,1955,3098,True,31
+30527,Australia,,1960,2523,True,25
+30582,Australia,,1960,2578,False,25
+30612,Australia,,1955,2518,False,25
+30632,,,1955,,False,
+30707,Middle East and Africa,,1965,2253,True,19
+30772,Australia,,1970,2603,False,25
+30777,Australia,,1955,2653,False,25
+30782,Australia,,1960,2653,False,25
+30827,,,1950,,False,
+30962,Australia,,1950,528,False,7
+30977,Great Britain,,1950,3028,False,31
+30987,Australia,,1965,3658,True,22
+30997,Australia,,1950,653,True,7
+31012,Australia,,1980,2178,True,19
+31067,Great Britain,,1960,3098,True,31
+31112,Australia,,1975,2533,True,25
+31182,Australia,,1975,2668,True,25
+31237,Australia,,1965,3098,True,31
+31322,Australia,,1975,3028,True,31
+31377,Australia,,1965,2553,False,25
+31457,Australia,,1970,2153,False,19
+31512,Middle East and Africa,,1965,3198,False,31
+31592,Australia,,1960,528,True,7
+31607,Australia,,1975,1258,False,34
+31672,Australia,,1965,2163,True,19
+31697,,,1965,,False,
+31707,Australia,,1965,2558,False,25
+31722,Australia,,1970,3258,True,31
+31967,Australia,,1970,2668,True,25
+31972,Australia,English,1960,3273,False,31
+32052,Australia,,1975,3198,False,31
+32172,Australia,,1965,2893,False,25
+32237,,,1965,,False,
+32257,Australia,,1950,2853,False,25
+32357,Australia,,1970,2563,False,25
+32422,Australia,,1970,803,True,7
+32437,Australia,,1970,2653,False,25
+32457,Australia,English,1975,3268,True,31
+32467,Great Britain,,1975,2533,True,25
+32522,Australia,,1970,3198,True,31
+32592,Australia,,1975,2103,False,19
+32667,Western Europe,,1965,3073,True,31
+32672,Asia Pacific,,1975,3073,True,31
+32717,Australia,,1980,3028,True,31
+32822,Australia,,1960,2563,True,25
+32857,Australia,,1955,2523,True,25
+32892,Australia,,1975,3028,True,31
+32907,Western Europe,Other,1965,1678,True,13
+32912,Australia,,1970,528,False,7
+32952,Australia,,1970,2538,False,25
+33097,Australia,,1975,528,False,7
+33152,Australia,,1950,2853,False,25
+33167,Australia,,1960,2523,False,25
+33202,,,1965,,False,
+33227,Western Europe,,1965,1623,True,13
+33247,Great Britain,,1950,803,True,7
+33307,Australia,,1955,2713,False,25
+33312,Australia,,1965,2813,True,25
+33337,Australia,,1975,2163,False,19
+33502,Australia,,1965,2533,False,25
+33537,Australia,,1970,1033,False,1
+33542,Great Britain,English,1980,2653,True,25
+33557,Australia,,1955,2768,True,25
+33582,Australia,,1975,2103,True,19
+33752,Australia,,1960,2578,False,25
+33802,Australia,,1975,2713,False,25
+33812,Great Britain,,1965,2768,True,25
+33817,Asia Pacific,,1955,2553,True,25
+33852,,,1970,,False,
+33917,Australia,,1970,3658,True,22
+33977,Australia,,1965,528,False,7
+34037,Australia,,1960,2298,True,46
+34127,Australia,,1960,2523,True,25
+34177,North America,,1960,2523,False,25
+34182,Australia,,1965,2558,True,25
+34217,,,1965,,False,
+34327,Australia,,1970,1428,False,34
+34347,Australia,,1970,1578,True,13
+34417,Australia,,1970,1578,True,13
+34447,Australia,English,1970,1098,True,1
+34502,Australia,English,1970,2553,True,25
+34537,Australia,,1965,2778,False,25
+34617,Australia,,1955,3048,False,31
+34652,,,1955,,False,
+34677,North America,,1955,3658,False,22
+34737,North America,,1970,2603,True,25
+34782,Australia,,1970,2653,False,25
+34817,Australia,,1970,3123,True,31
+34852,Asia Pacific,,1965,2763,False,25
+35087,Australia,,1965,2853,False,25
+35132,Australia,,1970,1678,True,13
+35137,Australia,,1970,653,False,7
+35177,Australia,,1945,1578,True,13
+35357,Australia,,1965,4323,False,25
+35382,Australia,,1970,2103,False,19
+35422,Australia,,1975,4363,False,187
+35507,Australia,,1970,2813,False,25
+35512,Australia,,1970,653,True,7
+35542,Australia,English,1965,548,False,7
+35547,Asia Pacific,,1960,2163,True,19
+35562,Australia,,1960,3123,True,31
+35602,Australia,,1965,2653,True,25
+35672,Australia,,1975,2923,False,25
+35837,Great Britain,,1955,828,False,7
+35867,Australia,,1960,1098,True,1
+35927,Australia,,1970,2768,False,25
+35962,The Americas,,1970,3268,True,31
+36042,Australia,,1970,528,True,7
+36047,Australia,,1970,1038,False,1
+36177,,,1960,,False,
+36187,Australia,,1960,2523,False,25
+36217,Asia Pacific,,1980,3658,False,22
+36242,Australia,,1965,2713,True,25
+36252,Australia,,1960,2973,True,25
+36312,Australia,,1975,2603,True,25
+36402,,,1975,,False,
+36452,Australia,,1965,3073,True,31
+36472,Australia,,1955,828,False,7
+36527,Australia,,1955,2653,False,25
+36567,Australia,,1970,2828,False,25
+36652,Australia,,1950,2298,False,46
+36737,Australia,,1980,2253,False,19
+36827,,,1970,,False,
+36832,,,1960,,False,
+36857,Australia,,1965,2813,False,25
+36862,Australia,,1930,2653,False,25
+37137,Australia,,1980,168,False,64
+37242,Great Britain,,1955,653,True,7
+37302,Australia,,1965,2813,False,25
+37352,,,1970,,False,
+37502,Australia,,1975,528,False,7
+37662,Australia,,1960,2628,True,25
+37947,Australia,,1950,653,False,7
+38267,,,1965,,False,
+38292,Australia,,1980,2678,False,25
+38457,Australia,,1970,2153,False,19
+38492,Australia,,1980,803,False,7
+38502,Australia,,1970,2813,False,25
+38562,,,1975,,False,
+38697,Australia,,1960,2778,False,25
+38832,Australia,,1970,2653,False,25
+38882,Australia,,1970,1578,False,13
+38997,,,1960,,False,
+39202,Australia,,1960,2603,False,25
+39212,Australia,,1960,2603,False,25
+39272,Australia,,1965,2713,False,25
+39277,Asia Pacific,English,1950,3273,True,31
+39392,Asia Pacific,Other,1980,3098,True,31
+39407,Australia,,1980,3248,False,31
+39457,Australia,,1960,3123,True,31
+39487,Australia,,1965,4388,False,40
+39562,Great Britain,,1945,2153,True,19
+39567,,,1975,,False,
+39622,New Zealand,,1970,,True,25
+39632,Great Britain,,1975,2533,True,25
+39637,Australia,,1975,653,False,7
+39647,Australia,,1970,2163,True,19
+39677,,,1975,,False,
+39807,Australia,,1975,2628,True,25
+39812,Australia,,1950,2603,True,25
+39817,Australia,,1955,653,False,7
+39832,Australia,,1975,2523,False,25
+39967,Western Europe,Other,1965,1498,True,13
+40092,Australia,,1970,803,True,7
+40342,Australia,,1980,3508,True,4
+40352,Australia,,1980,2253,True,19
+40492,Australia,,1980,2713,False,25
+40572,Asia Pacific,Other,1965,3073,False,31
+40607,Australia,,1960,1578,True,13
+40637,,,1970,,False,
+40677,,,1965,2523,False,25
+40697,Great Britain,,1965,1258,True,34
+40797,Australia,,1960,2713,True,25
+40847,Australia,,1980,2578,True,25
+40862,,,1965,,False,
+40937,Australia,,1965,2853,True,25
+40947,Australia,English,1965,2653,True,25
+41012,Australia,,1955,2298,True,46
+41032,Australia,,1975,2103,False,19
+41202,,,1960,,False,
+41267,,,1975,,False,
+41657,Asia Pacific,,1965,,False,19
+41732,Australia,,1965,4243,False,64
+41782,,,1970,,False,
+41912,Eastern Europe,,1960,3048,True,31
+42107,Australia,,1975,2533,True,25
+42172,,,1975,,False,
+42262,,,1970,,False,
+42322,Australia,,1945,3508,False,4
+42422,Australia,,1965,2813,False,25
+42637,Australia,,1975,2498,False,25
+42932,New Zealand,,1960,803,True,7
+43002,North America,,1975,2153,True,19
+43222,,,1960,,False,
+43262,Great Britain,,1975,2653,True,25
+43322,Australia,,1975,2548,True,25
+43352,Australia,,1960,2923,False,25
+43562,Australia,,1975,3658,True,22
+43587,North America,,1960,1623,False,13
+43597,South Africa,,1965,803,False,7
+43612,Australia,,1960,2668,True,25
+43757,,,1930,,False,
+43817,Australia,,1965,2773,False,25
+43852,Australia,,1975,1033,True,1
+43857,South Africa,,1960,2768,True,25
+43882,Australia,,1975,2768,True,25
+43962,,,1965,,False,
+44022,Australia,,1965,3508,False,4
+44097,Australia,,1955,3658,True,22
+44162,North America,,1970,2778,True,25
+44252,Australia,,1960,2813,True,25
+44352,Australia,,1970,1033,True,1
+44642,Great Britain,,1960,803,True,7
+44697,Australia,,1965,2603,False,25
+44717,North America,,1975,118,False,118
+44732,,,1965,,False,
+44737,Australia,,1965,3073,True,31
+44777,,,1965,,False,
+44782,Western Europe,,1955,593,False,7
+44852,Australia,,1965,3098,True,31
+44907,Australia,,1970,2668,True,25
+45012,Australia,,1970,2103,True,19
+45032,Australia,English,1975,3268,True,31
+45187,Australia,,1980,828,False,7
+45227,Australia,,1950,3268,False,31
+45317,Australia,,1975,2153,True,19
+45447,Australia,,1970,828,False,7
+45462,Australia,,1945,3943,False,31
+45467,Australia,,1950,653,False,7
+45552,Australia,,1975,1098,False,1
+45587,North America,,1955,1663,True,13
+45847,Australia,,1975,2523,True,25
+45952,Australia,,1975,2603,False,25
+45967,Australia,,1975,2163,True,19
+45972,Western Europe,,1970,593,True,7
+45997,Australia,,1960,1678,True,13
+46062,Australia,,1950,2628,True,25
+46127,Great Britain,,1955,2518,False,25
+46132,Australia,,1975,2893,True,25
+46182,Australia,,1955,3703,True,10
+46237,,,1945,,False,
+46357,,,1970,,False,
+46377,Australia,,1970,2763,False,25
+46502,,,1975,,False,
+46587,Australia,,1980,1033,False,1
+46682,Australia,,1960,2578,True,25
+46687,Australia,,1950,528,False,7
+46697,Australia,English,1980,498,False,7
+46772,Australia,,1970,3098,True,31
+46852,,,1970,,False,
+46922,Australia,English,1965,2163,True,19
+47057,Australia,,1955,2568,True,25
+47257,Australia,,1975,2628,True,25
+47362,,,1975,,False,
+47442,Australia,,1980,2628,False,25
+47457,,,1980,,False,
+47467,Australia,,1975,593,True,7
+47482,Asia Pacific,Other,1970,2103,True,19
+47517,Australia,English,1970,2533,False,25
+47947,Australia,,1955,2298,True,46
+47992,Australia,,1980,2628,False,25
+48017,Australia,,1970,1258,True,34
+48142,,,1980,,False,
+48152,,,1945,,False,
+48257,Great Britain,,1970,653,True,7
+48497,,,1950,,False,
+48632,New Zealand,,1955,2853,True,25
+48817,,,1965,,False,
+48892,Australia,,1980,3028,False,31
+48902,Australia,,1945,2053,True,19
+49017,Australia,,1970,2538,False,25
+49097,Australia,English,1980,2713,True,25
+49227,Eastern Europe,,1970,2628,True,25
+49277,Australia,,1965,2298,False,46
+49532,Australia,,1970,2523,False,25
+49592,Australia,,1955,2103,True,19
+49642,Australia,,1965,1033,False,1
+49762,,,1970,,False,
+49922,Great Britain,,1980,2603,False,25
+49972,Australia,,1970,2298,True,46
+50027,Australia,,1955,1098,True,1
+50032,Australia,,1965,1098,False,1
+50052,Australia,,1970,653,True,7
+50092,Australia,,1975,2628,True,25
+50347,Australia,English,1970,2553,False,25
+50782,,,1965,,False,
+50952,Australia,,1970,2548,False,25
+51027,,,1960,,False,
+51362,Australia,English,1980,2538,False,25
+51367,Australia,,1955,2653,True,25
+51377,Australia,,1980,2578,False,25
+51502,Middle East and Africa,,1975,2713,True,25
+51677,Australia,,1980,2668,False,25
+51842,Australia,,1970,2553,False,25
+52017,Australia,,1980,2603,False,25
+52337,Australia,,1970,2153,True,19
+52602,Australia,,1975,2853,True,25
+52802,,,1960,,False,
+53027,Australia,,1975,2628,True,25
+53202,Australia,,1975,3048,True,31
+53237,Australia,,1970,2523,False,25
+53352,Australia,,1965,2828,False,25
+53507,Australia,,1970,2813,True,25
+53587,Western Europe,,1970,2668,True,25
+53752,Australia,,1975,498,False,7
+54302,,,1965,,False,
+54322,Eastern Europe,,1960,2923,False,25
+54417,Australia,,1975,528,False,7
+54487,Australia,,1965,3658,False,22
+54737,Australia,English,1975,3258,True,31
+54922,Australia,,1970,2678,False,25
+54947,,,1985,,False,
+55127,Australia,,1965,2563,False,25
+55137,Australia,,1975,2523,False,25
+55272,,,1970,,False,
+55337,Australia,,1975,2678,True,25
+55347,,,1980,,False,
+55437,Great Britain,,1940,2668,True,25
+55472,Australia,,1970,,True,
+55532,Australia,English,1970,3508,True,4
+55552,Australia,,1975,2558,False,25
+55677,Australia,,1980,1098,True,1
+56097,Australia,,1965,1258,False,34
+56317,Australia,,1970,593,False,7
+56387,Australia,,1960,3268,True,31
+56447,Australia,,1965,2523,False,25
+56692,North America,,1975,2053,True,19
+56842,,,1950,,False,
+56907,,,1970,,False,
+56917,Middle East and Africa,Other,1960,4323,True,25
+57192,Australia,,1980,2053,False,19
+57272,North America,,1975,2053,True,19
+57672,,,1955,,False,
+57802,,,1970,2628,True,25
+57822,Great Britain,,1975,2558,False,25
+58382,,,1960,,False,
+58457,Australia,,1965,653,False,7
+58647,Australia,,1975,3658,True,22
+58747,Australia,,1980,2603,True,25
+58792,Australia,,1970,528,True,7
+58857,Australia,,1980,1038,False,1
+59127,Australia,,1980,2628,True,25
+59402,Australia,,1980,2558,False,25
+59447,Australia,,1970,3048,False,31
+59832,Australia,,1980,603,False,7
+60082,Australia,,1970,1258,False,34
+60442,Australia,,1955,548,False,7
+60517,Australia,,1965,1098,True,1
+60697,Australia,,1970,2558,False,25
+60737,,,1960,,False,
+60857,Australia,,1980,118,True,118
+61242,,,1975,,False,
+61447,Australia,,1960,3048,True,31
+61672,Great Britain,,1960,1623,True,13
+62022,,,1980,,False,
+62492,Australia,,1950,248,False,
+62872,Great Britain,,1950,528,True,7
+62902,North America,,1950,528,False,7
+62917,,,1935,,False,
+62927,,,1955,,False,
+62937,Australia,,1960,528,True,7
+62952,Australia,,1935,653,False,7
+62967,Australia,,1950,528,False,7
+62992,Australia,,1960,188,True,79
+63047,,,1945,,False,
+63117,Australia,,1955,653,True,7
+63137,Australia,,1945,653,True,7
+63167,New Zealand,,1940,653,False,7
+63172,South Africa,,1945,653,False,7
+63177,Australia,,1960,3658,True,22
+63187,Australia,,1955,653,True,7
+63192,Australia,,1955,653,False,7
+63207,Australia,,1945,653,False,7
+63217,Eastern Europe,,1945,653,False,7
+63222,Australia,,1950,653,True,7
+63232,Australia,,1960,653,True,7
+63257,Australia,,1945,803,False,7
+63277,Great Britain,,1955,593,False,7
+63312,Australia,,1935,803,False,7
+63317,,,1945,,False,
+63377,Australia,,1955,803,False,7
+63407,Australia,,1950,828,True,7
+63427,Australia,,1945,1678,False,13
+63437,Australia,,1940,828,False,7
+63452,Great Britain,,1950,828,True,7
+63462,Australia,,1960,528,True,7
+63492,Australia,,1945,2523,False,25
+63507,Australia,,1950,68,True,64
+63517,Australia,,1945,2558,False,25
+63522,Australia,,1955,2533,True,25
+63527,Australia,,1955,2558,True,25
+63537,Australia,,1960,2558,False,25
+63542,Australia,,1940,2558,False,25
+63547,Australia,,1945,2558,True,25
+63552,Australia,,1945,2558,False,25
+63562,Australia,,1940,2523,False,25
+63667,Australia,,1955,1038,True,1
+63687,Australia,,1945,1098,False,1
+63722,Australia,,1955,1258,True,34
+63757,Great Britain,,1960,2553,True,25
+63772,Australia,,1960,828,True,7
+63782,Australia,,1950,2553,True,25
+63812,Great Britain,,1950,2553,False,25
+63817,,,1955,,False,
+63877,Great Britain,,1955,1258,False,34
+63927,Australia,,1945,1258,False,34
+63942,Australia,,1950,2778,False,25
+63947,,,1955,,False,
+63962,Australia,,1950,1258,True,34
+64077,Asia Pacific,,1945,3073,True,31
+64102,Eastern Europe,,1950,2178,False,19
+64122,Australia,,1945,1578,True,13
+64127,Australia,,1945,1578,True,13
+64162,Australia,,1960,1578,True,13
+64167,,,1935,,False,
+64177,Australia,,1955,1578,True,13
+64207,,,1955,,False,
+64222,Australia,,1930,1578,False,13
+64232,Asia Pacific,,1950,1678,True,13
+64237,Australia,,1955,1678,True,13
+64252,Great Britain,,1945,3658,False,22
+64267,,,1955,,False,
+64272,Australia,,1960,3048,True,31
+64277,Australia,,1950,2973,True,25
+64307,Australia,,1950,3098,True,31
+64332,Australia,,1955,3708,True,10
+64337,Australia,,1945,2558,True,25
+64342,Australia,,1950,528,True,7
+64347,Australia,,1945,2893,False,25
+64352,Australia,,1960,2298,True,46
+64357,Australia,,1965,2523,True,25
+64412,Australia,,1945,2763,False,25
+64467,Great Britain,,1945,653,True,7
+64492,,,1950,,False,
+64507,Australia,,1955,2763,False,25
+64517,Australia,,1960,2053,True,19
+64522,Australia,,1955,3098,True,31
+64577,,,1960,,False,
+64642,Great Britain,,1955,528,True,7
+64657,Great Britain,,1940,1033,False,1
+64662,Australia,,1955,2103,True,19
+64677,Australia,,1945,3098,True,31
+64702,Australia,,1930,3123,False,31
+64727,,,1945,,False,
+64747,Australia,,1955,1623,True,13
+64777,Australia,,1940,2813,False,25
+64782,,,1945,,False,
+64807,Australia,,1960,3198,True,31
+64842,Australia,,1960,2538,True,25
+64867,Australia,,1945,3268,True,31
+64927,Australia,,1945,2543,True,25
+64942,Great Britain,,1965,1498,False,13
+64957,Australia,,1955,1038,True,1
+65012,Australia,,1950,1033,True,1
+65017,,,1950,,False,
+65027,,,1955,,False,
+65067,,,1945,,False,
+65072,Australia,,1960,1258,False,34
+65077,Australia,English,1965,1258,True,34
+65227,,,1960,,False,
+65302,Australia,,1960,1258,False,34
+65307,Australia,,1960,1258,True,34
+65332,,,1955,,False,
+65342,Great Britain,,1955,2768,True,25
+65387,Australia,,1965,2558,True,25
+65402,Australia,,1960,3198,False,31
+65432,Australia,,1965,2628,True,25
+65437,Australia,,1965,2153,True,19
+65487,Australia,,1940,3028,False,31
+65647,Australia,,1950,3098,False,31
+65652,Australia,,1955,,False,25
+65657,,,1955,,False,
+65667,,,1955,,False,
+65697,Australia,,1965,3708,False,10
+65712,Western Europe,,1950,2523,False,25
+65752,Australia,English,1965,803,False,7
+65767,Australia,,1970,2713,True,25
+65782,Australia,,1950,1098,True,1
+65802,Australia,,1960,593,False,7
+65807,Australia,,1950,2768,False,25
+65812,Australia,English,1945,2253,True,19
+65832,Australia,,1965,3658,True,22
+65842,Australia,,1950,3508,True,4
+65942,,,1955,,False,
+65957,New Zealand,,1950,2558,True,25
+65967,Asia Pacific,,1955,2893,False,25
+65977,Australia,English,1950,1258,True,34
+65992,,,1945,,False,
+66007,Australia,,1955,3268,True,31
+66047,Australia,,1955,3198,True,31
+66062,Australia,,1950,3098,True,31
+66077,Australia,,1960,1258,True,34
+66092,Australia,,1960,1033,True,1
+66107,New Zealand,,1960,2163,True,19
+66152,Australia,,1965,3268,False,31
+66157,Asia Pacific,,1960,2553,True,25
+66187,Asia Pacific,,1965,2103,False,19
+66192,Australia,,1950,2523,True,25
+66197,Australia,,1950,1663,False,13
+66222,,,1950,,False,
+66312,Australia,,1950,593,False,7
+66322,Australia,,1955,2763,False,25
+66352,Australia,,1950,2523,False,25
+66397,Australia,,1950,803,True,7
+66437,Australia,,1950,1798,False,118
+66462,Australia,,1955,653,False,7
+66477,Australia,,1955,828,True,7
+66482,Australia,,1960,528,True,7
+66487,Australia,,1960,3098,True,31
+66532,North America,,1945,548,False,7
+66607,Great Britain,,1955,1258,False,34
+66637,,,1950,,False,
+66657,Australia,,1965,2668,False,25
+66672,Australia,,1960,1258,True,34
+66717,Australia,,1960,1258,True,34
+66722,Australia,,1960,2178,True,19
+66732,Australia,English,1970,2053,True,19
+66737,Australia,,1955,2763,True,25
+66752,Australia,,1965,653,True,7
+66757,Australia,,1960,2853,False,25
+66767,Australia,,1940,3098,False,31
+66772,Australia,,1945,2558,True,25
+66782,Australia,,1955,2813,False,25
+66877,Australia,,1955,2163,False,19
+66887,Australia,,1955,2813,False,25
+66897,Australia,,1945,803,True,7
+66902,Australia,,1945,1033,False,1
+66917,Australia,,1960,3658,True,22
+66922,Australia,,1965,2523,True,25
+66932,Australia,,1940,3028,False,31
+66957,Australia,,1940,2558,True,25
+66977,Australia,,1965,1258,False,34
+66987,Australia,,1970,2178,True,19
+67007,Australia,,1965,2778,True,25
+67037,Eastern Europe,,1950,2563,True,25
+67077,Western Europe,Other,1955,2163,True,19
+67097,Australia,,1960,653,True,7
+67152,New Zealand,,1955,2553,True,25
+67182,Australia,,1940,3708,False,10
+67272,Australia,,1965,3098,True,31
+67282,Australia,,1965,2578,True,25
+67297,Australia,,1950,2828,False,25
+67317,Australia,,1950,1578,False,13
+67327,,,1965,,False,
+67367,Australia,,1950,2678,False,25
+67392,North America,,1955,593,False,7
+67412,Asia Pacific,English,1960,548,True,7
+67447,Great Britain,,1970,3028,True,31
+67452,Australia,,1955,2553,False,25
+67467,Australia,,1955,2828,False,25
+67472,Australia,,1955,3658,False,22
+67477,Australia,,1960,2763,False,25
+67502,Australia,,1960,2828,False,25
+67537,Australia,,1955,2713,False,25
+67542,,,1950,,False,
+67577,Australia,,1945,548,False,7
+67582,Australia,,1955,528,True,7
+67622,North America,,1945,803,True,7
+67647,Australia,,1965,2678,True,25
+67657,Australia,English,1965,2713,True,25
+67732,Australia,,1965,528,True,7
+67742,,,1965,,False,
+67747,,,1970,,False,
+67787,,,1945,,False,
+67842,Australia,,1965,2653,True,25
+67847,Great Britain,,1955,2768,True,25
+67852,Australia,,1950,2523,True,25
+67857,Australia,,1955,3098,True,31
+67862,,,1950,,False,
+67872,Asia Pacific,,1950,548,False,7
+67877,,,1955,,False,
+67882,Australia,,1950,2628,False,25
+67927,Australia,,1955,803,True,7
+67932,,,1960,,False,
+67962,,,1955,,False,
+68032,Australia,,1965,2103,False,19
+68117,,,1960,,False,
+68202,Australia,,1935,118,False,118
+68232,Great Britain,,1955,2678,True,25
+68252,Australia,English,1960,528,True,7
+68277,Australia,,1945,2603,False,25
+68292,,,1965,,False,
+68302,,,1950,,False,
+68317,Australia,,1960,593,True,7
+68377,Australia,,1955,2893,True,25
+68382,Australia,,1950,2893,False,25
+68432,Great Britain,,1955,828,True,7
+68437,The Americas,,1950,2103,True,19
+68467,Great Britain,,1950,2628,False,25
+68472,Australia,,1955,1033,False,1
+68502,Australia,,1955,2538,False,25
+68512,,,1945,,False,
+68517,Australia,,1945,2538,False,25
+68567,Great Britain,,1970,653,True,7
+68582,,,1955,,False,
+68587,Australia,,1955,2523,True,25
+68622,Australia,,1955,2853,False,25
+68692,Great Britain,,1950,2553,True,25
+68732,North America,,1950,2523,True,25
+68782,Australia,,1960,2728,False,25
+68797,Australia,,1965,1258,True,34
+68817,Australia,,1955,2713,True,25
+68857,Great Britain,,1950,2298,True,46
+68902,Australia,,1965,1258,False,34
+68987,Australia,,1955,2853,False,25
+69012,Australia,,1965,2498,False,25
+69032,Australia,English,1965,2538,True,25
+69142,Western Europe,Other,1950,2653,True,25
+69147,Australia,,1960,2778,False,25
+69152,Australia,,1960,593,True,7
+69187,Australia,,1965,2603,False,25
+69212,Australia,,1940,2778,False,25
+69222,Australia,,1965,2558,False,25
+69262,Australia,,1960,2653,True,25
+69337,Australia,,1965,1258,True,34
+69352,Australia,,1945,2298,True,46
+69392,,,1960,,False,
+69432,Great Britain,,1945,2298,True,46
+69457,Australia,,1960,2153,True,19
+69482,Australia,,1965,2883,True,25
+69497,Australia,,1930,2053,False,19
+69517,Australia,English,1950,1258,True,34
+69612,Australia,,1965,653,False,7
+69657,Great Britain,English,1955,828,True,7
+69702,,,1960,,False,
+69712,Great Britain,,1950,1033,False,1
+69732,Australia,,1950,2153,True,19
+69782,Australia,,1960,3658,True,22
+69802,,,1950,,False,
+69812,Australia,,1960,2813,False,25
+69887,Australia,,1945,2523,False,25
+69917,Australia,,1965,2298,True,46
+69927,,,1950,,False,
+69952,Australia,,1960,1578,True,13
+69977,Australia,,1965,1578,False,13
+69997,Australia,,1955,528,True,7
+70132,,,1960,,False,
+70192,,,1970,,False,
+70212,Australia,,1940,2563,False,25
+70227,Australia,,1960,2538,True,25
+70242,Australia,,1955,548,False,7
+70272,Australia,English,1960,2053,True,19
+70322,Eastern Europe,,1945,2298,True,46
+70327,,,1960,,False,
+70362,,,1955,,False,
+70452,Australia,,1955,653,False,7
+70457,Australia,,1950,2253,False,19
+70487,Australia,,1955,2853,False,25
+70542,Australia,,1960,2558,False,25
+70602,Australia,,1965,2523,True,25
+70647,,,1940,,False,
+70652,Australia,,1940,2553,False,25
+70662,Australia,,1970,3268,False,31
+70682,Australia,,1960,3198,True,31
+70707,Australia,English,1965,2163,True,19
+70712,Australia,,1955,2853,False,25
+70767,Australia,,1945,2558,True,25
+70772,,,1955,,False,
+70827,,,1955,,False,
+70832,Australia,,1955,3028,True,31
+70897,South Africa,,1970,653,True,7
+70907,,,1955,,False,
+70917,Asia Pacific,,1955,548,True,7
+70922,,,1970,,False,
+70947,Asia Pacific,,1960,2653,True,25
+70987,Australia,,1965,2543,True,25
+71007,,,1950,,False,
+71037,Australia,,1960,2853,True,25
+71082,,,1960,,False,
+71127,Australia,,1970,2603,False,25
+71222,,,1955,,False,
+71247,Australia,,1945,593,True,7
+71347,,,1935,,False,
+71402,Australia,,1960,2553,True,25
+71432,Asia Pacific,,1955,2103,True,19
+71442,Australia,,1965,1098,True,1
+71512,,,1945,,False,
+71712,Australia,,1955,2553,True,25
+71727,Great Britain,English,1955,3268,True,31
+71752,Western Europe,English,1970,1098,True,1
+71787,,,1950,,False,
+71867,Australia,,1945,2578,True,25
+71872,Australia,English,1970,1528,True,13
+71902,,,1940,,False,
+71917,Australia,,1955,3658,False,22
+71932,Eastern Europe,English,1955,593,True,7
+71982,Australia,,1960,2163,True,19
+72037,Australia,,1970,2713,True,25
+72087,,,1945,,False,
+72122,Australia,,1955,1528,True,13
+72177,Australia,,1960,3658,True,22
+72212,,,1945,,False,
+72222,Australia,,1950,2973,False,25
+72267,Australia,,1960,1998,True,19
+72277,Middle East and Africa,,1955,2553,False,25
+72312,Asia Pacific,,1960,2103,True,19
+72317,Great Britain,,1950,2678,True,25
+72337,Australia,,1945,2878,True,25
+72422,Australia,,1960,2523,True,25
+72432,Australia,,1955,3048,False,31
+72447,Australia,,1950,3198,True,31
+72467,Australia,,1945,3048,True,31
+72497,Australia,,1965,3508,True,4
+72507,,,1945,,False,
+72532,Great Britain,English,1955,3268,True,31
+72537,Australia,,1945,1578,True,13
+72562,North America,,1970,593,True,7
+72612,,,1970,2153,False,19
+72622,Australia,,1935,2538,False,25
+72652,Australia,,1940,2563,False,25
+72672,,,1945,,False,
+72692,,,1955,,False,
+72702,Western Europe,,1950,828,True,7
+72722,Australia,English,1955,2103,True,19
+72827,,,1960,,False,
+72847,,,1955,,False,
+72902,,,1960,,False,
+72957,New Zealand,,1960,3048,True,31
+72962,,,1960,,False,
+72987,Australia,,1955,2853,True,25
+73017,The Americas,,1960,2103,True,19
+73027,Australia,,1955,3508,False,4
+73037,Australia,,1955,2813,False,25
+73042,,,1960,,False,
+73082,,,1955,,False,
+73087,Australia,,1955,2773,True,25
+73187,Australia,,1955,2813,True,25
+73297,Australia,,1945,498,False,7
+73352,Australia,,1960,2813,False,25
+73372,Australia,,1945,653,False,7
+73382,Australia,,1965,3098,True,31
+73387,Australia,,1955,2713,False,25
+73402,Great Britain,,1965,3268,True,31
+73417,Australia,,1960,3658,False,22
+73422,Great Britain,,1960,2713,True,25
+73457,,,1955,,False,
+73497,Australia,,1955,3098,True,31
+73502,Australia,,1955,1798,True,118
+73512,Australia,,1960,2553,True,25
+73522,Australia,,1955,1038,False,1
+73547,Australia,,1940,2578,False,25
+73612,Australia,,1950,2768,True,25
+73627,Australia,,1960,1038,True,1
+73632,Australia,,1950,2603,False,25
+73652,Great Britain,,1950,803,True,7
+73707,Australia,,1960,2853,True,25
+73712,,,1950,,False,
+73717,Australia,,1965,2558,True,25
+73737,Australia,,1950,828,False,7
+73757,Australia,,1965,2923,True,25
+73772,Australia,,1945,1038,False,1
+73782,Australia,,1945,2153,True,19
+73837,,,1960,,False,
+73842,Australia,,1965,3658,True,22
+73862,Australia,,1960,2298,True,46
+73882,Great Britain,,1960,2713,False,25
+73892,,,1935,,False,
+73902,,,1955,,False,
+73912,,,1945,,False,
+73917,Australia,,1955,2653,False,25
+73942,Australia,,1950,2728,True,25
+73962,Australia,,1960,803,False,7
+74002,Australia,English,1950,1098,False,1
+74012,Australia,,1955,2893,True,25
+74047,Great Britain,,1960,2553,True,25
+74077,Australia,,1955,2653,False,25
+74082,Australia,,1935,1033,False,1
+74127,Australia,,1950,2738,False,25
+74142,Australia,,1970,2103,True,19
+74162,Australia,,1970,2813,True,25
+74192,Australia,,1965,2558,False,25
+74202,,,1950,,False,
+74252,Asia Pacific,,1960,1623,True,13
+74277,,,1955,,False,
+74292,Australia,,1960,3028,True,31
+74302,Australia,,1960,2603,True,25
+74312,Australia,,1955,2298,True,46
+74317,North America,English,1955,593,True,7
+74322,Australia,,1960,593,True,7
+74372,Australia,,1955,2893,False,25
+74407,,,1965,,False,
+74432,Australia,,1950,2828,False,25
+74487,Australia,,1960,2603,False,25
+74492,Australia,,1950,2653,True,25
+74512,Australia,,1945,528,True,7
+74527,Australia,,1950,2533,True,25
+74542,Australia,,1945,803,False,7
+74567,Australia,,1960,2813,False,25
+74592,Australia,,1965,3658,False,22
+74652,,,1960,,False,
+74692,Great Britain,,1955,2563,True,25
+74697,North America,,1960,828,True,7
+74702,Australia,,1955,2558,True,25
+74717,Australia,,1965,3048,True,31
+74722,Australia,,1960,3048,True,31
+74772,Australia,,1955,4388,False,40
+74822,Australia,,1950,2668,True,25
+74827,Australia,English,1955,2768,True,25
+74832,Australia,,1965,2768,False,25
+74877,Great Britain,,1950,1033,True,1
+74917,Australia,,1950,2498,True,25
+74932,Great Britain,,1960,2668,True,25
+74937,,,1960,,False,
+74947,Australia,,1965,828,True,7
+74957,North America,,1950,2543,True,25
+74967,Australia,,1960,2668,True,25
+74987,,,1960,,False,
+75037,Asia Pacific,,1960,2178,True,19
+75052,North America,,1970,998,True,1
+75082,Australia,,1965,3073,False,31
+75127,Australia,,1955,2628,True,25
+75132,Western Europe,English,1965,3098,True,31
+75142,Australia,,1960,2523,False,25
+75377,Australia,,1955,2053,True,19
+75382,Asia Pacific,,1945,2053,False,19
+75407,Asia Pacific,,1945,2178,False,19
+75412,Western Europe,,1950,2103,True,19
+75422,Australia,,1950,2103,True,19
+75437,Australia,,1925,2103,False,19
+75447,Australia,,1935,2103,False,19
+75457,Australia,,1945,2103,False,19
+75492,Middle East and Africa,,1950,2153,True,19
+75557,,,1935,,False,
+75572,Australia,,1940,2178,False,19
+75587,Great Britain,,1940,2178,False,19
+75647,Australia,,1955,2253,False,19
+75652,Australia,,1955,2253,False,19
+75662,Australia,,1950,2853,True,25
+75747,Australia,,1970,2668,True,25
+75772,Australia,,1970,653,True,7
+75792,Australia,,1970,2523,False,25
+75822,,,1970,,False,
+75827,,,1970,,False,
+75867,Australia,,1970,2053,True,19
+75932,,,1965,,False,
+75942,Australia,,1960,2763,False,25
+75972,Australia,,1960,2603,True,25
+75992,Asia Pacific,,1965,2893,True,25
+76007,Australia,,1955,2553,True,25
+76022,Australia,,1965,2103,True,19
+76197,Australia,,1960,2713,False,25
+76237,Great Britain,English,1960,2923,True,25
+76297,Australia,,1960,2713,True,25
+76307,Australia,English,1950,2498,True,25
+76312,Australia,English,1955,2298,True,46
+76352,Australia,,1965,2523,True,25
+76397,Australia,,1950,3658,True,22
+76422,Asia Pacific,,1965,2153,True,19
+76432,Australia,English,1960,2653,False,25
+76627,Australia,,1970,3028,True,31
+76682,,,1970,,False,
+76732,Australia,,1960,2533,True,25
+76752,Australia,,1950,528,True,7
+76757,Australia,,1975,2153,True,19
+76777,Australia,,1970,3658,True,22
+76792,Australia,,1970,2828,False,25
+76807,Australia,,1965,653,False,7
+76812,Australia,English,1970,2578,True,25
+76867,,,1950,,False,
+76887,Asia Pacific,English,1960,3048,True,31
+77067,Australia,English,1970,2668,True,25
+77077,Australia,,1955,528,True,7
+77112,Great Britain,,1960,2763,True,25
+77147,Australia,,1960,2563,True,25
+77152,Australia,,1955,2178,False,19
+77162,Australia,,1970,2603,True,25
+77182,Australia,,1970,3098,True,31
+77232,Australia,,1950,3658,False,22
+77237,Australia,,1950,2563,True,25
+77242,Australia,,1950,2563,False,25
+77257,Asia Pacific,,1965,3098,True,31
+77277,Australia,,1970,2523,False,25
+77292,,,1940,,False,
+77297,Australia,,1960,2298,True,46
+77327,Australia,,1935,653,False,7
+77337,Australia,,1950,2298,True,46
+77342,Australia,,1965,2763,True,25
+77392,Australia,,1965,2523,True,25
+77402,Middle East and Africa,,1950,2153,False,19
+77407,Australia,,1965,653,True,7
+77457,Asia Pacific,,1955,2558,True,25
+77467,Australia,,1950,2853,False,25
+77477,Australia,,1945,653,True,7
+77582,Australia,,1960,2553,False,25
+77622,Australia,,1955,1258,True,34
+77637,Asia Pacific,,1970,2178,True,19
+77652,Australia,,1960,2563,False,25
+77692,Asia Pacific,,1955,548,False,7
+77717,Australia,,1970,3658,True,22
+77807,Australia,,1970,2578,True,25
+77817,Australia,English,1970,4203,True,58
+77832,Australia,,1970,28,True,79
+77842,Australia,,1950,828,True,7
+77877,Australia,,1970,528,True,7
+77887,Australia,,1965,3073,True,31
+77892,,,1965,,False,
+77907,Australia,,1965,2713,False,25
+77922,Asia Pacific,,1955,548,True,7
+77977,Australia,,1965,2523,False,25
+77987,Australia,,1960,2498,False,25
+78007,,,1960,,False,
+78132,Australia,,1970,3508,True,4
+78192,,,1960,,False,
+78222,Australia,English,1970,2103,True,19
+78282,Australia,,1960,3508,False,4
+78312,Australia,,1955,3123,False,31
+78327,Australia,,1955,4388,False,40
+78342,Australia,,1965,2653,False,25
+78377,Australia,,1960,2563,False,25
+78487,Australia,English,1945,2603,False,25
+78537,Australia,,1945,2603,True,25
+78562,Australia,,1955,2628,True,25
+78572,Australia,,1955,2628,False,25
+78587,,,1950,,False,
+78602,Great Britain,,1950,2628,True,25
+78607,Eastern Europe,,1945,2628,True,25
+78612,South Africa,,1945,2628,True,25
+78637,Australia,,1950,2713,False,25
+78727,,,1950,,False,
+78752,Western Europe,,1955,2713,True,25
+78762,Australia,,1960,2668,True,25
+78782,Australia,,1955,2678,True,25
+78807,South Africa,,1945,2578,True,25
+78817,Western Europe,,1950,2713,True,25
+78822,Australia,,1950,2678,False,25
+78827,Australia,,1950,2498,True,25
+78887,Australia,,1960,2678,True,25
+78897,Australia,,1955,2713,False,25
+78907,Australia,,1935,2813,False,25
+78912,,,1955,,False,
+78922,Australia,,1955,2578,False,25
+78927,Australia,,1940,2713,False,25
+78947,Australia,,1960,2553,False,25
+78962,Australia,,1955,2668,False,25
+78967,Western Europe,,1955,2728,True,25
+78977,Australia,,1945,2813,False,25
+78992,Australia,,1945,2763,True,25
+79022,Western Europe,,1945,2713,False,25
+79032,Australia,,1955,2713,True,25
+79057,Australia,,1955,2603,False,25
+79062,Australia,,1945,2813,False,25
+79122,Australia,,1950,2763,False,25
+79142,Australia,,1940,2763,True,25
+79172,,,1955,,False,
+79182,Australia,,1950,2838,False,25
+79192,Australia,,1950,2523,True,25
+79207,,,1960,,False,
+79217,Australia,,1955,2828,False,25
+79227,Australia,,1945,2768,False,25
+79232,Australia,,1940,2558,False,25
+79242,Australia,,1945,2768,True,25
+79247,Australia,,1950,2768,False,25
+79277,Australia,,1945,2773,False,25
+79327,,,1945,,False,
+79417,,,1945,,False,
+79427,Australia,,1960,2498,False,25
+79462,Australia,,1950,2603,False,25
+79477,,,1960,,False,
+79492,,,1960,,False,
+79527,,,1950,,False,
+79532,Australia,English,1950,2298,True,46
+79552,Australia,,1960,2883,False,25
+79562,Australia,,1955,2883,True,25
+79567,Australia,,1955,2883,False,25
+79602,Australia,,1950,2893,False,25
+79607,,,1935,,False,
+79612,,,1950,,False,
+79632,Australia,,1945,2523,True,25
+79652,Asia Pacific,,1950,2498,True,25
+79662,,,1940,,False,
+79702,Australia,,1950,1038,True,1
+79712,Australia,English,1955,3943,True,31
+79742,Great Britain,,1950,3028,False,31
+79747,North America,,1940,3028,False,31
+79787,North America,,1945,3028,True,31
+79802,Australia,,1950,3028,True,31
+79837,Australia,,1950,3048,True,31
+79857,Australia,,1950,3048,True,31
+79867,,,1960,,False,
+79907,Australia,,1960,3048,True,31
+79917,Australia,,1935,2053,False,19
+79972,,,1925,,False,
+79977,Australia,,1935,3048,False,31
+80037,Australia,,1950,3098,True,31
+80047,North America,,1940,3098,False,31
+80057,Australia,English,1950,3073,True,31
+80062,Australia,,1950,3098,False,31
+80072,,,1960,,False,
+80077,Australia,,1955,3098,True,31
+80137,Australia,,1950,2163,True,19
+80167,Australia,,1950,3123,True,31
+80172,Australia,,1955,3123,True,31
+80187,Australia,,1945,3123,False,31
+80197,Australia,English,1950,3123,True,31
+80212,Australia,,1945,3123,True,31
+80217,Australia,,1940,3198,False,31
+80232,Australia,,1960,3198,True,31
+80237,Australia,,1960,3198,True,31
+80257,Australia,,1940,3198,False,31
+80277,Australia,,1940,3198,False,31
+80282,,,1950,,False,
+80322,,,1940,,False,
+80332,,,1930,,False,
+80372,Australia,,1955,3258,True,31
+80377,Australia,,1945,3258,True,31
+80382,Australia,,1950,3258,True,31
+80387,Great Britain,,1945,3258,False,31
+80392,Australia,,1945,3258,True,31
+80397,Australia,,1945,4063,True,187
+80407,Australia,,1940,3258,False,31
+80412,Australia,,1955,3258,True,31
+80437,Australia,English,1955,2578,True,25
+80457,Australia,,1940,3268,False,31
+80477,South Africa,,1950,3268,True,31
+80502,Australia,English,1950,2578,True,25
+80527,Australia,,1950,3273,True,31
+80547,Australia,,1940,3508,False,4
+80617,Australia,English,1945,3508,False,4
+80677,Australia,,1950,828,False,7
+80687,Australia,,1950,2298,True,46
+80692,Australia,,1950,2298,True,46
+80702,Australia,,1940,2298,True,46
+80717,Australia,,1950,2298,False,46
+80722,Australia,English,1950,2298,True,46
+80737,Australia,,1945,2298,True,46
+80752,Australia,,1940,2298,False,46
+80762,Australia,,1950,2298,False,46
+80817,,,1945,,False,
+80852,Australia,,1955,3658,False,22
+80942,Australia,,1945,3708,True,10
+80967,Australia,English,1950,3708,True,10
+80982,,,1945,,False,
+81037,Australia,,1945,978,True,25
+81052,Australia,,1950,978,False,25
+81067,Australia,,1940,3508,False,4
+81087,Australia,English,1945,998,False,1
+81097,,,1935,,False,
+81117,Great Britain,English,1950,2253,False,19
+81187,Australia,,1965,3658,True,22
+81352,Australia,,1965,528,True,7
+81592,Great Britain,,1960,4193,False,58
+81642,Australia,,1945,2558,True,25
+81647,Australia,,1950,3198,True,31
+81702,New Zealand,,1955,2558,True,25
+81727,Australia,,1945,2558,False,25
+81772,,,1940,,False,
+81792,Australia,,1950,3268,True,31
+81822,Australia,,1945,2298,False,46
+81847,Australia,,1950,2298,True,46
+81892,Australia,,1950,3708,True,10
+81907,Australia,,1945,998,False,1
+81957,Australia,,1945,2298,True,46
+81992,Australia,,1950,528,False,7
+82007,Great Britain,English,1950,2298,True,46
+82022,Australia,,1950,3508,False,4
+82062,Great Britain,,1950,2298,False,46
+82072,Australia,,1950,2298,False,46
+82092,Australia,English,1945,828,False,7
+82117,Australia,,1930,3268,False,31
+82132,Australia,,1945,2298,True,46
+82142,Australia,,1945,3098,False,31
+82172,Great Britain,,1950,3073,True,31
+82227,,,1955,,False,
+82312,Australia,,1950,2298,False,46
+82347,,,1950,,False,
+82377,New Zealand,,1950,2298,True,46
+82427,Australia,,1955,653,False,7
+82432,Australia,,1960,528,True,7
+82442,Australia,,1955,528,True,7
+82452,North America,,1960,528,True,7
+82457,,,1955,,False,
+82462,Australia,,1950,803,False,7
+82467,Australia,,1950,3658,False,22
+82482,,,1955,,False,
+82487,Australia,Other,1955,1038,True,1
+82497,Australia,,1960,1258,False,34
+82502,Australia,,1960,2603,False,25
+82507,Australia,English,1960,2053,True,19
+82512,Asia Pacific,,1955,2153,True,19
+82522,Australia,,1950,2538,False,25
+82527,Australia,,1955,2628,True,25
+82537,Australia,,1950,2813,False,25
+82542,Australia,,1955,2628,False,25
+82547,Australia,,1955,2713,False,25
+82557,Australia,,1960,2668,False,25
+82567,Australia,English,1955,2678,True,25
+82597,Australia,,1950,2153,False,19
+82602,Australia,,1960,3028,True,31
+82612,Australia,,1955,2253,True,19
+82622,Australia,,1950,978,False,25
+82697,Australia,,1975,2668,False,25
+82717,Australia,,1970,3273,True,31
+82722,Australia,,1970,2153,True,19
+82792,Australia,,1950,2498,True,25
+82797,Great Britain,,1965,1033,True,1
+82837,Western Europe,Other,1965,3073,False,31
+82892,Western Europe,,1970,2053,True,19
+82907,Australia,,1965,2883,True,25
+82962,Australia,,1965,2628,False,25
+83157,Australia,,1980,2763,False,25
+83367,,,1980,,False,
+83507,,,1975,,False,
+83552,Australia,,1980,2603,False,25
+84487,,,1965,,False,
+84587,Australia,,1965,2668,False,25
+84622,Australia,,1955,2973,False,25
+84627,Australia,,1960,2973,True,25
+85007,Australia,,1945,2298,True,46
+85082,Australia,,1965,3658,False,22
+85347,,,1980,,False,
+85382,Australia,,1975,2103,False,19
+85642,Australia,,1955,3258,True,31
+85707,Australia,,1970,3123,False,31
+85862,Western Europe,,1950,2728,False,25
+85907,,,1950,,False,
+85917,Australia,,1965,1578,True,13
+86082,The Americas,Other,1960,1578,False,13
+86212,Australia,,1975,2163,False,19
+86282,Australia,,1965,2533,False,25
+86302,Australia,,1970,2763,True,25
+86337,,,1955,,False,
+86582,Australia,,1965,2813,False,25
+86672,Australia,,1975,2713,True,25
+86802,Australia,,1965,3508,True,4
+87087,Asia Pacific,,1950,2298,True,46
+87147,Australia,,1970,2548,True,25
+87192,Australia,,1970,2523,False,25
+87202,Australia,,1950,653,False,7
+87237,,,1970,,False,
+87472,,,1950,,False,
+87537,Australia,,1980,2678,False,25
+87542,Asia Pacific,,1975,2053,True,19
+87917,Great Britain,,1970,2653,True,25
+88087,,,1975,,False,
+88182,Australia,,1980,2628,True,25
+88382,,,1970,,False,
+88557,Australia,,1975,,False,
+88767,Australia,,1970,2628,True,25
+89127,Australia,,1970,2533,True,25
+89232,Australia,,1945,2788,False,25
+89257,Australia,,1955,528,False,7
+89462,,,1930,,False,
+89467,New Zealand,,1960,2678,False,25
+89472,Australia,,1970,3048,True,31
+89487,Australia,,1970,2563,False,25
+89492,Australia,,1945,2578,False,25
+89582,South Africa,,1970,2538,True,25
+89592,Great Britain,,1970,1033,False,1
+89627,Australia,,1975,2653,True,25
+89637,Australia,,1955,1678,False,13
+89652,,,1960,,False,
+89742,Australia,English,1975,4153,False,64
+89777,Australia,,1970,1578,True,13
+89782,Australia,,1950,1623,True,13
+89787,Australia,,1970,828,False,7
+89902,Australia,,1960,593,False,7
+90132,Middle East and Africa,,1970,2653,False,25
+90352,Australia,,1970,3028,True,31
+90467,,,1970,,False,
+90532,Australia,,1965,1578,True,13
+90542,Australia,,1970,1528,True,13
+90572,Australia,,1965,2163,True,19
+90602,Australia,,1965,1038,True,1
+90747,Australia,,1965,2973,True,25
+90947,,,1965,,False,
+91092,Australia,English,1965,528,True,7
+91182,Australia,,1965,2103,True,19
+91257,South Africa,,1955,3073,True,31
+91387,Australia,,1960,593,True,7
+91617,Australia,,1980,2053,False,19
+91707,Australia,,1975,3273,False,31
+91832,,,1965,,False,
+92037,Australia,English,1965,1623,True,13
+92047,Australia,,1950,2298,True,46
+92172,Australia,,1970,2558,False,25
+92307,Australia,,1960,2298,True,46
+92362,Western Europe,Other,1965,3048,True,31
+92447,,,1960,,False,
+92457,Asia Pacific,,1965,2728,True,25
+92492,Australia,,1965,2678,False,25
+92582,,,1945,,False,
+92617,,,1975,,False,
+92682,Australia,,1965,3508,True,4
+92927,Middle East and Africa,,1965,3658,True,22
+93007,Australia,,1970,2628,False,25
+93072,Australia,,1955,,True,
+93342,Great Britain,,1950,528,False,7
+93362,Australia,,1965,2713,False,25
+93367,,,1950,,False,
+93647,Australia,,1960,2548,True,25
+93802,Australia,,1970,2563,True,25
+93892,Australia,,1970,3658,False,22
+93907,Great Britain,,1960,3073,True,31
+93937,Australia,,1975,2163,False,19
+94102,Australia,,1970,2813,False,25
+94187,Australia,,1975,2053,False,19
+94237,Australia,,1975,2983,False,187
+94537,Great Britain,,1975,2153,False,19
+94732,Australia,,1960,2298,False,46
+94812,,,1980,2883,True,25
+95047,Western Europe,,1975,2603,True,25
+95202,Great Britain,,1970,4163,False,58
+95677,Australia,,1945,1038,False,1
+95762,,,1970,,False,
+95772,,,1970,,False,
+95862,Australia,,1975,2533,False,25
+95867,Australia,,1965,1258,False,34
+95892,Australia,,1960,2523,False,25
+95932,Asia Pacific,Other,1970,1998,True,19
+95962,,,1955,,False,
+96002,,,1970,,False,
+96312,Australia,,1975,2153,True,19
+96717,Australia,,1955,2813,False,25
+96732,,,1970,,False,
+96742,Australia,,1970,1428,False,34
+96872,Australia,,1970,653,False,7
+97072,Australia,,1975,3198,True,31
+97182,Australia,,1955,2568,True,25
+97252,Australia,,1975,1258,True,34
+97532,Australia,,1970,653,False,7
+97577,Australia,,1980,2923,False,25
+97962,Australia,,1975,803,True,7
+98112,Australia,English,1955,528,False,7
+98187,Australia,,1950,2653,False,25
+98197,Australia,,1950,2828,False,25
+98212,Australia,,1965,2653,False,25
+98217,,,1960,,False,
+98222,Australia,,1965,2653,False,25
+98232,,,1965,,False,
+98257,Australia,,1965,2523,False,25
+98432,Australia,,1975,3198,True,31
+98732,Australia,,1980,3098,False,31
+98757,Australia,,1970,2628,True,25
+98987,Australia,,1975,2523,False,25
+99052,Australia,,1970,3273,True,31
+99072,Australia,,1960,2298,True,46
+99497,Australia,,1980,2553,True,25
+99617,,,1980,,False,
+99877,Australia,,1965,653,False,7
+99922,,,1975,,False,
+100062,,,1975,,False,
+100432,,,1985,,False,
+100772,Great Britain,English,1965,2728,True,25
+101042,Australia,,1940,653,False,7
+101242,Australia,,1960,2543,True,25
+101532,Australia,,1960,2538,False,25
+101582,Australia,,1980,3273,True,31
+101742,Australia,,1945,528,False,7
+101802,,,1955,,False,
+101907,Australia,,1960,118,True,118
+102012,Australia,,1975,603,False,7
+102337,Australia,English,1970,3258,False,31
+102402,Australia,,1980,2603,False,25
+102562,Australia,,1955,2538,False,25
+102602,,,1975,,False,
+102762,Australia,,1970,1528,True,13
+103002,Australia,,1965,2813,False,25
+103187,,,1940,,False,
+103432,Australia,,1945,2568,False,25
+103512,Australia,,1975,2578,False,25
+103557,Australia,,1980,2053,True,19
+103677,Asia Pacific,Other,1970,2153,False,19
+103747,,,1970,,False,
+103787,Western Europe,,1970,1258,False,34
+103852,Australia,,1950,2523,True,25
+103872,North America,,1960,2933,False,25
+104057,Australia,,1975,3268,False,31
+104107,,,1970,,False,
+104707,Australia,,1975,2538,True,25
+104862,,,1970,,False,
+105337,Australia,,1950,2828,False,25
+105342,Australia,,1965,2678,True,25
+105837,,,1960,,False,
+106227,Australia,,1955,2523,False,25
+106252,Australia,,1970,2853,True,25
+106282,Asia Pacific,English,1965,2628,True,25
+106357,Australia,,1950,2668,False,25
+106802,The Americas,,1975,803,False,7
+107242,Great Britain,,1970,1098,False,1
+107262,Australia,English,1970,3198,False,31
+107567,,,1965,,False,
+107597,Middle East and Africa,English,1970,3048,True,31
+107602,Australia,,1970,2523,True,25
+107667,Australia,,1955,2778,False,25
+107842,North America,,1970,3268,False,31
+107862,Australia,,1975,2713,False,25
+107987,Australia,English,1960,3508,True,4
+108162,Australia,English,1975,1098,False,1
+108502,Australia,,1975,3268,True,31
+108547,Australia,,1955,653,False,7
+108847,Australia,,1945,2668,False,25
+108962,Australia,,1950,2538,False,25
+109052,Australia,,1980,498,False,7
+109157,Australia,,1970,528,True,7
+109207,Australia,,1970,2788,False,25
+109222,Australia,,1950,3198,False,31
+109672,,,1950,,False,
+110177,Australia,,1975,2653,False,25
+110202,Australia,,1970,2523,True,25
+110437,Australia,,1975,2653,True,25
+110457,Australia,,1960,2538,False,25
+110472,Australia,English,1965,2973,False,25
+110517,Australia,,1980,2728,True,25
+110597,,,1980,,False,
+110607,,,1960,,False,
+110612,,,1960,,False,
+110647,,,1955,,False,
+111122,Australia,,1970,3048,True,31
+111192,Western Europe,Other,1965,1098,True,1
+111197,Western Europe,Other,1970,1098,False,1
+111402,Australia,,1965,1258,False,34
+111407,,,1945,,False,
+111537,Western Europe,,1960,803,True,7
+111787,Australia,,1980,2553,False,25
+112162,Australia,,1970,2668,False,25
+112337,Australia,,1945,2153,False,19
+112562,Australia,,1970,2163,True,19
+112582,,,1945,,False,
+113027,Australia,,1955,2153,True,19
+113052,Australia,,1955,3703,True,10
+113192,Asia Pacific,,1965,3508,True,4
+113607,Great Britain,,1970,603,False,7
+113732,,,1950,,False,
+113942,North America,English,1965,3508,True,4
+114202,Australia,,1980,2668,False,25
+114227,Australia,,1975,3658,False,22
+114547,Australia,,1965,653,True,7
+114552,North America,English,1955,653,True,7
+114842,Australia,,1970,2578,True,25
+114862,,,1965,,False,
+115007,Australia,,1970,2603,True,25
+115217,Australia,,1975,2763,True,25
+115247,Australia,,1960,2628,True,25
+115252,Great Britain,,1950,528,False,7
+115407,Asia Pacific,,1970,2878,True,25
+115417,Western Europe,Other,1965,2253,True,19
+115842,,,1965,,False,
+115867,Australia,,1970,2523,True,25
+116057,Australia,,1970,828,False,7
+116137,Eastern Europe,,1960,,False,
+116157,,,1950,,False,
+116582,,,1970,,False,
+116727,,,1970,,False,
+116952,Australia,,1980,653,False,7
+117317,Australia,,1965,118,False,118
+117422,Australia,,1975,2668,False,25
+117442,Australia,,1965,2713,False,25
+117462,Great Britain,,1965,1258,True,34
+117502,Australia,,1975,2768,True,25
+117737,Australia,,1980,653,False,7
+117972,Australia,,1965,2153,True,19
+118007,Australia,,1960,1798,True,118
+118497,Australia,,1980,2813,False,25
+118727,Western Europe,,1960,528,False,7
+118747,Australia,,1980,2713,False,25
+119282,Australia,,1975,2523,True,25
+119287,,,1955,,False,
+119307,Australia,,1975,2253,False,19
+119312,Australia,,1965,2518,True,25
+119322,Asia Pacific,,1970,1678,False,13
+119372,Eastern Europe,Other,1970,2813,True,25
+119512,,,1965,,False,
+119542,Australia,,1975,3098,False,31
+119757,,,1945,,False,
+119767,,,1945,,False,
+119837,Australia,,1980,2653,False,25
+119862,,,,,False,
+119932,North America,,1975,3198,False,31
+119982,Australia,,1970,1678,True,13
+120047,Australia,,1960,2713,False,25
+120397,Asia Pacific,Other,1975,3508,True,4
+120797,Australia,,1970,2948,True,25
+120892,,,1950,,False,
+120907,Australia,English,1975,3198,True,31
+120997,Australia,English,1975,2103,False,19
+121822,Australia,,1965,2538,False,25
+121892,Australia,,1965,2568,False,25
+122022,Australia,,1980,3028,False,31
+122167,Australia,,1970,2838,False,25
+122222,New Zealand,,1970,118,False,118
+122242,Asia Pacific,,1970,1623,True,13
+122307,,,1970,,False,
+122322,,,1970,,False,
+122352,,,1950,,False,
+122392,Australia,,1975,2813,False,25
+122992,Australia,,1980,2768,False,25
+123092,Western Europe,,1970,3028,True,31
+123132,Australia,,1960,2523,False,25
+123327,Australia,,1945,2578,False,25
+123422,Australia,,1975,3123,False,31
+123482,Australia,,1965,2768,False,25
+123547,Australia,,1980,2533,True,25
+124122,Australia,,1975,1998,False,19
+124477,Australia,,1955,2543,True,25
+124552,,,1970,,False,
+124577,Australia,,1965,2538,False,25
+124677,Australia,,1970,2653,False,25
+124692,Western Europe,,1975,3268,False,31
+124722,Australia,,1975,3258,True,31
+124832,North America,,1970,3028,True,31
+124882,,,1940,,False,
+124932,Australia,,1970,1578,True,13
+124977,,,1960,,False,
+125287,Australia,,1945,2103,True,19
+125917,,,1985,,False,
+126007,Australia,English,1970,2523,True,25
+126162,Asia Pacific,,1970,1678,True,13
+126217,Australia,English,1970,593,False,7
+126247,,,1965,,False,
+126907,,,1955,,False,
+126917,Australia,English,1975,3048,True,31
+126922,Australia,,1955,3708,True,10
+126927,Australia,,1965,2053,True,19
+126982,Australia,,1965,2568,True,25
+127112,,,1975,,False,
+127397,Australia,,1975,2713,False,25
+127447,Australia,,1970,2053,True,19
+127542,Australia,,1970,1678,False,13
+129127,Australia,,1960,4388,False,40
+129387,,,1970,,False,
+129467,,,1955,,False,
+129492,Australia,,1945,593,True,7
+129622,North America,,1965,593,False,7
+129727,Australia,,1965,3658,False,22
+129752,Australia,,1965,3508,True,4
+129757,Australia,,1975,2498,True,25
+129782,,,1975,,False,
+129807,Australia,,1960,2518,True,25
+130047,,,1960,,False,
+130082,Australia,,1970,1528,True,13
+130502,Australia,,1970,498,False,7
+130642,Australia,,1965,2163,True,19
+130967,Great Britain,,1975,2538,False,25
+131112,Australia,,1970,3198,True,31
+131257,Australia,,1980,2923,False,25
+131372,Australia,,1950,1528,True,13
+131432,Australia,,1965,2653,True,25
+131502,Asia Pacific,,1965,2153,True,19
+131527,,,1975,,False,
+131812,Australia,,1970,3658,True,22
+131862,,,1945,,False,
+131877,Australia,,1970,653,True,7
+132222,Western Europe,Other,1965,3198,True,31
+132232,Australia,,1975,2523,True,25
+132247,Australia,,1960,1998,False,19
+132312,,,1975,,False,
+132927,Australia,,1970,2523,True,25
+132957,Australia,,1965,2853,False,25
+132992,Australia,,1970,2558,True,25
+133032,,,1965,,False,
+133177,,,1965,,False,
+133432,,,1960,,False,
+133557,Australia,,1970,2603,False,25
+133772,South Africa,,1975,2923,False,25
+134287,Australia,,1975,3123,True,31
+134562,,,1980,,False,
+134907,Australia,English,1975,2578,True,25
+135027,Asia Pacific,,1960,528,True,7
+135032,New Zealand,,1970,2298,False,46
+135202,Australia,,1975,2563,True,25
+135457,Western Europe,,1975,3198,False,31
+135472,Australia,,1965,2653,False,25
+135652,Asia Pacific,,1965,2713,True,25
+135662,Australia,,1970,2533,False,25
+135842,Australia,,1970,2553,True,25
+135862,New Zealand,,1975,2053,False,19
+136607,Australia,,1960,2828,False,25
+136802,Australia,,1975,2923,False,25
+136807,Australia,,,3658,False,22
+137272,Australia,,1965,4193,False,58
+137427,Great Britain,,1970,828,True,7
+137507,Australia,,1965,2763,False,25
+137542,Australia,,1965,3508,True,4
+137552,,,1975,,False,
+137642,,,1975,,False,
+137667,Australia,,1965,2553,True,25
+138157,Australia,,1975,653,False,7
+138177,Australia,,1980,1033,True,1
+138547,Australia,,1980,3273,True,31
+138567,Australia,,1980,2883,True,25
+139212,Australia,,1980,2668,False,25
+139532,Australia,,1950,2298,True,46
+139852,,,1965,,False,
+139962,Australia,English,1970,3098,True,31
+140282,Australia,,1955,528,True,7
+140292,Australia,,1940,2728,False,25
+140307,Western Europe,,1965,1033,False,1
+140382,Australia,English,1940,548,False,7
+140397,,,1965,,False,
+140417,Australia,,1965,2668,True,25
+140442,Australia,,1960,2763,True,25
+140592,Australia,,1960,2553,True,25
+140657,Australia,,1980,2553,False,25
+140882,Australia,,1965,3073,False,31
+140997,Australia,,1980,2298,False,46
+141012,Asia Pacific,,1970,2153,True,19
+141182,,,1980,,False,
+141552,,,1945,,False,
+141572,,,1975,,False,
+142182,Australia,,1970,2563,False,25
+142352,Asia Pacific,,1980,2668,False,25
+142457,Australia,,1970,2713,False,25
+143037,Australia,,1960,1038,True,1
+143042,Australia,,1960,1258,False,34
+143357,Asia Pacific,,1965,2728,True,25
+143452,Australia,,1965,2523,True,25
+143802,Australia,,1965,2523,False,25
+143992,Australia,,1970,2163,True,19
+144177,Australia,,1970,2523,True,25
+144267,Australia,,1970,2763,True,25
+144462,Australia,,1965,2578,False,25
+144472,Asia Pacific,,1975,2153,True,19
+144477,Great Britain,English,1965,1033,True,1
+144632,Australia,,1960,2848,False,25
+144652,Australia,,1955,3098,True,31
+144767,Asia Pacific,,1970,1258,True,34
+144787,Australia,,1955,3013,True,31
+145057,Australia,,1965,593,True,7
+145367,Australia,,1965,2548,True,25
+145447,Great Britain,,1970,3198,True,31
+145732,,,1965,,False,
+145857,Eastern Europe,Other,1965,2678,False,25
+145952,Australia,,1950,2523,False,25
+145977,North America,,1970,1623,False,13
+146262,Australia,,1975,2628,False,25
+146697,Great Britain,,1965,1678,True,13
+146827,Australia,,1980,1258,True,34
+146987,Great Britain,English,1965,2853,True,25
+146992,,,1970,,False,
+147222,Australia,,1965,3268,True,31
+147252,Australia,,1955,3268,False,31
+147382,Western Europe,,1970,2253,False,19
+147387,Eastern Europe,,1965,3198,False,31
+147502,Great Britain,English,1970,2253,True,19
+147602,,,1960,,False,
+147677,Australia,,1965,528,False,7
+147697,,,1965,,False,
+147717,Great Britain,,1965,2668,True,25
+147722,Great Britain,,1970,2923,False,25
+147827,North America,,1950,3273,True,31
+147857,Australia,,1975,2678,False,25
+148087,Australia,,1950,2653,False,25
+148102,Australia,,1950,2298,True,46
+148202,Australia,,1960,528,False,7
+148597,The Americas,,1975,3123,True,31
+148677,,,1945,4323,False,25
+148837,North America,,1960,2298,False,46
+148842,Australia,,1965,1663,False,13
+148997,Australia,,1940,2523,False,25
+149052,Australia,,1965,2178,True,19
+149107,Australia,English,1975,2628,False,25
+149327,,,1960,,False,
+149767,Australia,,1975,2828,False,25
+150712,,,1945,,False,
+150877,,,1950,,False,
+151217,Australia,,1945,3508,True,4
+153252,Australia,,1970,3098,False,31
+153637,Australia,,1970,2578,True,25
+156692,Australia,,1970,3268,False,31
+157622,,,1930,,False,
+158617,Australia,,1975,2738,False,25
+159607,The Americas,Other,1955,2553,True,25
+160812,Australia,,1975,2838,False,25
+161817,Australia,,1945,2668,False,25
+161877,,,1970,,False,
+162462,Australia,,1970,3258,True,31
+164012,Australia,,1975,2668,False,25
+164977,Australia,,1960,1663,True,13
+165032,Australia,,1960,653,False,7
+165102,,,1975,,False,
+166802,Australia,,1970,3273,True,31
+168282,Australia,,1970,2778,False,25
+169792,,,1960,,False,
+172812,Australia,,1975,2163,False,19
+174352,,,1945,,False,
+175512,Australia,,1975,3658,False,22
+176127,Australia,,1975,2603,False,25
+178022,Australia,,1975,2523,True,25
+178232,Great Britain,,1945,998,True,1
+246732,Australia,,1970,593,True,7
+246837,North America,,1975,1623,True,13
+246972,Australia,,1950,528,True,7
+247022,North America,,1975,1623,False,13
+247072,,,1960,,False,
+247162,Australia,,1935,2538,False,25
+251482,Australia,,1955,,True,
+251602,,,1965,,False,
+255532,Australia,,1975,2578,True,25
+255582,Australia,English,1975,2163,True,19
+257487,,,1950,,False,
+265752,Australia,,1970,3658,True,22
+265767,Australia,English,1965,653,False,7
+282232,Australia,,1960,2983,False,187
+282422,Australia,English,1965,2778,False,25
+284257,,,1960,,False,
+284367,Australia,,1960,2653,False,25
+289377,Australia,,1975,2603,True,25
+289542,Australia,,1970,2883,True,25
+290727,Australia,English,1950,2298,True,46
+291112,Australia,,1960,1098,False,1
+293502,Australia,,1975,2603,True,25
+294072,Australia,,1975,2628,True,25
+294577,Australia,,1975,1428,True,34
+295532,,,1955,,False,
+296177,Australia,,1955,2518,True,25
+296942,,,1970,,False,
+297087,Australia,,1965,2713,False,25
+297092,Great Britain,,1970,2713,False,25
+297132,Australia,,1975,3098,True,31
+297202,Australia,,1970,2523,True,25
+297392,Middle East and Africa,,1960,998,True,1
+298802,,,1960,,False,
+301257,Australia,,1975,2653,False,25
+301472,Australia,,1950,2533,True,25
+303472,Australia,,1975,2603,True,25
+308552,Australia,,1970,2653,False,25
+308557,Australia,,1975,2538,False,25
+309397,,,1960,,False,
+313392,Australia,,1970,1098,True,1
+313557,Australia,,1975,803,True,7
+314067,,,1960,,False,
+314487,Australia,,1960,2578,True,25
+314557,Australia,,1960,528,False,7
+314962,Australia,,1975,2523,True,25
+315512,Australia,,1960,2763,False,25
+315992,Australia,,1975,,False,
+322007,,,1965,,False,
+322527,Australia,,1975,2538,False,25
+322697,,,1970,,False,
+322847,,,1960,,False,
+323037,Australia,,1970,2713,False,25
+323217,Australia,,1975,2523,False,25
+324457,,,1945,,False,
+325112,Australia,,1975,3268,False,31
+329022,Australia,,1950,2298,True,46
+329757,,,1950,,False,
+330592,Australia,,1965,2553,True,25
+332337,Australia,,1975,2923,False,25
+332512,,,1950,,False,
+333727,Australia,,1965,3658,True,22
+333822,Australia,,1965,2813,False,25
+335372,Australia,,1975,1038,True,1
+335382,Australia,,1955,3123,True,31
+338762,Australia,English,1965,828,True,7
+342122,Australia,,1965,2543,True,25
+343842,Australia,,1975,548,False,7
+348432,Western Europe,,1970,2103,False,19
+348477,Australia,,1970,2893,True,25
+350047,Australia,,1975,2778,True,25
+351122,Australia,,1950,2298,False,46
+352352,Australia,,1955,998,True,1
+353007,Australia,Other,1980,3048,True,31
+357487,Australia,,1970,2828,False,25
+357812,Australia,,1970,2298,True,46
+358382,Australia,,1975,1798,False,118
+358522,Australia,,1950,3658,False,22
+359677,Australia,,1975,3258,False,31
+359897,,,1970,,False,
+360152,,,1965,,False,
+360207,Australia,,1955,2298,True,46
+361647,Australia,,1955,653,True,7
+361922,Australia,,1970,2653,False,25
+366782,Australia,,1975,3123,True,31
+367942,Australia,,1980,2533,True,25
+370587,Australia,,1975,2828,True,25
+372082,Australia,,1980,2578,False,25
+373802,Australia,,1970,,False,
+377057,,,1970,,False,
+378437,Australia,,1970,4388,False,40
+378492,Australia,,1950,1663,True,13
+381032,,,1950,,False,
+381382,Australia,,1955,2923,True,25
+382492,Australia,,1925,2763,False,25
+389577,,,1965,,False,
+393152,Australia,,1940,2298,True,46
+393667,,,1965,,False,
+395462,,,1950,,False,
+395587,Australia,,1960,603,False,7
+396332,Australia,,1965,2813,False,25
+396842,,,1965,,False,
+397212,Australia,,1970,2568,False,25
+397557,Australia,,1960,803,True,7
+397672,Australia,,1965,2628,True,25
+398112,Great Britain,,1975,528,True,7
+399777,,,1950,,False,
+401727,Australia,,1965,1798,False,118
+404712,,,1955,,False,
+405312,Australia,,1965,2883,True,25
+408232,Australia,,1965,1428,True,34
+408527,Australia,,1970,2893,False,25
+412702,Australia,,1970,2538,False,25
+415187,Australia,,1965,2813,False,25
+415357,Australia,,1950,2298,True,46
+416072,Australia,,1940,2813,False,25
+419827,,,1960,,False,
+420282,Australia,,1970,2738,False,25
+420977,,,1965,,False,
+421297,Australia,,1970,2768,False,25
+421337,Australia,,1955,2523,True,25
+423012,Australia,,1955,3763,False,10
+424692,,,1970,,False,
+424987,,,1970,,False,
+427047,Australia,,1945,3048,False,31
+431937,Australia,,1955,3098,True,31
+433377,Australia,,1950,2298,True,46
+436362,Australia,,1965,2163,True,19
+438372,Australia,,1960,2853,False,25
+442782,Australia,,1970,3268,True,31
+443052,Australia,,1970,1098,True,1
+444292,,,1950,,False,
+444932,Asia Pacific,,1970,3028,True,31
+447447,Australia,,1965,653,True,7
+448227,Australia,,1960,2768,False,25
+448982,,,1970,,False,
+449137,Australia,,1970,2538,True,25
+449272,Australia,,1960,2848,True,25
+458187,,,1970,,False,
+475172,Australia,,1955,1098,True,1
+482182,Australia,,1945,653,False,7
+487587,,,1975,,False,
+487812,Western Europe,Other,1965,2163,True,19
+487992,Asia Pacific,,1950,2923,False,25
+488307,,,1900,2893,False,25
+488527,South Africa,,1980,803,False,7
+488677,Australia,,1985,163,False,82
+488762,North America,Other,1970,2538,True,25
+488847,,,1970,,False,
+488852,,,1980,,False,
+488857,Great Britain,,1965,1038,False,1
+488862,Australia,English,1975,1258,False,34
+488942,Asia Pacific,,1975,2558,False,25
+489582,Great Britain,,1975,3048,True,31
+489907,,,1960,2298,False,46
+490032,Australia,,1975,803,False,7
+490262,Western Europe,,1965,2563,False,25
+491012,,,1980,,False,
+491027,,,1900,,False,
+491302,Australia,,1955,1098,True,1
+491307,Australia,,1955,1098,False,1
+491312,Australia,,1960,2563,True,25
+491322,Australia,,1955,1098,False,1
+491327,Australia,,1965,1098,True,1
+491432,Australia,,1980,2653,False,25
+491582,Asia Pacific,,1975,1528,False,13
+491602,Middle East and Africa,,1965,2153,True,19
+491697,,,1965,,False,
+491842,,,1950,,False,
+492057,Asia Pacific,Other,1965,3048,True,31
+492157,Asia Pacific,,1970,4323,False,25
+492162,,,1955,,False,
+492432,,,1960,,False,
+492452,,,1980,,False,
+492632,North America,,1970,1578,True,13
+492967,,,1975,,False,
+492977,Asia Pacific,,1975,2498,False,25
+493292,,,1975,2558,False,25
+493297,Australia,,1965,3098,True,31
+493302,Australia,,1975,2558,True,25
+493317,North America,,1970,3048,True,31
+493407,,,1965,,False,
+493537,Asia Pacific,,1980,2668,True,25
+493657,,,1960,2653,False,25
+493697,Asia Pacific,,1960,2178,True,19
+493767,Australia,,1965,2538,True,25
+493917,,,1970,2713,True,25
+494072,,,1975,,False,
+494247,,,1975,,False,
+494597,,,1960,,False,
+494752,,,1980,2163,False,19
+494852,Australia,,1965,2548,True,25
+495142,Eastern Europe,,1975,2053,False,19
+495207,Great Britain,,1975,803,False,7
+495212,Australia,,1965,2053,False,19
+495257,,,1970,2883,False,25
+495452,Australia,,1975,2763,True,25
+495842,Australia,,1965,2668,True,25
+495867,Australia,,1970,2523,True,25
+495877,,,1970,,False,
+496437,Australia,,1950,528,False,7
+496907,,,1965,2853,False,25
+497242,Australia,,1985,2678,False,25
+497302,Australia,,1965,1428,True,34
+497367,,,1975,,False,
+497457,Asia Pacific,,1975,2728,True,25
+497677,Australia,English,1980,2788,True,25
+497802,,,1955,2538,False,25
+497807,,,1965,,False,
+497897,,,1965,2578,False,25
+497907,Australia,,1970,2578,True,25
+498242,,,1970,,False,
+498317,,,1985,2628,True,25
+498357,,,1970,,False,
+498427,Great Britain,,1970,2668,True,25
+498647,,,1970,,False,
+498922,,,1965,,False,
+498962,,English,1970,2178,True,19
+499392,,,1980,,False,
+499542,,,1980,2053,False,19
+499572,,,1960,,False,
+499667,Western Europe,,1975,1663,True,13
+500007,Asia Pacific,,1975,1623,True,13
+500012,Australia,,1975,1578,True,13
+500027,,English,1975,1528,False,13
+500137,North America,,1975,3198,False,31
+500142,Australia,,1975,3268,True,31
+500157,Australia,English,1970,3258,True,31
+500167,Australia,,1955,2298,True,46
+500177,Australia,,1980,1098,True,1
+500182,,,1970,3198,False,31
+500192,,,1975,2523,False,25
+500197,Asia Pacific,Other,1970,2163,False,19
+500202,,Other,1965,,False,
+500247,Asia Pacific,Other,1970,2878,False,25
+500252,,Other,1965,1528,False,13
+500257,,,1970,2563,True,25
+500267,,,1955,2568,False,25
+500272,,,1970,1623,False,13
+500307,,,1960,3508,False,4
+500332,Asia Pacific,,1970,3508,True,4
+500367,Western Europe,,1965,1258,True,34
+500382,,,1970,3658,True,22
+500387,,,1965,,False,
+500392,,,1975,2578,True,25
+500412,Asia Pacific,Other,1970,3258,False,31
+500417,Australia,,1970,3028,True,31
+500442,Australia,,1955,3658,True,22
+500447,Western Europe,,1955,1678,False,13
+500457,,,1950,2518,False,25
+500462,,,1975,,False,
+500467,,,1975,,False,
+500472,Western Europe,,1970,1623,True,13
+510252,Australia,,1970,528,False,7
+529197,Australia,,1980,2533,False,25
+573352,,Other,1965,1038,False,1
+574367,Great Britain,,1960,2568,True,25
+575052,,,1965,3943,True,31
+575977,Australia,,1960,3048,True,31
+578662,Australia,,1980,2768,True,25
+581032,Australia,,1970,998,False,1
+582352,,,1970,1098,False,1
+584022,Australia,,1955,998,True,1
+585767,Australia,,1975,3028,True,31
+585877,Western Europe,,1975,1038,True,1
+585892,,,1975,2628,True,25
+586442,Western Europe,Other,1970,593,True,7
+586967,Eastern Europe,English,1970,653,False,7
+588387,,,1970,1098,True,1
+588487,Asia Pacific,,1965,653,False,7
+588877,,,1970,,False,
+589517,,,1950,,False,
+589572,,,1975,2678,False,25
+592577,,,1975,2558,False,25
+592662,,,1970,2813,False,25
+592977,,,1970,,False,
+593217,Australia,,1970,3658,True,22
+593492,,,1970,2538,True,25
+594827,Great Britain,,1975,2653,False,25
+594857,New Zealand,,1975,2603,True,25
+595507,,,1975,2768,False,25
+595547,,,1965,2768,False,25
+595642,,,1975,2603,False,25
+595677,South Africa,,1960,803,True,7
+595792,,,1975,3198,False,31
+597367,,,1980,,False,
+597827,Australia,,1965,3098,True,31
+599267,Australia,,1970,1578,True,13
+599277,Western Europe,,1975,1578,True,13
+602087,Australia,,1975,3258,False,31
+602687,,,1950,4418,False,25
+604692,,,1975,2178,False,19
+605207,Great Britain,,1940,2298,False,46
+605792,,,1980,653,False,7
+606322,,,1975,,False,
+606707,,,1980,2653,False,25
+607067,Asia Pacific,,1980,2893,True,25
+607102,Asia Pacific,,1975,3048,False,31
+608447,,,1965,2178,False,19
+610622,,,1975,2668,True,25
+610882,,,1975,2973,False,25
+612292,,,1950,3258,False,31
+612312,,,1980,,False,
+613297,Australia,,1975,3123,True,31
+613502,,,1955,653,False,7
+614142,,,1980,2578,False,25
+615302,,,1950,,False,
+615307,Australia,,1950,2768,False,25
+615312,Australia,,1975,2533,True,25
+620592,Asia Pacific,,1980,2163,True,19
+620807,North America,,1965,653,True,7
+621897,,,1950,,False,
+621987,,,1980,2538,False,25
+622587,Australia,,1980,2533,False,25
+623052,,,1980,2578,False,25
+624727,,,1975,2828,False,25
+624732,,,1975,,False,
+624752,,,1970,,False,
+625312,,,1975,,False,
+625537,,,1950,2523,True,25
+626187,Western Europe,,1980,1678,True,13
+626397,,,1980,2668,False,25
+631447,,,1970,2838,False,25
+633387,,,1960,,False,
+633697,,,1975,,False,
+633777,,,1980,3198,False,31
+636082,,,1970,2948,False,25
+636257,,,1980,2678,False,25
+636347,,,1975,3028,False,31
+636677,Australia,,1980,2768,True,25
+636757,Australia,,1975,2578,True,25
+636867,Australia,,1950,3268,True,31
+636917,,,1960,,False,
+636972,,,1960,,False,
+637272,,,1960,,False,
+637532,,,1975,3268,False,31
+638122,,,1970,4193,False,58
+639457,,,1975,3048,False,31
+639557,North America,,1960,803,True,7
+640757,,,1950,,False,
+641012,,,1975,2853,False,25
+641022,Australia,,1975,2763,True,25
+641707,,,1980,3658,False,22
+642632,,,1975,,False,
+643862,Australia,,1980,1258,True,34
+644562,Great Britain,,1980,3048,False,31
+646977,Great Britain,,1980,2563,False,25
+649042,Australia,,1975,2523,True,25
+650672,,,1955,3098,False,31
+651607,Australia,,1980,2653,True,25
+651722,,,1970,,False,
+651957,,,1970,3073,False,31
+652257,Australia,,1975,2713,True,25
+652292,,,1970,,False,
+653802,,,1980,,False,
+655457,Australia,,1970,2628,True,25
+655622,Asia Pacific,,1975,1038,True,1
+656157,Eastern Europe,Other,1945,1258,True,34
+656542,,,1970,,False,
+656912,,,1955,,False,
+657727,,,1955,3268,False,31
+657802,,,1975,4323,True,25
+658177,,,1980,,False,
+659387,North America,,1950,2548,True,25
+659392,,,1965,3028,False,31
+659757,Australia,,1960,2668,True,25
+662597,Great Britain,,1970,1578,True,13
+663197,,,1955,2813,False,25
+663347,North America,,1955,2253,True,19
+663742,Western Europe,,1975,2763,True,25
+664052,,,1970,3198,False,31
+664057,Western Europe,,1975,2628,True,25
+665642,Western Europe,,1960,1258,True,34
+667512,,,1975,2053,False,19
+668387,Western Europe,Other,1975,3073,False,31
+669942,Australia,,1975,1678,False,13
+670332,,,1980,,False,
+671847,,,1945,,False,
+672142,,,1965,2763,False,25
+675142,,,1965,,False,
+675742,,,1970,2558,False,25
+679242,,,1975,2053,False,19
+679342,,,1975,,False,
+680542,,,1960,,False,
+680642,,,1980,,False,
+681742,Asia Pacific,Other,1970,2153,True,19
+682242,,,1955,,False,
+682342,,,1960,2103,False,19
+682967,,,1960,,False,
+683352,,,1960,,False,
+683547,,,1945,1038,False,1
+683982,Asia Pacific,,1965,2923,True,25
+684937,,,1980,,False,
+685327,,,1970,,False,
+685762,South Africa,,1970,3508,True,4
+686272,,,1975,2163,False,19
+686402,,,1975,,False,
+686852,,,1970,,False,
+687442,Australia,,1975,1258,True,34
+687747,Australia,,1955,3658,True,22
+688372,,,1975,3098,False,31
+688972,Australia,,1980,2053,True,19
+689337,,,1975,2553,False,25
+690307,Great Britain,,1980,2053,True,19
+691177,Australia,,1970,2523,True,25
+692407,,,1960,2568,False,25
+693892,The Americas,,1945,803,True,7
+694317,,,1980,,False,
+694747,,,1960,2538,True,25
+696062,,,1980,2763,False,25
+696127,,,1975,,False,
+696492,,,1975,2653,False,25
+697707,Western Europe,,1970,593,True,7
+697842,,,1975,2828,False,25
+698007,,,1940,2523,True,25
+698627,,,1955,,False,
+699007,,,1980,,False,
+699612,,,1965,2653,False,25
+700027,Great Britain,,1970,998,True,1
+700037,Asia Pacific,,1975,1578,True,13
+700267,,,1970,2628,False,25
+701397,Middle East and Africa,,1975,2853,False,25
+701802,Australia,,1975,3268,True,31
+703057,Australia,,1965,,True,
+703262,Asia Pacific,,1965,1528,False,13
+704062,Australia,,1945,828,True,7
+705382,Australia,,1975,3268,True,31
+705672,,,1975,2103,True,19
+708427,,,1985,2578,True,25
+708537,,,1965,,False,
+709877,,Other,1965,,False,
+710372,,,1975,2558,False,25
+711192,,,1970,,False,
+711207,,,1970,,False,
+712012,Middle East and Africa,,1955,803,True,7
+712437,Asia Pacific,,1965,2103,True,19
+713112,,,1975,2578,False,25
+713202,,,1970,,False,
+713237,Great Britain,,1980,2523,True,25
+713417,,,1955,,False,
+714027,,,1975,,False,
+714712,Asia Pacific,,1970,2923,True,25
+714827,,,1980,,False,
+715307,,,1965,,False,
+716572,,,1980,,False,
+717402,Asia Pacific,,1980,2163,True,19
+717907,,,1980,2153,True,19
+717912,,,1975,2153,False,19
+718327,,,1985,,False,
+718607,The Americas,Other,1975,2103,True,19
+719232,,,1965,,False,
+719312,North America,,1965,803,True,7
+719882,,,1970,,False,
+720017,,,1960,2653,False,25
+720162,Australia,,1980,2768,True,25
+720202,Australia,,1945,2298,False,46
+720302,,,1980,,False,
+720822,New Zealand,,1970,2533,True,25
+722802,Asia Pacific,,1965,3098,True,31
+722852,,,1975,,False,
+723132,,,1975,2628,False,25
+723197,,,1980,3098,False,31
+723252,,,1985,2603,False,25
+724202,,,1980,2578,False,25
+724502,,,1960,,False,
+725172,,,1970,,False,
+726557,,,1980,1258,True,34
+726582,,,1980,1258,False,34
+726602,,,1970,2523,False,25
+726807,,,1965,2538,False,25
+726872,,,1950,653,False,7
+727002,,,1970,3048,False,31
+727732,,,1960,2603,False,25
+728002,,,1975,2653,False,25
+729002,Asia Pacific,,1975,2053,True,19
+729307,,,1975,,False,
+730052,,,1965,,False,
+730082,,,1975,3198,False,31
+730092,,,1975,2653,False,25
+730127,Australia,,1980,2678,False,25
+730217,,,1970,,False,
+730227,,,1975,,False,
+730232,,,1970,2853,False,25
+730412,Western Europe,,1975,2628,False,25
+730822,Asia Pacific,,1970,3508,True,4
+730882,,,1970,2763,False,25
+731667,,,1975,3508,False,4
+732262,,,1975,2153,False,19
+732332,,,1975,1428,False,34
+733102,Australia,,1965,3098,True,31
+733502,,,1975,1578,True,13
+733647,,,1985,,False,
+733922,,,1965,3073,False,31
+734192,,,1985,1258,False,34
+734322,,,1965,2603,False,25
+734762,,,1975,,False,
+735097,Asia Pacific,,1970,2178,True,19
+735257,Australia,,1960,,True,
+735967,Western Europe,,1965,2713,True,25
+736497,,,1975,2538,False,25
+736707,,,1975,,False,
+737247,,,1975,2763,False,25
+738222,,,1975,2523,True,25
+739412,,,1970,,False,
+741312,Australia,,1950,2813,True,25
+741512,,,1975,,False,
+741582,Great Britain,,1975,2763,True,25
+741847,Australia,,1975,2653,False,25
+742402,,,1975,3268,False,31
+744352,The Americas,Other,1975,2103,False,19
+744457,,,1980,,False,
+744787,,,1975,828,False,7
+744982,Western Europe,,1980,1578,True,13
+745187,,,1960,,False,
+746152,Australia,,1950,3098,True,31
+747267,,,1965,2773,False,25
+748317,,,1970,,False,
+748607,,,1975,2813,False,25
+748657,Western Europe,,1970,3198,True,31
+748777,,,1975,2713,False,25
+749057,,,1970,,False,
+749572,Australia,,1975,2178,True,19
+750412,,,1985,,False,
+750777,,,1975,2973,False,25
+752162,Australia,,1960,2298,True,46
+753897,Australia,,1965,3508,True,4
+754057,,,1980,4108,False,187
+754067,,,1975,1098,False,1
+754097,,,1980,,False,
+754347,,,1965,2523,False,25
+754697,,,1975,,False,
+755517,Western Europe,Other,1975,2538,True,25
+755897,,,1970,,False,
+758317,,,1975,,False,
+761812,,,1980,2768,False,25
+763997,Middle East and Africa,,1970,3508,True,4
+764597,,,1965,,True,
+765297,,,1980,,False,
+765697,,,1980,3273,True,31
+766222,Australia,,1955,978,True,25
+767547,,,1975,,False,
+770507,,,1945,2813,False,25
+771797,Great Britain,,1980,2653,True,25
+772017,,,1980,2563,True,25
+772127,Western Europe,,1975,3098,False,31
+772197,,,1975,,False,
+772497,North America,English,1970,4363,False,187
+774407,,,1960,528,True,7
+774572,,,1970,548,True,7
+775402,Western Europe,,1975,653,True,7
+775597,Australia,,1975,,True,
+776122,,,1975,2163,False,19
+777602,,,1955,1798,False,118
+778202,,,1985,,False,
+778532,,,1945,,False,
+778842,Asia Pacific,,1975,,True,
+779002,,,1970,,False,
+779197,Western Europe,,1955,,True,
+779697,Great Britain,,1965,2878,True,25
+780002,,,1970,2768,False,25
+780507,Asia Pacific,,1975,3048,True,31
+781517,,,1960,1623,False,13
+782002,Western Europe,Other,1965,,True,
+782987,,,1960,2298,False,46
+783297,,,1975,2538,False,25
+783507,,,1950,,False,
+786207,,,1975,2728,False,25
+786382,Australia,,1980,,False,
+786512,,,1950,2103,False,19
+786607,Australia,,1955,,True,
+787857,,,1980,,False,
+789507,,,1955,1578,True,13
+789907,,,1950,,False,
+790507,Australia,,1970,2923,False,25
+791107,Western Europe,,1965,,True,
+791507,Australia,,1980,2768,True,25
+793007,,,1970,2738,False,25
+793522,,,1960,2653,False,25
+796792,,,1955,,False,
+798752,,,1985,3248,False,31
+799007,,,1950,498,False,7
+801752,,,1965,2653,False,25
+802167,,,1975,2603,False,25
+802857,Eastern Europe,,1965,3198,False,31
+803052,,,1970,2653,False,25
+803057,,,1970,2653,False,25
+804952,Australia,,1960,2533,True,25
+805252,,,1975,4323,False,25
+805262,,,1965,2778,False,25
+805682,,,1970,2498,False,25
+806407,,,1965,,False,
+807667,,,1965,2523,False,25
+808267,Australia,,1975,2178,False,19
+808557,,,1980,3198,True,31
+809562,,,1975,,False,
+809657,,,1975,2728,True,25
+809672,Great Britain,,1965,3268,True,31
+809862,,,1975,2773,False,25
+810057,,,1965,1428,False,34
+810157,Australia,,1980,1258,False,34
+811982,,,1960,,False,
+812817,,,1970,2763,False,25
+813567,,,1970,2533,True,25
+817367,,,1980,3943,True,31
+820082,,,1960,1038,False,1
+821067,,,1945,,False,
+827967,,,1975,593,False,7
+828772,,,1950,,False,
+831467,,,1960,,False,
+836667,,,1975,2568,False,25
+846267,,,,4388,False,40
+846567,,,1950,,False,
+852267,Asia Pacific,,1955,2523,True,25
+852692,Australia,,1975,,True,
+860357,Great Britain,,1970,1258,True,34
+862167,,,1970,653,False,7
+862277,,,1945,,False,
+862297,North America,,1960,3773,False,10
+863567,,,1945,3703,False,10
+863682,,,1960,,False,
+865067,Australia,,1975,2813,True,25
+865267,,,1970,2253,False,19
+866967,Asia Pacific,,1975,2163,False,19
+867367,Australia,,1980,2163,True,19
+867827,Australia,,1960,2813,True,25
+868647,,,1965,,False,
+868722,Australia,,1965,,True,
+869167,Australia,,1985,2763,False,25
+869497,Asia Pacific,,1975,2628,True,25
+869977,,,1980,2153,False,19
+870077,Australia,,1980,3508,True,4
+870747,,,1980,,False,
+870822,Australia,,1955,3048,True,31
+871907,,,1975,2538,False,25
+872417,,,1955,,False,
+872667,,,1965,,False,
+873537,,,1955,,False,
+873877,,,1970,653,True,7
+874047,,,1980,2778,False,25
+874207,Great Britain,,1950,998,True,1
+874432,,,1955,3748,False,
+874437,Great Britain,,1960,2878,True,25
+874467,,,1945,3198,False,31
+874497,Western Europe,,1975,803,False,7
+874882,Asia Pacific,,1970,2878,False,25
+875187,Asia Pacific,,1975,2163,False,19
+875782,,,1975,2878,False,25
+876222,Asia Pacific,,1955,3508,True,4
+876787,,,1970,,False,
+877377,,,1975,3198,False,31
+877532,,,1975,2163,False,19
+877652,,,1980,,False,
+877722,,,1975,,False,
+878457,,,1960,,False,
+878652,,,1975,2298,False,46
+879907,,,1970,,False,
+880477,,,1950,2983,False,187
+880687,Western Europe,,1975,1428,True,34
+881807,Asia Pacific,,1980,2768,True,25
+882167,,,1965,2538,True,25
+882242,,,1980,2628,True,25
+882472,Eastern Europe,,1970,1098,True,1
+882497,North America,,1975,2563,False,25
+882662,Asia Pacific,,1975,3048,True,31
+882767,Australia,,1975,2773,True,25
+884272,,,1965,803,False,7
+884287,,,1930,,False,
+884547,Western Europe,,1970,2603,False,25
+884582,,,1975,2713,False,25
+884597,,,1975,2738,False,25
+884667,,,1980,2653,False,25
+885372,,,1975,2768,True,25
+885632,Australia,,1960,3198,False,31
+885652,Great Britain,,1965,603,True,7
+885657,Australia,,1975,2523,False,25
+886567,,,1970,,False,
+886577,,,1970,,False,
+887022,,,1955,,False,
+887177,,,1975,2763,False,25
+887317,,,1970,1033,True,1
+887552,New Zealand,,1960,2298,True,46
+887717,,,1960,2653,False,25
+887872,,,1975,148,False,64
+888547,,,1945,,False,
+888622,,,1980,,False,
+888697,Great Britain,,1975,2678,True,25
+888932,Australia,,1980,2628,True,25
+889127,,,1970,3258,True,31
+889197,Great Britain,,1975,2713,True,25
+889232,,,1975,2668,False,25
+889357,,,1940,,False,
+889947,Western Europe,,1965,803,True,7
+890212,,,1945,,False,
+890227,,,1980,2763,False,25
+890232,,,1960,,False,
+891702,,,1970,,False,
+892917,,,1955,,False,
+892942,,,1970,4388,False,40
+893852,Asia Pacific,,1970,2813,True,25
+895287,,,1965,2533,False,25
+895572,Western Europe,,1975,,True,
+895677,Australia,,1955,2548,True,25
+896177,,,1970,4388,False,40
+896367,,,1975,2578,False,25
+896767,Eastern Europe,,1975,,True,
+897272,Australia,,1980,2558,True,25
+899982,,,1965,2523,False,25
+902867,,,1950,2563,False,25
+903487,,,1965,1033,False,1
+903612,,,1955,,False,
+904237,Western Europe,,1980,2553,True,25
+904322,,,1975,,False,
+905277,,,1975,2163,False,19
+905317,,,1960,528,False,7
+905332,,,1965,,False,
+906517,Australia,,1970,3028,False,31
+906612,Asia Pacific,,1975,2603,True,25
+906962,,,1975,,False,
+907227,,,1970,2533,False,25
+907352,Australia,,1955,2853,True,25
+908767,,,1980,,False,
+908882,Australia,,1975,2538,False,25
+909427,The Americas,,1980,3258,False,31
+909457,Asia Pacific,,1980,2153,True,19
+909497,,,1970,,False,
+910377,North America,,1980,1038,False,1
+910772,Australia,,1970,2603,True,25
+911017,,,1980,3268,False,31
+911422,Australia,,1960,2893,True,25
+911522,,,1960,,False,
+911632,,,1965,4388,False,40
+915007,,,1955,2828,False,25
+915117,,,1965,2768,False,25
+915122,,,1980,2538,False,25
+916022,Australia,,1975,2298,True,46
+916732,,,1970,3713,False,10
+917012,Australia,,1975,2678,True,25
+917022,,,1970,,False,
+918527,,,1960,,False,
+918577,,,1960,3198,False,31
+918922,Australia,,1975,2923,True,25
+920707,,,1980,,False,
+922527,,,1970,,False,
+923187,Australia,,1980,2678,True,25
+924722,North America,,1965,3098,True,31
+924737,Great Britain,,1980,2923,True,25
+925237,Australia,,1965,,True,
+926102,,,1980,2163,True,19
+926112,Western Europe,Other,1975,3268,False,31
+926642,Australia,,1975,3508,True,4
+926807,Great Britain,,1980,2628,True,25
+928167,,,1975,2538,False,25
+929972,Australia,,1980,2603,True,25
+929987,Australia,,1980,2628,True,25
+930017,Australia,,1980,,True,
+931262,,,1965,,False,
+932342,,,1980,,False,
+932617,Australia,,1980,3028,True,31
+933712,Great Britain,,1965,2533,True,25
+933782,Australia,,1980,2523,True,25
+935152,New Zealand,,1970,,True,
+935157,North America,,1975,2558,True,25
+935162,Australia,,1965,,True,
+936352,,,1980,2628,True,25
+936477,,,1970,3268,True,31
+936677,,,1960,2568,False,25
+936732,Western Europe,,1980,2678,True,25
+937957,Australia,,1975,2523,True,25
+938657,,,1980,2163,False,19
+938787,Asia Pacific,,1970,2603,True,25
+938937,Asia Pacific,,1970,2813,True,25
+938947,,,1975,,False,
+939352,,,1985,2678,False,25
+939842,,,1980,2768,False,25
+939847,,,1980,,False,
+939897,North America,,1960,1578,True,13
+939927,,,1970,,False,
+939957,,,1975,,False,
+939962,Australia,,1980,2523,True,25
+939972,Australia,,1965,2523,True,25
+939977,,,1980,2523,False,25
+940427,Eastern Europe,,1975,1258,False,34
+940752,,,1975,,False,
+941027,Australia,,1960,1033,True,1
+941662,Asia Pacific,,1975,2178,True,19
+942582,,,1970,,False,
+943187,Australia,,1975,2178,False,19
+944432,,,1970,,False,
+945297,Australia,,1970,2778,True,25
+945322,,,1980,,False,
+945737,Asia Pacific,,1965,2178,True,19
+946327,Great Britain,,1975,3268,True,31
+946822,,,1975,2738,False,25
+947177,Australia,,1975,2523,True,25
+947522,Australia,,1970,,True,
+948642,,,1975,2653,False,25
+949857,,,1945,,False,7
+949947,Australia,,1980,2558,False,25
+950172,,,1975,,False,
+951382,Australia,,1970,998,True,1
+951387,,,1980,,False,
+952307,Asia Pacific,,1965,2923,True,25
+952387,,,1980,,False,
+952677,Asia Pacific,,1975,,True,
+953102,,,1975,2653,False,25
+953157,,,1970,3048,False,31
+953267,Eastern Europe,,1980,3048,True,31
+955762,,,1960,,False,
+956167,,,1960,,False,
+958232,Australia,,1980,2923,False,25
+959322,,,1980,,False,
+961012,,,1965,,False,
+961562,Australia,,1975,828,True,7
+961672,Australia,,1975,,True,
+962812,Australia,,1975,2523,True,25
+963382,,,1960,2653,False,25
+964402,,,1965,2813,False,25
+964507,,,1960,2553,False,25
+964887,,,1975,2853,False,25
+964907,,,1970,,False,
+964927,,,1980,2538,True,25
+965097,,,1965,2523,False,25
+965597,,,1960,,False,
+966197,,,1980,2538,False,25
+966272,Western Europe,,1975,2603,True,25
+966987,,,1975,2558,False,25
+968397,,,1945,,False,
+969282,North America,,1975,,True,
+969652,Australia,,1965,3198,True,31
+970852,Asia Pacific,,1980,2893,True,25
+971367,,,1970,2763,False,25
+972587,Australia,,1965,2518,True,25
+972887,Asia Pacific,,1965,,True,
+973292,,,1950,4418,False,25
+974507,Asia Pacific,,1970,3123,True,31
+974617,Australia,,1955,2813,True,25
+974687,,,1975,2603,True,25
+974802,,,1980,2538,True,25
+975057,Eastern Europe,,1970,2568,True,25
+975127,Eastern Europe,,1960,2668,True,25
+975357,,,1970,,False,
+975592,,,1970,,False,
+975932,,,1970,2563,False,25
+975942,,,1965,1038,True,1
+976532,Australia,,1980,3198,True,31
+976792,,,1970,2523,False,25
+978292,,,1975,2538,False,25
+979017,Asia Pacific,,1960,3048,False,31
+979487,Western Europe,,1980,2163,False,19
+979492,,,1975,2538,True,25
+979832,,,1980,2653,False,25
+980782,Australia,,1975,2498,True,25
+980882,,,1975,653,False,7
+982227,,,1980,,False,
+982407,,,1980,2603,True,25
+982527,,,1975,2538,False,25
+984172,,,1980,2973,True,25
+984297,Eastern Europe,,1975,,True,
+984847,,,1945,2498,False,25
+985937,,,1980,,False,
+986387,North America,,1965,978,True,25
+987177,,,1980,,False,
+988037,Western Europe,,1975,,True,
+988842,,,1975,2543,True,25
+989547,,,1985,3268,False,31
+991332,Asia Pacific,,1980,2713,True,25
+994522,Western Europe,,1975,2763,True,25
+995842,Australia,,1960,1528,True,13
+996502,,,1960,,False,
+996927,,,1985,,False,
+1000537,Australia,,1975,2603,False,25
+1004967,,,1975,2853,False,25
+1010967,,,1955,2298,True,46
+1012447,Australia,,1980,,True,
+1014667,,,1955,,False,
+1014887,,,1980,2653,False,25
+1015467,,,1980,3123,True,31
+1017577,Middle East and Africa,,1975,2153,True,19
+1020337,,,1975,2628,True,25
+1021492,,,1975,,False,
+1021497,Australia,,1975,2923,False,25
+1034167,,,1980,653,False,7
+1048967,,,1960,,False,
+1055367,,,1965,2768,True,25
+1056867,,,1980,2563,True,25
+1081067,,,1970,2653,False,25
+1088247,Australia,,1960,,True,
+1090867,,,1980,2853,False,25
+1091272,,,1975,2828,False,25
+1091367,,,1980,2498,False,25
+1092302,,,1980,,False,
+1102067,,,1970,,False,
+1104172,,,1980,,False,
+1106562,,,1960,3268,False,31
+1116672,Western Europe,,1965,,True,
+1121672,Australia,,1955,1038,True,1
+1123067,,,1980,3048,True,31
+1124482,,,1975,3198,False,31
+1125367,,,1980,,False,
+1125477,,,1960,4153,False,64
+1136582,,,1975,2498,False,25
+1142167,Great Britain,,1960,1258,False,34
+1145967,Australia,,1965,2628,True,25
+1160867,,,1970,,False,
+1162272,,,1975,2653,False,25
+1166667,,,1975,2538,False,25
+1168067,Australia,,1965,2628,True,25
+1169867,,,1980,,True,
+1176867,,,1975,2053,True,19
+1177867,,,1950,,False,
+1178292,Australia,,1980,3198,True,31
+1178772,Australia,,1965,1258,True,34
+1183177,Great Britain,,1950,2298,True,46
+1184687,,,1975,2788,False,25
+1203687,,,1975,2498,False,25
+1203767,,,1970,2538,False,25
+1206867,,,1955,,False,
+1208567,,,1950,,False,
+1212282,,,1975,3268,False,31
+1214882,North America,,1975,,True,
+1231967,,,1970,2628,False,25
+1241067,,,1975,2738,False,25
+1252262,,,1980,,False,
+1281367,,,1975,2788,False,25
+1287667,,,1980,2653,False,25
+1339007,,,1980,2538,False,25
+1342547,,,1975,2763,False,25
+1345097,,,1960,2768,False,25
+1353992,,,1950,,False,
+1368692,,,1900,2853,False,25
+1370792,,,1980,,True,
+1372392,,,1970,2923,True,25
+1387892,,,1955,,False,
+1392192,,,1965,,False,
+1417182,,,1980,,False,
+1419297,,,1980,,False,
+1420402,,,1975,,False,
+1426367,,,1945,,False,
+1438902,,,1975,,False,
+1474097,,,1975,2628,False,25
+1649397,,,1960,2298,False,46
+1704512,,,1960,2893,True,25
+1709127,,,1975,3708,True,10
