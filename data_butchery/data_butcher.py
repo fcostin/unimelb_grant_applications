@@ -49,10 +49,11 @@ def parse_date(s):
     # transform dd/mm/yyyy into some number of days since origin date, return
     # integer
     try:
-        x = datetime.datetime.strptime(s.strip(), '%d/%m/%Y')
+        x = datetime.datetime.strptime(s.strip(), '%d/%m/%y').toordinal()
+        print 'parsed me a date: %d' % x
+        return x # return number of days since jan 1st year 0001
     except ValueError:
         return None
-    return x.toordinal() # return number of days since jan 1st year 0001
 
 def parse_sparse_logical(s):
     s = s.strip()
@@ -328,6 +329,33 @@ def write_cols_to_csv_file(cols, csv_file, row_id_name):
             print 'writing row %d' % i
         writer.writerow(make_row(i))
 
+
+
+def extract_people_cols(cols):
+    max_people = 15
+    people_cols = {}
+    col_names = (
+        'Person.ID.%d',
+        'Role.%d',
+        'Year.of.Birth.%d',
+        'Country.of.Birth.%d',
+        'Home.Language.%d',
+        'Dept.No..%d',
+        'Faculty.No..%d',
+        'With.PHD.%d',
+        'No..of.Years.in.Uni.at.Time.of.Grant.%d',
+        'Number.of.Successful.Grant.%d',
+        'Number.of.Unsuccessful.Grant.%d',
+        'A..%d',
+        'A.%d',
+        'B.%d',
+        'C.%d',
+    )
+    for i in xrange(1, max_people + 1):
+        for name in col_names:
+            people_cols[name % i] = cols[name % i]
+    return people_cols
+
 def main():
     # read cols (no conversion is done here, cols are stored as lists of
     # strings)
@@ -372,6 +400,13 @@ def main():
     # add cols for 'team' statistics of grant application wins/fails
     add_cols_with_team_statistics(cols, fmts)
 
+    # extract people and save em to file
+    people_cols = extract_people_cols(cols)
+    import pickle
+    people_file = open('people.pickle', 'wb+')
+    pickle.dump(people_cols, people_file)
+
+
     # delete any columns of type id
     for col_name in fmts:
         dtype, vartype = fmts[col_name]
@@ -394,6 +429,7 @@ def main():
         'number' : 'NUM',
         'factor' : 'FAC',
         'row_id' : 'KEY',
+        'id' : 'KEY',
     }
 
     renamed_cols = {}
