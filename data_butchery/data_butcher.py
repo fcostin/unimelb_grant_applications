@@ -406,6 +406,9 @@ def main():
     people_file = open('people.pickle', 'wb+')
     pickle.dump(people_cols, people_file)
 
+    # hell, extract em all!
+    cols_file = open('cols.pickle', 'wb+')
+    pickle.dump(cols, cols_file)
 
     # delete any columns of type id
     for col_name in fmts:

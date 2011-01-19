@@ -1,0 +1,225 @@
+digraph G_component_4 {
+	graph [bgcolor="#808080", size="20,20"];
+	node [height="0.1",
+		style=filled,
+		width="0.1",
+		height="0.1",
+		label="",
+	];
+	edge [dir=none, len=3];
+	P_10592	 [color="#000000",
+		shape=circle];
+	G_509	 [color="#00ff00",
+		shape=diamond];
+	P_10592 -> G_509;
+	G_816	 [color="#00ff00",
+		shape=diamond];
+	P_10592 -> G_816;
+	G_2884	 [color="#00ff00",
+		shape=diamond];
+	P_10592 -> G_2884;
+	G_3152	 [color="#00ff00",
+		shape=diamond];
+	P_10592 -> G_3152;
+	G_4327	 [color="#00ff00",
+		shape=diamond];
+	P_10592 -> G_4327;
+	G_4455	 [color="#00ff00",
+		shape=diamond];
+	P_10592 -> G_4455;
+	G_4456	 [color="#00ff00",
+		shape=diamond];
+	P_10592 -> G_4456;
+	G_4459	 [color="#00ff00",
+		shape=diamond];
+	P_10592 -> G_4459;
+	G_4491	 [color="#00ff00",
+		shape=diamond];
+	P_10592 -> G_4491;
+	G_5982	 [color="#00ff00",
+		shape=diamond];
+	P_10592 -> G_5982;
+	G_6552	 [color="#00ff00",
+		shape=diamond];
+	P_10592 -> G_6552;
+	G_6553	 [color="#00ff00",
+		shape=diamond];
+	P_10592 -> G_6553;
+	G_6667	 [color="#00ff00",
+		shape=diamond];
+	P_10592 -> G_6667;
+	G_8490	 [color="#00ff00",
+		shape=diamond];
+	P_10592 -> G_8490;
+	G_8492	 [color="#00ff00",
+		shape=diamond];
+	P_10592 -> G_8492;
+	G_241	 [color="#ff0000",
+		shape=diamond];
+	P_10592 -> G_241;
+	G_595	 [color="#ff0000",
+		shape=diamond];
+	P_10592 -> G_595;
+	G_3731	 [color="#ff0000",
+		shape=diamond];
+	P_10592 -> G_3731;
+	G_6120	 [color="#ff0000",
+		shape=diamond];
+	P_10592 -> G_6120;
+	G_8369	 [color="#ff0000",
+		shape=diamond];
+	P_10592 -> G_8369;
+	P_46132	 [color="#000000",
+		shape=circle];
+	G_430	 [color="#00ff00",
+		shape=diamond];
+	P_46132 -> G_430;
+	G_888	 [color="#00ff00",
+		shape=diamond];
+	P_46132 -> G_888;
+	G_972	 [color="#00ff00",
+		shape=diamond];
+	P_46132 -> G_972;
+	G_1329	 [color="#00ff00",
+		shape=diamond];
+	P_46132 -> G_1329;
+	G_3025	 [color="#00ff00",
+		shape=diamond];
+	P_46132 -> G_3025;
+	G_3657	 [color="#00ff00",
+		shape=diamond];
+	P_46132 -> G_3657;
+	G_3698	 [color="#00ff00",
+		shape=diamond];
+	P_46132 -> G_3698;
+	G_4204	 [color="#00ff00",
+		shape=diamond];
+	P_46132 -> G_4204;
+	G_4891	 [color="#00ff00",
+		shape=diamond];
+	P_46132 -> G_4891;
+	G_4895	 [color="#00ff00",
+		shape=diamond];
+	P_46132 -> G_4895;
+	G_6529	 [color="#00ff00",
+		shape=diamond];
+	P_46132 -> G_6529;
+	G_6533	 [color="#00ff00",
+		shape=diamond];
+	P_46132 -> G_6533;
+	G_6534	 [color="#00ff00",
+		shape=diamond];
+	P_46132 -> G_6534;
+	G_7159	 [color="#00ff00",
+		shape=diamond];
+	P_46132 -> G_7159;
+	G_8527	 [color="#00ff00",
+		shape=diamond];
+	P_46132 -> G_8527;
+	G_8686	 [color="#00ff00",
+		shape=diamond];
+	P_46132 -> G_8686;
+	G_225	 [color="#ff0000",
+		shape=diamond];
+	P_46132 -> G_225;
+	G_725	 [color="#ff0000",
+		shape=diamond];
+	P_46132 -> G_725;
+	G_1080	 [color="#ff0000",
+		shape=diamond];
+	P_46132 -> G_1080;
+	G_3269	 [color="#ff0000",
+		shape=diamond];
+	P_46132 -> G_3269;
+	G_3927	 [color="#ff0000",
+		shape=diamond];
+	P_46132 -> G_3927;
+	G_4798	 [color="#ff0000",
+		shape=diamond];
+	P_46132 -> G_4798;
+	G_4896	 [color="#ff0000",
+		shape=diamond];
+	P_46132 -> G_4896;
+	G_4900	 [color="#ff0000",
+		shape=diamond];
+	P_46132 -> G_4900;
+	G_4901	 [color="#ff0000",
+		shape=diamond];
+	P_46132 -> G_4901;
+	G_6145	 [color="#ff0000",
+		shape=diamond];
+	P_46132 -> G_6145;
+	G_7229	 [color="#ff0000",
+		shape=diamond];
+	P_46132 -> G_7229;
+	G_8375	 [color="#ff0000",
+		shape=diamond];
+	P_46132 -> G_8375;
+	P_68377	 [color="#000000",
+		shape=circle];
+	P_68377 -> G_430;
+	P_68377 -> G_509;
+	P_68377 -> G_816;
+	P_68377 -> G_888;
+	P_68377 -> G_4204;
+	P_68377 -> G_4327;
+	P_68377 -> G_4455;
+	P_68377 -> G_4456;
+	P_68377 -> G_4459;
+	P_68377 -> G_4491;
+	P_68377 -> G_6529;
+	P_68377 -> G_6533;
+	P_68377 -> G_6534;
+	P_68377 -> G_8492;
+	P_68377 -> G_8686;
+	P_68377 -> G_225;
+	P_68377 -> G_1080;
+	P_68377 -> G_3731;
+	P_68377 -> G_3927;
+	P_68377 -> G_4798;
+	P_68377 -> G_4900;
+	P_68377 -> G_6145;
+	P_68377 -> G_8369;
+	P_68377 -> G_8375;
+	P_74372	 [color="#000000",
+		shape=circle];
+	P_74372 -> G_430;
+	P_74372 -> G_509;
+	P_74372 -> G_888;
+	P_74372 -> G_3152;
+	P_74372 -> G_4327;
+	P_74372 -> G_4455;
+	P_74372 -> G_4456;
+	P_74372 -> G_4491;
+	P_74372 -> G_5982;
+	P_74372 -> G_6552;
+	P_74372 -> G_6667;
+	P_74372 -> G_8492;
+	P_74372 -> G_225;
+	P_74372 -> G_241;
+	P_74372 -> G_1080;
+	P_74372 -> G_3731;
+	G_3882	 [color="#ff0000",
+		shape=diamond];
+	P_74372 -> G_3882;
+	P_74372 -> G_6120;
+	P_74372 -> G_8369;
+	P_99617	 [color="#000000",
+		shape=circle];
+	P_99617 -> G_225;
+	P_99617 -> G_1080;
+	P_488307	 [color="#000000",
+		shape=circle];
+	P_488307 -> G_4456;
+	P_488307 -> G_4491;
+	P_488307 -> G_6533;
+	P_488307 -> G_8490;
+	P_488307 -> G_3731;
+	P_708537	 [color="#000000",
+		shape=circle];
+	P_708537 -> G_816;
+	P_708537 -> G_3152;
+	P_708537 -> G_4459;
+	P_708537 -> G_6553;
+	P_708537 -> G_8492;
+}

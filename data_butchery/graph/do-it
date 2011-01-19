@@ -1,0 +1,2 @@
+python graph_collab.py
+sfdp -v -Tsvg -O people.gv

@@ -1,0 +1,187 @@
+digraph G_component_4 {
+	graph [bgcolor="#808080", size="20,20"];
+	node [height="0.1",
+		style=filled,
+		width="0.1",
+		height="0.1",
+		label="",
+	];
+	edge [dir=none, len=3];
+	P_522	 [color="#000000",
+		shape=circle];
+	G_8437	 [color="#00ff00",
+		shape=diamond];
+	P_522 -> G_8437;
+	G_5236	 [color="#ff0000",
+		shape=diamond];
+	P_522 -> G_5236;
+	G_7654	 [color="#ff0000",
+		shape=diamond];
+	P_522 -> G_7654;
+	P_612	 [color="#000000",
+		shape=circle];
+	G_131	 [color="#00ff00",
+		shape=diamond];
+	P_612 -> G_131;
+	G_390	 [color="#00ff00",
+		shape=diamond];
+	P_612 -> G_390;
+	G_1622	 [color="#00ff00",
+		shape=diamond];
+	P_612 -> G_1622;
+	G_1715	 [color="#00ff00",
+		shape=diamond];
+	P_612 -> G_1715;
+	G_2048	 [color="#00ff00",
+		shape=diamond];
+	P_612 -> G_2048;
+	G_2188	 [color="#00ff00",
+		shape=diamond];
+	P_612 -> G_2188;
+	G_7416	 [color="#00ff00",
+		shape=diamond];
+	P_612 -> G_7416;
+	G_332	 [color="#ff0000",
+		shape=diamond];
+	P_612 -> G_332;
+	G_2400	 [color="#ff0000",
+		shape=diamond];
+	P_612 -> G_2400;
+	G_3387	 [color="#ff0000",
+		shape=diamond];
+	P_612 -> G_3387;
+	G_4550	 [color="#ff0000",
+		shape=diamond];
+	P_612 -> G_4550;
+	G_7489	 [color="#ff0000",
+		shape=diamond];
+	P_612 -> G_7489;
+	G_7570	 [color="#ff0000",
+		shape=diamond];
+	P_612 -> G_7570;
+	G_7609	 [color="#ff0000",
+		shape=diamond];
+	P_612 -> G_7609;
+	P_5287	 [color="#000000",
+		shape=circle];
+	G_34	 [color="#00ff00",
+		shape=diamond];
+	P_5287 -> G_34;
+	P_5287 -> G_390;
+	P_5287 -> G_1622;
+	G_263	 [color="#ff0000",
+		shape=diamond];
+	P_5287 -> G_263;
+	P_5287 -> G_2400;
+	P_5287 -> G_3387;
+	G_5434	 [color="#ff0000",
+		shape=diamond];
+	P_5287 -> G_5434;
+	P_8867	 [color="#000000",
+		shape=circle];
+	P_8867 -> G_390;
+	P_8867 -> G_1622;
+	P_8867 -> G_8437;
+	P_8867 -> G_5236;
+	P_8867 -> G_7654;
+	P_26877	 [color="#000000",
+		shape=circle];
+	G_46	 [color="#00ff00",
+		shape=diamond];
+	P_26877 -> G_46;
+	G_4030	 [color="#ff0000",
+		shape=diamond];
+	P_26877 -> G_4030;
+	P_26877 -> G_5236;
+	P_26877 -> G_7654;
+	P_35562	 [color="#000000",
+		shape=circle];
+	G_5344	 [color="#00ff00",
+		shape=diamond];
+	P_35562 -> G_5344;
+	G_5799	 [color="#00ff00",
+		shape=diamond];
+	P_35562 -> G_5799;
+	G_6477	 [color="#00ff00",
+		shape=diamond];
+	P_35562 -> G_6477;
+	P_35562 -> G_332;
+	G_3037	 [color="#ff0000",
+		shape=diamond];
+	P_35562 -> G_3037;
+	G_3530	 [color="#ff0000",
+		shape=diamond];
+	P_35562 -> G_3530;
+	G_5444	 [color="#ff0000",
+		shape=diamond];
+	P_35562 -> G_5444;
+	P_64702	 [color="#000000",
+		shape=circle];
+	G_1736	 [color="#00ff00",
+		shape=diamond];
+	P_64702 -> G_1736;
+	P_64702 -> G_2048;
+	P_80172	 [color="#000000",
+		shape=circle];
+	P_80172 -> G_5434;
+	G_6915	 [color="#ff0000",
+		shape=diamond];
+	P_80172 -> G_6915;
+	P_80187	 [color="#000000",
+		shape=circle];
+	G_1480	 [color="#00ff00",
+		shape=diamond];
+	P_80187 -> G_1480;
+	G_2755	 [color="#00ff00",
+		shape=diamond];
+	P_80187 -> G_2755;
+	P_80187 -> G_5799;
+	G_7931	 [color="#00ff00",
+		shape=diamond];
+	P_80187 -> G_7931;
+	G_117	 [color="#ff0000",
+		shape=diamond];
+	P_80187 -> G_117;
+	P_80212	 [color="#000000",
+		shape=circle];
+	P_80212 -> G_46;
+	G_1934	 [color="#00ff00",
+		shape=diamond];
+	P_80212 -> G_1934;
+	G_1935	 [color="#00ff00",
+		shape=diamond];
+	P_80212 -> G_1935;
+	G_2693	 [color="#00ff00",
+		shape=diamond];
+	P_80212 -> G_2693;
+	G_4933	 [color="#00ff00",
+		shape=diamond];
+	P_80212 -> G_4933;
+	G_5029	 [color="#00ff00",
+		shape=diamond];
+	P_80212 -> G_5029;
+	G_7231	 [color="#00ff00",
+		shape=diamond];
+	P_80212 -> G_7231;
+	G_925	 [color="#ff0000",
+		shape=diamond];
+	P_80212 -> G_925;
+	P_102602	 [color="#000000",
+		shape=circle];
+	P_102602 -> G_1736;
+	P_134287	 [color="#000000",
+		shape=circle];
+	P_134287 -> G_5344;
+	P_134287 -> G_5799;
+	P_134287 -> G_3037;
+	P_134287 -> G_3530;
+	P_637272	 [color="#000000",
+		shape=circle];
+	P_637272 -> G_3387;
+	P_974507	 [color="#000000",
+		shape=circle];
+	P_974507 -> G_7416;
+	G_7682	 [color="#ff0000",
+		shape=diamond];
+	P_974507 -> G_7682;
+}
