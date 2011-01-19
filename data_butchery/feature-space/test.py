@@ -38,20 +38,31 @@ def main():
     cols = pickle.load(pickle_file)
 
     ages = cols['Start.date']
-    min_age = 0
-    max_age = 1
+
+    # import pylab
+    # pylab.hist(ages, bins = 100)
+    # pylab.show()
+    # return
+
+    min_age = 1
+    max_age = 5
 
     shared_applicant_mode = 'any' # 'any' or 'all'
 
-    grant_success_mode = False
+    grant_success_mode = True
 
     selected_variable = 'Contract.Value.Band...see.note.A'
 
-    def map_function(band):
-        # convert contract value band to something reasonable
-        return contract_band_midpoint_value[band]
+    # def map_function(band):
+    #     # convert contract value band to something reasonable
+    #     return contract_band_midpoint_value[band]
 
-    reduce_function = numpy.add.reduce
+    selected_variable = 'Grant.Status'
+
+    def map_function(_):
+        return 1 # count rows, ignoring value of selected variable
+
+    reduce_function = numpy.sum
 
     n_rows = len(ages)
     new_features = []
@@ -132,7 +143,7 @@ def main():
 
     new_features = numpy.ma.masked_array(new_features)
 
-    pickle.dump(new_features, open('another_new_feature.pickle', 'wb+'))
+    pickle.dump(new_features, open('new_feature.pickle', 'wb+'))
 
 if __name__ == '__main__':
     main()
