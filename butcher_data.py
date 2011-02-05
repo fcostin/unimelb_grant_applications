@@ -3,6 +3,7 @@ import csv
 import sys
 import numpy
 import datetime
+import pickle
 
 def load_csv(csv_file):
     cols = {}
@@ -338,7 +339,9 @@ def write_cols_to_r_binary_files(cols, fmts, dump_dir):
         dtype, vartype = fmts[name]
         col_filled = cols[name].filled(dtype_fill_value[dtype])
         r_col = r[dtype_r_parser[dtype]](col_filled)
-        r_col = r['mask.it'](r_col, cols[name].mask)
+        # set na values if we have a nontrivial mask
+        if numpy.shape(cols[name].mask) != ():
+            r_col = r['mask.it'](r_col, cols[name].mask)
         if vartype in vartype_r_postprocessor:
             r_col = r[vartype_r_postprocessor[vartype]](r_col)
         data_frame[name] = r_col
@@ -413,7 +416,7 @@ def main():
     # strings)
 
     if len(sys.argv) != 3:
-        print 'usage: in.csv out.csv'
+        print 'usage: in.csv rdump_dir'
         sys.exit(1)
 
     cols = load_csv(open(sys.argv[1], 'r'))
@@ -453,14 +456,19 @@ def main():
     add_cols_with_team_statistics(cols, fmts)
 
     # extract people and save em to file
-    people_cols = extract_people_cols(cols)
-    import pickle
-    people_file = open('people.pickle', 'wb+')
-    pickle.dump(people_cols, people_file)
+    # people_cols = extract_people_cols(cols)
+    # people_file = open('gen/people.pickle', 'wb+')
+    # pickle.dump(people_cols, people_file)
 
     # hell, extract em all!
-    cols_file = open('cols.pickle', 'wb+')
+    cols_file = open('gen/cols.pickle', 'wb+')
     pickle.dump(cols, cols_file)
+    cols_file.close()
+    fmts_file = open('gen/fmts.pickle', 'wb+')
+    pickle.dump(fmts, fmts_file)
+    fmts_file.close()
+
+
 
     # delete any columns of type id
     for col_name in fmts:

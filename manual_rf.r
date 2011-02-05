@@ -12,7 +12,9 @@ load.rdata.dir <- function(dir.name) {
 
 discard.patchy.cols <- function(df, max.na.fraction) {
 	n <- nrow(df)
+	print(paste('cols before', ncol(df)))
 	df <- df[, colSums(is.na(df)) < n * max.na.fraction]
+	print(paste('cols after', ncol(df)))
 	return(df)
 }
 
@@ -39,18 +41,14 @@ na.roughhack <- function (dst, src = dst) {
 	dst
 }
 
-test.predictive.accuracy <- function(
+plot.rf.accuracy <- function(
 	rdata.dir,
 	max.na.fraction = 0.95,
 	test.frac = 1.0 / 3.0,
-	n.trees = 50,
-	n.procs = 2,
+	n.trees = 200,
 	test.indices = NULL
 ) {
 	library(randomForest)
-	library(foreach)
-	library(doMC)
-	registerDoMC()
 
 	train.df <- load.rdata.dir(rdata.dir)
 	train.df <- discard.patchy.cols(train.df, max.na.fraction)
@@ -62,26 +60,18 @@ test.predictive.accuracy <- function(
 	test.df <- train.df[test.indices, ]
 	train.df <- train.df[-test.indices, ]
 
-	rf <- foreach(
-		trees.per.proc = rep(n.trees / n.procs, n.procs),
-		.combine = combine,
-		.packages = 'randomForest'
-	) %dopar% {
-		randomForest(
-			Grant.Status ~.,
-			train.df,
-			ntree = trees.per.proc,
-			do.trace = TRUE,
-			importance = FALSE
-		)
-	}
-
-	test.oob.predicted <- predict(rf, test.df, type = 'prob')
-	r <- (as.numeric(test.df$Grant.Status) - 1) - test.oob.predicted[, 2]
-	test.mse <-  mean(r^2)
-
-	results <- list()
-	results[['importance']] <- rf$importance[order(rf$importance), ]
-	results[['test.mse']] <- test.mse
-	return(results)
+	rf <- randomForest(
+		Grant.Status ~.,
+		train.df,
+		ntree = n.trees,
+		do.trace = TRUE,
+		importance = FALSE
+	)
+	x11()
+	plot(rf)
 }
+
+plot.rf.accuracy(
+	'gen/rdata_train_base',
+	max.na.fraction = 0.75
+)
