@@ -1,4 +1,4 @@
-load.rdata.dir <- function(dir.name) {
+load.rdata.dir <- function(dir.name, selected.vars) {
 	col.env <- new.env()
 	invisible(
 		lapply(
@@ -7,7 +7,14 @@ load.rdata.dir <- function(dir.name) {
 			col.env)
 		)
 	)
-	return(as.data.frame(as.list(col.env)))
+	df <- as.data.frame(as.list(col.env))
+	if (!is.null(selected.vars)) {
+		if (!('Grant.Status' %in% selected.vars)) {
+			selected.vars <- append(selected.vars, 'Grant.Status')
+		}
+		df <- df[, colnames(df) %in% selected.vars, drop = FALSE]
+	}
+	return(df)
 }
 
 discard.patchy.cols <- function(df, max.na.fraction) {
