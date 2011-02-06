@@ -30,7 +30,7 @@ def run_experiment(rdata_path, selected_vars):
 
 
 def min_weight():
-    return 0.05
+    return 1.0
 
 def make_initial_weights(all_vars):
     var_weights = {}
@@ -73,10 +73,12 @@ def make_normalisation(x):
     else:
         return lambda _ : 0
 
-def update_weights(var_weights, mse_scores, gini_scores):
+def update_weights(var_weights, mse_scores, gini_scores, test_mse):
     """
     *** in place modification of var_weights! ***
     """
+
+    model_success_factor = 1.0 / max(test_mse, 0.05)
 
     # normalise mse and gini scores so they are somewhat comparable
     normalise_mse = make_normalisation(mse_scores.values())
@@ -89,9 +91,10 @@ def update_weights(var_weights, mse_scores, gini_scores):
             continue
         score = 0.0
         mse = normalise_mse(mse_scores[var])
-        gini = normalise_gini(gini_scores[var])
+        gini = normalise_gini(gini_scores[var]) / 3.0
         score += max(mse, 0.0)
         score += max(gini, 0.0)
+        score *= model_success_factor
         var_weights[var].append(score)
     return var_weights
 
@@ -103,12 +106,17 @@ def log_progress(key, **kwargs):
     pickle.dump(kwargs, log_file)
     log_file.close()
 
-def display_var_weights(compressed_weights, shortlist_length= 30):
+def display_var_weights(compressed_weights, selected_vars, shortlist_length= 30):
+    selected_vars = set(selected_vars)
     items = compressed_weights.items()
     items = sorted(items, key = lambda x : x[1], reverse = True)
     print '\tHighest scoring variables:'
     for (name, score) in items[:shortlist_length]:
-        print '\t%.3f\t\t%s' % (score, name)
+        if name in selected_vars:
+            star = '*'
+        else:
+            star = ' '
+        print '\t%.3f\t%s\t%s' % (score, star, name)
 
 def optimise_vars(rdata_path, all_vars, n_vars_per_experiment):
     var_weights = make_initial_weights(all_vars)
@@ -116,21 +124,18 @@ def optimise_vars(rdata_path, all_vars, n_vars_per_experiment):
         print '[ ITER %d ]' % i
         compressed_weights = compress_weights(var_weights)
 
-        display_var_weights(compressed_weights)
-
         selected_vars = choose_vars(compressed_weights, n_vars_per_experiment)
+
+        display_var_weights(compressed_weights, selected_vars)
 
         mse_scores, gini_scores, test_mse = run_experiment(
             rdata_path,
             selected_vars
         )
-        # XXX TODO : indication of horrible bug test_mse doesnt always seem to
-        # agree with what R prints (issue with list of results ???)
-        # if so this might catch it
-        assert set(mse_scores.keys()) == set(gini_scores.keys())
+
         print '\n\tmse test score: %.3f' % test_mse
 
-        update_weights(var_weights, mse_scores, gini_scores)
+        update_weights(var_weights, mse_scores, gini_scores, test_mse)
 
         log_progress(
             i, # key by iteration

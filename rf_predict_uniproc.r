@@ -25,7 +25,7 @@ test.predictive.accuracy.uniproc <- function(
 		Grant.Status ~.,
 		train.df,
 		ntree = n_trees,
-		do.trace = TRUE,
+		do.trace = 10,
 		importance = TRUE
 	)
 	imp <- importance(rf)
@@ -50,7 +50,7 @@ test.predictive.accuracy.uniproc <- function(
 	test.oob.predicted <- predict(rf, test.df, type = 'prob')
 	r <- (as.numeric(test.df$Grant.Status) - 1) - test.oob.predicted[, 2]
 	test.mse <- mean(r^2)
-	cat(paste('mse on test set:', test.mse, '\n'))
+	# cat(paste('mse on test set:', test.mse, '\n'))
 
 	results <- list()
 	results[['importance.mse']] <- imp[, 1]

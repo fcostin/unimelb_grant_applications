@@ -39,7 +39,7 @@ def rf_predict_multiproc(*args, **kwargs):
     )
     results = r[R_FUNCTION_NAME](*args, **kwargs)
     importance_gini = dict(results[0].iteritems())
-    mse = results[1][0]
+    mse = float(results[1][0])
     return (importance_gini, mse)
 
 def rf_predict_uniproc(*args, **kwargs):
@@ -69,6 +69,6 @@ def rf_predict_uniproc(*args, **kwargs):
     )
     importance_mse = dict(results[0].iteritems())
     importance_gini = dict(results[1].iteritems())
-    train_mse = results[1][0]
+    train_mse = float(results[2][0])
     return (importance_mse, importance_gini, train_mse)
 
