@@ -34,8 +34,10 @@ def predict_logistic(y_name, train, test, factors = None):
     rpy2.robjects.r("""
         make_logit_prediction <- function(response_name, df_train, df_test) {
             f <- as.formula(paste(response_name, '~', '.', sep = ' '))
+            options(warn=2)
             logit.fit <- glm(f, df_train, family = binomial(link = 'logit'))
-            predict(logit.fit, df_test, type = 'response')
+            prediction <- predict(logit.fit, df_test, type = 'response')
+            return(prediction)
         }
     """)
 
@@ -70,17 +72,21 @@ def predict_logistic(y_name, train, test, factors = None):
             else:
                 dd[name] = rpy2.robjects.FloatVector(d[name])
         return rpy2.robjects.DataFrame(dd)
+    try:
+        prediction = rpy2.robjects.r['make_logit_prediction'](
+            y_name,
+            as_data_frame(train),
+            as_data_frame(test),
+        )
+        prediction = float(prediction[0])
+    except rpy2.rinterface.RRuntimeError:
+        prediction = 0.5
+    return prediction
 
-    predictions = rpy2.robjects.r['make_logit_prediction'](
-        y_name,
-        as_data_frame(train),
-        as_data_frame(test),
-    )
-    return float(predictions[0])
-
-def main():
+def make_logit_prediction(min_shared_applicants, predictors, response_name):
     cols = unpickle('gen/cols.pickle')
-    edges = unpickle('gen/edges-grants-with-min-1-shared-applicants.pickle')
+    edges_file_name = 'gen/edges-grants-with-min-%d-shared-applicants.pickle' % min_shared_applicants
+    edges = unpickle(edges_file_name)
 
     cols['Contract.Value.Midpoint'] = unpickle('gen/Contract.Value.Midpoint.pickle')
 
@@ -94,17 +100,17 @@ def main():
     filtered_edges = list(gen_filtered_edges(edges, predicate))
 
 
-    selected_col_names = [
-        'Grant.Status',
-        'Start.date',
-        # 'Contract.Value.Midpoint',
-        # 'A..Team',
-        # 'A.Team',
-        # 'B.Team',
-        # 'C.Team',
-    ]
-    response_name = selected_col_names[0]
-    factors = set(['Grant.Status'])
+    selected_col_names = [response_name] + predictors
+    all_factors = set(
+        [
+            'Grant.Status',
+        ]
+    )
+    factors = []
+    for name in all_factors:
+        if name in selected_col_names:
+            factors.append(name)
+    factors = set(factors)
 
     errors = []
     predictions = {}
@@ -152,23 +158,39 @@ def main():
         else:
             predictions_col[i] = 0.5
 
-    new_cols = {
-        'Logit.Status.Prediction' : predictions_col
+    pylab.figure()
+    pylab.title('min shared applicants : %d; predictors %s' % (min_shared_applicants, str(predictors)))
+    pylab.hist(errors, bins = 15)
+
+
+    name = 'Logit.Prediction.%s.SharApp.%d' % ('.'.join(predictors), min_shared_applicants)
+    new_fmtcols = {
+        name : (('float', 'numeric'), predictions_col)
     }
-    new_fmts = {
-        'Logit.Status.Prediction' : ('float', 'numeric')
-    }
+    return new_fmtcols
+
+def main():
+    new_cols = {}
+    new_fmts = {}
+
+    for i in xrange(1, 3 + 1):
+        for predictors in [['Start.date'], ['Contract.Value.Midpoint'], ['Start.date', 'Contract.Value.Midpoint']]:
+            new_fmtcols = make_logit_prediction(
+                min_shared_applicants = i,
+                predictors = predictors,
+                response_name = 'Grant.Status'
+            )
+            for name in new_fmtcols:
+                new_fmts[name], new_cols[name] = new_fmtcols[name]
+
+
+    pylab.show()
 
     write_cols_to_r_binary_files(
         new_cols,
         new_fmts,
         dump_dir = 'gen/rdata_train_handcrafted_features/',
     )
-
-    if errors:
-        pylab.figure()
-        pylab.hist(errors, bins = 10)
-    pylab.show()
 
 if __name__ == '__main__':
     main()
