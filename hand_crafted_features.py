@@ -1,5 +1,6 @@
 import numpy
 import os
+import pickle
 
 from create_features import unpickle
 from butcher_data import write_cols_to_r_binary_files
@@ -36,6 +37,11 @@ def make_contract_band_midpoints(cols):
 def main():
     cols = unpickle('gen/cols.pickle')
     new_cols, new_fmts = make_contract_band_midpoints(cols)
+    for name in new_cols:
+        pickle.dump(
+            new_cols[name],
+            open(os.path.join('gen', name + '.pickle'), 'wb')
+        )
     write_cols_to_r_binary_files(
         new_cols,
         new_fmts,
