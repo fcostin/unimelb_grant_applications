@@ -337,10 +337,14 @@ def write_cols_to_r_binary_files(cols, fmts, dump_dir):
     for name in cols:
         print name
         dtype, vartype = fmts[name]
-        col_filled = cols[name].filled(dtype_fill_value[dtype])
+        has_mask = hasattr(cols[name], 'mask')
+        if not has_mask:
+            col_filled = cols[name]
+        else:
+            col_filled = cols[name].filled(dtype_fill_value[dtype])
         r_col = r[dtype_r_parser[dtype]](col_filled)
         # set na values if we have a nontrivial mask
-        if numpy.shape(cols[name].mask) != ():
+        if has_mask and (numpy.shape(cols[name].mask) != ()):
             r_col = r['mask.it'](r_col, cols[name].mask)
         if vartype in vartype_r_postprocessor:
             r_col = r[vartype_r_postprocessor[vartype]](r_col)
