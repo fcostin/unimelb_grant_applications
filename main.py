@@ -106,7 +106,9 @@ def log_progress(key, **kwargs):
     pickle.dump(kwargs, log_file)
     log_file.close()
 
-def display_var_weights(compressed_weights, selected_vars, shortlist_length= 30):
+def display_var_weights(compressed_weights, last_compressed_weights, selected_vars, shortlist_length = 50):
+    if last_compressed_weights is None:
+        return
     selected_vars = set(selected_vars)
     items = compressed_weights.items()
     items = sorted(items, key = lambda x : x[1], reverse = True)
@@ -116,17 +118,29 @@ def display_var_weights(compressed_weights, selected_vars, shortlist_length= 30)
             star = '*'
         else:
             star = ' '
-        print '\t%.3f\t%s\t%s' % (score, star, name)
+        last_score = last_compressed_weights[name]
+        delta_score = score - last_score
+        if delta_score == 0.0:
+            delta_string = ''.rjust(8)
+        else:
+            delta_string = ('%+.3f' % delta_score).rjust(8)
+        print '\t%.3f\t%s\t%s\t%s' % (score, delta_string, star, name)
 
-def optimise_vars(rdata_path, all_vars, n_vars_per_experiment):
+def optimise_vars(rdata_path, all_vars, n_vars_per_experiment, always_include):
     var_weights = make_initial_weights(all_vars)
+    compressed_weights = None
     for i in itertools.count():
         print '[ ITER %d ]' % i
+        last_compressed_weights = compressed_weights
         compressed_weights = compress_weights(var_weights)
 
         selected_vars = choose_vars(compressed_weights, n_vars_per_experiment)
+        selected_vars_set = set(selected_vars)
+        for var in always_include:
+            if var not in selected_vars_set:
+                selected_vars.append(var)
 
-        display_var_weights(compressed_weights, selected_vars)
+        display_var_weights(compressed_weights, last_compressed_weights, selected_vars)
 
         mse_scores, gini_scores, test_mse = run_experiment(
             rdata_path,
@@ -148,8 +162,9 @@ def optimise_vars(rdata_path, all_vars, n_vars_per_experiment):
 
 def get_all_vars(rdata_path, rdata_suffix = '.Rdata'):
     rdata_files = glob.glob(os.path.join(rdata_path, ('*' + rdata_suffix)))
-    all_vars = [os.path.splitext(os.path.basename(name))[0] for name in rdata_files]
-    return all_vars
+    all_vars = set([os.path.splitext(os.path.basename(name))[0] for name in rdata_files])
+    all_vars.remove('Grant.Application.ID')
+    return list(all_vars)
 
 def main():
     rdata_path = 'gen/rdata_train_augmented'
@@ -157,7 +172,8 @@ def main():
     optimise_vars(
         rdata_path,
         all_vars = get_all_vars(rdata_path),
-        n_vars_per_experiment = 100
+        n_vars_per_experiment = 40,
+        always_include = set(['Logit.Status.Prediction'])
     )
 
 if __name__ == '__main__':
